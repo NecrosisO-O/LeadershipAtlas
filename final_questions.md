@@ -16,14 +16,11 @@
 - 题型：单端 Likert（非常不同意 — 非常同意）
 - 原题参考：MLQ "I instill pride in others for being associated with me" + "I act in ways that build others' respect"
 
-**题 4-2**（自建情境题）
-> 如果你要领导一个陌生团队完成一项困难任务，你最先依靠的是什么？
-> A. 我的专业能力和知识
-> B. 我对任务的规划和安排
-> C. 我个人的感染力和说服力
-> D. 与团队成员建立的个人关系
-- 题型：情境单选题
-- 选 C 指向高魅力自我认知
+**题 4-2**（改编自 C-K Scale: Strategic Vision & Articulation，替换原情境四选一题）
+> 当我公开讲话时，我通常能够激发听众的热情或共鸣。
+- 题型：单端 Likert（非常不同意 — 非常同意）
+- 原题参考：改编自 C-K "Is an exciting public speaker" + "Inspirational; able to motivate"，从他评转为自评
+- 改写说明：原题为反事实情境四选一（"领导陌生团队最先依靠什么"），编码成本高、信息增量低。替换为公开演说感染力的自评Likert题，与4-1（追随力来源）形成互补：4-1测内在魅力认知，4-2测外在表达效果。编码性强——领导人的公开讲话效果有大量外部证据
 
 #### 维度 19：共同体代表性与身份领导（B级，2题）
 
@@ -153,10 +150,11 @@
 
 #### 维度 9：关系维护与人际关照（C级，1题）
 
-**题 9-4**（自建设计——关系投资意愿）
-> 即使不是为了工作需要，我也愿意花时间去了解和维护与身边人的关系。
+**题 9-4**（改编自 LBDQ Consideration + MLQ，替换原关系投资意愿题）
+> 在推进工作的同时，我会关注相关人员是否能接受、是否承受得住。
 - 题型：单端 Likert（非常不同意 — 非常同意）
-- 原题参考：自建设计，参考 LMX 关系质量 + Servant Leadership "putting subordinates first"
+- 原题参考：改编自 LBDQ "He/she looks out for the personal welfare of group members" + MLQ "He/she considers my personal feelings before acting"
+- 改写说明：原题"即使不是为了工作需要，也愿意花时间维护身边人的关系"偏私人社交层面，编码证据弱。替换为治理情境下的承受力关照——推进工作时是否考虑相关人员的接受度。编码性更好：领导人在改革推进中是否顾及承受力有充足外部证据
 
 #### 维度 10：组织建制与统筹能力取向（B级，2题）
 
