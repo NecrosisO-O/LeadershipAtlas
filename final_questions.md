@@ -25,7 +25,7 @@
 #### 维度 19：共同体代表性与身份领导（B级，2题）
 
 **题 19-1**（改编自 ILI — Identity Prototypicality）
-> 我代表着我所服务的群体的共同特质和核心价值。
+> 我觉得自己能代表自己这群人，也能代表这群人最看重的东西。
 - 题型：单端 Likert（非常不同意 — 非常同意）
 - 原题参考：ILI "I am representative of what members of [this group] have in common"
 
@@ -449,7 +449,7 @@
 - 原题参考：National Attachment Scale "A nation is strongest when its people share a common sense of purpose and identity" + CSES
 
 **题 G13-4**（自建设计，参考符号政治与国族建设文献）
-> 领导人应该主动推动那些能够提醒人们"我们是一个整体"的符号、叙事和共同记忆。
+> 领导人应该主动去强化那些能让人觉得“我们是一体的”的共同象征、共同故事和共同记忆。
 - 题型：单端 Likert（非常不同意 — 非常同意）
 - 原题参考：自建设计，参考 Hobsbawm "发明的传统"与国族建设文献
 
