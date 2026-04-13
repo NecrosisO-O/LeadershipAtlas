@@ -86,12 +86,12 @@
 
 **题 18-1**（改编自 Leach et al. + Ethnocentrism Scale）
 > "我们自己人"和"外人"之间有本质的不同，这种区分是必要的。
-- 题型：双端 Likert（非常不同意 — 非常同意）
+- 题型：单端 Likert（非常不同意 — 非常同意）
 - 原题参考：Leach et al. In-group Homogeneity + Bizumic & Duckitt Ethnocentrism: Intergroup Differentiation
 
 **题 18-2**（自建设计，参考 SDO）
 > 当资源有限时，保障自己人的利益应该明确优先于照顾其他人。
-- 题型：双端 Likert（非常不同意 — 非常同意）
+- 题型：单端 Likert（非常不同意 — 非常同意）
 - 原题参考：自建设计，参考 SDO 群际资源分配逻辑
 
 ### 第五板块：权力运用与决策方式
