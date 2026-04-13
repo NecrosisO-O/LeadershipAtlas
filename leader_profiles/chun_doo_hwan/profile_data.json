@@ -1,0 +1,291 @@
+{
+  "leader_id": "chun_doo_hwan",
+  "leader_name": "全斗焕",
+  "answers": {
+    "L09": {
+      "legacy_id": "17-1",
+      "tier": "core",
+      "value": 1,
+      "period": "1979-1981 权力夺取与统治巩固期",
+      "evidence_type": "派系政治、保安司令部运作、政变与清洗实践",
+      "note": "对一般人的基本信任极低，权力运作高度依赖少数亲信。"
+    },
+    "L10": {
+      "legacy_id": "17-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1979-1981 权力夺取与统治巩固期",
+      "evidence_type": "政变决策、情报控制、可靠通史归纳",
+      "note": "通过情报和军内网络持续监控局势，威胁知觉极高。"
+    },
+    "L11": {
+      "legacy_id": "17-3",
+      "tier": "core",
+      "value": 7,
+      "period": "1979-1981 权力夺取与统治巩固期",
+      "evidence_type": "Hanahoe 派系运作、用人模式、军中亲信网络",
+      "note": "关键决策依赖少数军中同学与亲信，圈层化信任明显。"
+    },
+    "L14": {
+      "legacy_id": "5-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1979-1980 政变上升期",
+      "evidence_type": "12月政变、5月扩大戒严、接管军政机关",
+      "note": "上台过程本身就是主动夺权和主导局面的体现。"
+    },
+    "L15": {
+      "legacy_id": "5-3",
+      "tier": "core",
+      "value": 7,
+      "period": "1979-1981 权力集中期",
+      "evidence_type": "情报汇报制度、权力集中安排、亲信统治结构",
+      "note": "关键判断和关键信息流倾向于收拢到自己手里。"
+    },
+    "L16": {
+      "legacy_id": "5-5",
+      "tier": "core",
+      "value": 7,
+      "period": "1979-1981 权力接管期",
+      "evidence_type": "联合搜查本部信息集权、新闻压制、戒严体制",
+      "note": "明显偏好由领导决定信息流和公开边界。"
+    },
+    "G01": {
+      "legacy_id": "G1-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1980-1981 扩大戒严与政权建制期",
+      "evidence_type": "扩大戒严、镇压民主运动、公开安全叙事",
+      "note": "治安和稳定明显优先于其他治理目标。"
+    },
+    "G02": {
+      "legacy_id": "G1-4",
+      "tier": "core",
+      "value": 7,
+      "period": "1980-1981 扩大戒严与第五共和国初建期",
+      "evidence_type": "制度设计、戒严治理逻辑、公开讲话归纳",
+      "note": "秩序和纪律明显压倒自由扩张与政治开放。"
+    },
+    "G13": {
+      "legacy_id": "G6-1",
+      "tier": "core",
+      "value": 1,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "社会组织管控、媒体控制、国家-社会关系制度化实践",
+      "note": "更接近国家指导社会组织，而非社会自治。"
+    },
+    "G14": {
+      "legacy_id": "G6-2",
+      "tier": "core",
+      "value": 1,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "国家意识形态宣传、审查制度、社会整肃政策",
+      "note": "强调国家塑造道德和文化方向。"
+    },
+    "G15": {
+      "legacy_id": "G6-5",
+      "tier": "core",
+      "value": 1,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "威权治理结构、政党与社团控制、治理实践",
+      "note": "公共事务更接近政府定方向、社会配合执行。"
+    },
+    "G25": {
+      "legacy_id": "G12-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "对异议和多元政治的压制、统一化政治秩序设计",
+      "note": "更接近把差异视为混乱源，把统一视为力量来源。"
+    },
+    "G26": {
+      "legacy_id": "G12-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "压制反对派、限制公开政治竞争、威权秩序观",
+      "note": "大概率认为争论越少、权威越集中，治理越有效。"
+    },
+    "G27": {
+      "legacy_id": "G12-4",
+      "tier": "core",
+      "value": 7,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "统一化国家叙事、对反对力量的压制、反共治理逻辑",
+      "note": "更可能支持压制或消除深层政治分歧，而非长期共存。"
+    },
+    "L03": {
+      "legacy_id": "19-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "1980-1981 政权合法化期",
+      "evidence_type": "公开讲话、军政精英共同体叙事、反共国家叙事",
+      "note": "把自己塑造成恢复秩序和代表保守秩序力量的人物。"
+    },
+    "L04": {
+      "legacy_id": "19-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1980-1983 统治巩固期",
+      "evidence_type": "政权宣传、国家整合口号、组织动员实践",
+      "note": "有较强共同体意识建构倾向。"
+    },
+    "L12": {
+      "legacy_id": "18-1",
+      "tier": "reference",
+      "value": 7,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "反共叙事、敌我划分、政治共同体边界建构",
+      "note": "政治语言和治理实践都高度依赖明确敌我边界。"
+    },
+    "L13": {
+      "legacy_id": "18-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "政权维稳逻辑、安全共同体优先、统治联盟维护",
+      "note": "倾向把核心支持力量和本国秩序利益置于优先位置。"
+    },
+    "L21": {
+      "legacy_id": "8-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "国家项目推进、经济治理风格、奥运筹备实践",
+      "note": "治理方式明显偏高压推进和期限导向。"
+    },
+    "L22": {
+      "legacy_id": "8-4",
+      "tier": "reference",
+      "value": 6,
+      "period": "1980-1987 统治期",
+      "evidence_type": "军队式管理风格、干部整肃与问责",
+      "note": "偏好明确标准、直接问责和纪律化管理。"
+    },
+    "L26": {
+      "legacy_id": "11-3",
+      "tier": "reference",
+      "value": 7,
+      "period": "1979-1981 权力重组期",
+      "evidence_type": "Hanahoe 联盟构建、军内串联、幕后协调",
+      "note": "上台过程大量依赖事前私下整合关键支持者。"
+    },
+    "L27": {
+      "legacy_id": "11-4",
+      "tier": "reference",
+      "value": 5,
+      "period": "1981-1985 统治巩固期",
+      "evidence_type": "威权统治中的政治管理、精英协调、现实妥协",
+      "note": "并非天然协商型人物，但会进行一定策略性妥协。"
+    },
+    "L28": {
+      "legacy_id": "11-5",
+      "tier": "reference",
+      "value": 6,
+      "period": "1979-1983 权力巩固期",
+      "evidence_type": "军政资源整合、派系协调、国家机器动员",
+      "note": "能够把军队、情报、政党和国家机构资源集中到统一目标。"
+    },
+    "L31": {
+      "legacy_id": "13-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "公开讲话、反共与秩序正当化话语、国家主义修辞",
+      "note": "公开立场常包装为国家安全、纪律和正义社会等原则。"
+    },
+    "L32": {
+      "legacy_id": "13-4",
+      "tier": "reference",
+      "value": 7,
+      "period": "1980-1981 戒严与镇压期",
+      "evidence_type": "官方叙事设定、事件框架控制、媒体压制",
+      "note": "非常依赖由政权率先定义事件性质并压制替代解释。"
+    },
+    "G03": {
+      "legacy_id": "G2-2",
+      "tier": "reference",
+      "value": 7,
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "发展主义治理逻辑、政权自我正当化、经济政策宣传",
+      "note": "对领导称职与否的判断明显偏向结果而非程序。"
+    },
+    "G04": {
+      "legacy_id": "G2-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "经济增长优先路线、发展型国家实践、公开政策导向",
+      "note": "高度依赖发展绩效来支撑统治。"
+    },
+    "G10": {
+      "legacy_id": "G5-1",
+      "tier": "reference",
+      "value": 1,
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "发展型国家政策、产业引导、国家主导经济实践",
+      "note": "更接近国家主导和产业引导，而不是市场自主。"
+    },
+    "G11": {
+      "legacy_id": "G5-2",
+      "tier": "reference",
+      "value": 3,
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "国家主导治理与非平等主义发展模式并存、政策取向归纳",
+      "note": "承认国家责任，但重点并不在平等化本身。"
+    },
+    "G12": {
+      "legacy_id": "G5-3",
+      "tier": "reference",
+      "value": 1,
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "战略产业政策、国家调度、发展型国家结构",
+      "note": "大概率支持国家深度管理关键行业和战略资源。"
+    },
+    "G16": {
+      "legacy_id": "G7-4",
+      "tier": "reference",
+      "value": 7,
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "输出合法性逻辑、经济与秩序绩效辩护",
+      "note": "统治正当化更接近结果导向和行政效能导向。"
+    },
+    "G17": {
+      "legacy_id": "G8-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1979-1987 军事-威权领导期",
+      "evidence_type": "军人决策风格、核心圈拍板、经验主义治理倾向",
+      "note": "更偏信资历、直觉和核心圈政治判断。"
+    },
+    "G18": {
+      "legacy_id": "G8-4",
+      "tier": "reference",
+      "value": "B",
+      "period": "1979-1987 军事-威权领导期",
+      "evidence_type": "重大事件处理风格、军政核心圈决策、历史实践",
+      "note": "最接近依靠自己和核心团队的实战经验与政治判断来拍板。"
+    },
+    "G09": {
+      "legacy_id": "BLOCK-GOV-VALUES",
+      "tier": "reference",
+      "value": {
+        "A": 6,
+        "B": 3,
+        "C": 1,
+        "D": 0
+      },
+      "period": "1980-1987 第五共和国时期",
+      "evidence_type": "整体治理优先级、制度实践、公开正当化逻辑",
+      "note": "秩序第一、发展第二，对公平有限考虑，对自由与参与最低。"
+    },
+    "G24": {
+      "legacy_id": "BLOCK-LEGITIMACY",
+      "tier": "reference",
+      "value": "B",
+      "period": "1981-1987 第五共和国治理期",
+      "evidence_type": "政权自我辩护、发展与稳定绩效叙事",
+      "note": "更可能把正当性押在治理成效和生活改善上。"
+    }
+  }
+}

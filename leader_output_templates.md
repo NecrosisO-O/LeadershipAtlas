@@ -51,7 +51,10 @@
   - 说明：
 
 ## 不纳入说明（可选）
-- display_no / item_id / legacy_id / 维度：
+- display_no：
+  - item_id：
+  - legacy_id：
+  - 维度：
   - 原因：
 ```
 
@@ -79,59 +82,45 @@
 
 ```json
 {
+  "leader_id": "",
   "leader_name": "",
-  "country_or_polity": "",
-  "core_dimensions": [],
-  "reference_dimensions": [],
-  "excluded_dimensions": [],
-  "core_items": [
-    {
-      "item_id": "",
-      "legacy_id": "",
-      "answer": "",
+  "answers": {
+    "L01": {
+      "legacy_id": "4-1",
+      "tier": "core",
+      "value": 0,
       "period": "",
       "evidence_type": "",
       "note": ""
     }
-  ],
-  "reference_items": [
-    {
-      "item_id": "",
-      "legacy_id": "",
-      "answer": "",
-      "period": "",
-      "evidence_type": "",
-      "note": ""
-    }
-  ],
-  "excluded_items": [
-    {
-      "item_id": "",
-      "reason": ""
-    }
-  ]
+  }
 }
 ```
 
 字段说明：
 
+- `leader_id`：领导人唯一标识（文件夹名/程序主键）
 - `leader_name`：领导人姓名
-- `country_or_polity`：国家或政体背景
-- `core_dimensions`：核心维度列表
-- `reference_dimensions`：参考维度列表
-- `excluded_dimensions`：不纳入维度列表
-- `core_items`：核心题记录
-- `reference_items`：参考题记录
-- `excluded_items`：不纳入题记录（可选）
+- `answers`：所有被纳入题的记录对象，key 统一使用 `item_id`
 
 每道被纳入题至少包含：
 
-- `item_id`：后台稳定题号
 - `legacy_id`：原题号
-- `answer`：模拟答案
+- `tier`：`core` / `reference`
+- `value`：模拟答案
 - `period`：该题依据的典型时期
 - `evidence_type`：证据类型
 - `note`：简短说明
+
+说明：
+
+- `answers` 中不出现的题，默认视为该领导人的 `不纳入题`
+- 数据型输出不再单独列出：
+  - 核心维度
+  - 参考维度
+  - 不纳入维度
+  - 不纳入题
+- 这些信息保留在说明型输出中即可。
 
 ---
 

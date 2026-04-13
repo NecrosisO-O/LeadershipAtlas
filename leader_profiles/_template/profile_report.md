@@ -12,7 +12,7 @@
 - 不纳入维度：
 
 ## 核心题答卷
-- 题号：
+- display_no：
   - item_id：
   - legacy_id：
   - 题干摘要：
@@ -22,7 +22,7 @@
   - 说明：
 
 ## 参考题答卷
-- 题号：
+- display_no：
   - item_id：
   - legacy_id：
   - 题干摘要：
@@ -32,5 +32,8 @@
   - 说明：
 
 ## 不纳入说明（可选）
-- 题号/维度：
+- display_no：
+  - item_id：
+  - legacy_id：
+  - 维度：
   - 原因：
