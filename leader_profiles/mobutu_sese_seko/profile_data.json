@@ -1,0 +1,267 @@
+{
+  "leader_id": "mobutu_sese_seko",
+  "leader_name": "蒙博托",
+  "answers": {
+    "L01": {
+      "legacy_id": "4-1",
+      "tier": "reference",
+      "value": 7,
+      "period": "1970s 领袖崇拜成熟期",
+      "evidence_type": "个人崇拜、官方宣传、自我命名与仪式化形象",
+      "note": "稳定把追随来源塑造成个人魅力与历史使命，而不只是职位。"
+    },
+    "L02": {
+      "legacy_id": "4-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1970s",
+      "evidence_type": "群众集会、官方传播、领袖仪式政治",
+      "note": "依靠舞台化演说与仪式制造热情和服从。"
+    },
+    "L03": {
+      "legacy_id": "19-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1967-1974 年 MPR 建制与 authenticite 高峰期",
+      "evidence_type": "国家意识形态、领袖崇拜宣传、公开讲话",
+      "note": "自我呈现为民族化身与国家核心代表。"
+    },
+    "L04": {
+      "legacy_id": "19-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1971-1975 年 authenticite 与扎伊尔化时期",
+      "evidence_type": "文化政策、命名改革、服饰与身份制度安排",
+      "note": "通过国家工程主动塑造整体性的“我们”意识。"
+    },
+    "L09": {
+      "legacy_id": "17-1",
+      "tier": "reference",
+      "value": 2,
+      "period": "1960s 危机记忆延续至长期执政",
+      "evidence_type": "清洗、监控、政变防范、用人模式",
+      "note": "长期按高度戒备逻辑治理，不会认为多数人天然可信。"
+    },
+    "L10": {
+      "legacy_id": "17-2",
+      "tier": "reference",
+      "value": 7,
+      "period": "1965-1980s",
+      "evidence_type": "安全机构扩张、反叛镇压、精英管理方式",
+      "note": "威胁感知强，强调持续警惕。"
+    },
+    "L11": {
+      "legacy_id": "17-3",
+      "tier": "reference",
+      "value": 7,
+      "period": "1970s-1980s",
+      "evidence_type": "亲信政治、总统卫队、patronage 核心圈",
+      "note": "信任高度圈层化，只信少数核心亲信。"
+    },
+    "L12": {
+      "legacy_id": "18-1",
+      "tier": "core",
+      "value": 6,
+      "period": "1970s authenticite 时期",
+      "evidence_type": "反殖民文化政策、国家宣传、制度性区分",
+      "note": "强调自己人与外部影响之间的必要边界。"
+    },
+    "L13": {
+      "legacy_id": "18-2",
+      "tier": "core",
+      "value": 6,
+      "period": "1965-1980s 稳定统治期",
+      "evidence_type": "patronage 分配、权力网络、用人模式",
+      "note": "资源分配明显优先核心支持者和忠诚网络。"
+    },
+    "L14": {
+      "legacy_id": "5-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1967 年夺权与建制初期",
+      "evidence_type": "政变、宪制重组、权力集中安排",
+      "note": "习惯直接接手局面并将决定权握在自己手里。"
+    },
+    "L15": {
+      "legacy_id": "5-3",
+      "tier": "core",
+      "value": 7,
+      "period": "1970s-1980s 个人统治成熟期",
+      "evidence_type": "个人化统治、幕僚记录、制度运作模式",
+      "note": "关键事务高度个人把关，不愿放手。"
+    },
+    "L16": {
+      "legacy_id": "5-5",
+      "tier": "core",
+      "value": 7,
+      "period": "1970s-1980s 一党统治期",
+      "evidence_type": "媒体控制、党国宣传、审查与压制机制",
+      "note": "政治信息与公开口径由领袖和党国机器决定。"
+    },
+    "L19": {
+      "legacy_id": "7-1",
+      "tier": "reference",
+      "value": 7,
+      "period": "1965-1977 年",
+      "evidence_type": "政变、清洗、边区叛乱应对",
+      "note": "对潜在问题通常抢先介入。"
+    },
+    "L20": {
+      "legacy_id": "7-4",
+      "tier": "reference",
+      "value": 2,
+      "period": "1965-1980s",
+      "evidence_type": "高频权力介入、个人化指挥、监控机制",
+      "note": "在关键政治安全事务上并非放任型。"
+    },
+    "L24": {
+      "legacy_id": "10-1",
+      "tier": "reference",
+      "value": 2,
+      "period": "1970s-1980s",
+      "evidence_type": "个人化统治、党国融合、patronage 运作",
+      "note": "实质运行依赖个人裁断而非稳定制度流程。"
+    },
+    "L25": {
+      "legacy_id": "10-4",
+      "tier": "reference",
+      "value": 2,
+      "period": "1970s-1980s",
+      "evidence_type": "国家能力退化、总统中心化、体制依附性",
+      "note": "组织并非按领袖缺席仍可高效运转来设计。"
+    },
+    "L26": {
+      "legacy_id": "11-3",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1977 年政权巩固期",
+      "evidence_type": "精英联盟运作、军事与地方派系平衡、外交斡旋",
+      "note": "常先私下协调关键支持再正式行动。"
+    },
+    "L27": {
+      "legacy_id": "11-4",
+      "tier": "core",
+      "value": 6,
+      "period": "1970s-1980s",
+      "evidence_type": "patronage 交换、干部任用、外部关系处理",
+      "note": "愿用让步和交换换取关键支持。"
+    },
+    "L28": {
+      "legacy_id": "11-5",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1978 年",
+      "evidence_type": "政权巩固策略、党国组织、国际援助调动",
+      "note": "很擅长整合有限资源汇聚多方力量。"
+    },
+    "L29": {
+      "legacy_id": "12-2",
+      "tier": "reference",
+      "value": 7,
+      "period": "1967-1975 年",
+      "evidence_type": "意识形态宣示、国族工程、国家重命名",
+      "note": "偏好先设总方向，再让具体政策服从。"
+    },
+    "L30": {
+      "legacy_id": "14-1",
+      "tier": "reference",
+      "value": 7,
+      "period": "1967-1975 年",
+      "evidence_type": "Mobutism、革命叙事、群众动员语言",
+      "note": "长期赋予统治工程以民族复兴和历史使命意义。"
+    },
+    "L31": {
+      "legacy_id": "13-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1967-1975 年 Mobutism/Authenticite 时期",
+      "evidence_type": "公开讲话、官方意识形态文本、仪式政治",
+      "note": "公开表达常与民族真实性、统一和反殖民价值绑定。"
+    },
+    "L32": {
+      "legacy_id": "13-4",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1974 年",
+      "evidence_type": "政变后讲话、党国叙事、国家宣传系统",
+      "note": "善于先行定义危机和合法性的解释框架。"
+    },
+    "G01": {
+      "legacy_id": "G1-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1978 年",
+      "evidence_type": "建军、警备体系、镇压反对派与边区叛乱",
+      "note": "将安全与国家统一置于极高优先级。"
+    },
+    "G02": {
+      "legacy_id": "G1-4",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1990 年一党时期",
+      "evidence_type": "宪制设计、反对派压制、公共话语",
+      "note": "明显偏好纪律秩序高于充分自由。"
+    },
+    "G09": {
+      "legacy_id": "BLOCK-GOV-VALUES",
+      "tier": "core",
+      "value": {
+        "A": 5,
+        "B": 3,
+        "C": 1,
+        "D": 1
+      },
+      "period": "1967-1978 年政权巩固期",
+      "evidence_type": "政策优先级、统治叙事、制度安排",
+      "note": "优先秩序与安全，其次绩效，自由与公平明显次要。"
+    },
+    "G13": {
+      "legacy_id": "G6-1",
+      "tier": "reference",
+      "value": 1,
+      "period": "1967-1990 年一党统治期",
+      "evidence_type": "党国融合、组织控制、法律与行政安排",
+      "note": "明确站在国家指导社会组织的一端。"
+    },
+    "G14": {
+      "legacy_id": "G6-2",
+      "tier": "reference",
+      "value": 1,
+      "period": "1971-1975 年 authenticite 时期",
+      "evidence_type": "文化革命式政策、命名与服饰规定、宗教干预",
+      "note": "认为政府应主动塑造文化与道德方向。"
+    },
+    "G15": {
+      "legacy_id": "G6-5",
+      "tier": "reference",
+      "value": 1,
+      "period": "1967-1990 年",
+      "evidence_type": "一党国家结构、社团控制、行政命令体系",
+      "note": "公共事务大方向应由政府决定，社会主要负责配合。"
+    },
+    "G24": {
+      "legacy_id": "BLOCK-LEGITIMACY",
+      "tier": "reference",
+      "value": "B",
+      "period": "1965-1980s",
+      "evidence_type": "执政话语、反混乱正当化、秩序与成效叙事",
+      "note": "公开合法性更常诉诸稳定局面和做成事情，而非程序或人民最终裁断。"
+    },
+    "G28": {
+      "legacy_id": "G13-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1967-1975 年",
+      "evidence_type": "国族建构政策、MPR 组织原则、公开讲话",
+      "note": "国家强盛与共同身份认同被紧密绑定。"
+    },
+    "G29": {
+      "legacy_id": "G13-4",
+      "tier": "core",
+      "value": 7,
+      "period": "1971-1975 年 authenticite 时期",
+      "evidence_type": "国名与地名改革、服饰规范、纪念政治、领袖崇拜",
+      "note": "主动强化共同象征、共同故事与共同记忆是其统治工程核心。"
+    }
+  }
+}
