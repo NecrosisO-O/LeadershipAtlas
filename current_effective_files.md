@@ -11,6 +11,7 @@
 
 ### 状态入口与边界说明
 - `now.md`
+- `project_overview.md`
 - `current_effective_files.md`
 
 ### 题单与映射
@@ -26,6 +27,13 @@
 - `leader_coding_workflow.md`
 - `leader_coding_guardrails.md`
 - `leader_output_templates.md`
+
+### 配套实现与生成文件
+- `run_matching_tests.py`
+- `generate_profiles.py`
+- `scripts/generate_batch1_profiles.py`
+- `signature_dimensions.json`
+- `item_neutral_defaults.json`
 
 ### 匹配规则与测试结果
 - `matching_principles.md`
@@ -58,6 +66,7 @@
 ## 三、使用原则
 
 - 总状态说明以 `now.md` 为入口。
+- 项目整体设计说明以 `project_overview.md` 为准。
 - 文件边界判断以 `current_effective_files.md` 为准。
 - 测试结果需要复核时，以当前测试结果文件之间的一致口径为准。
 - 历史过程文件仅在需要追溯设计过程、审查过程或早期试验逻辑时参考。
