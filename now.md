@@ -97,7 +97,7 @@
 
 - 总状态入口以 `now.md` 为准
 - 正式文件边界以 `current_effective_files.md` 为准
-- 测试结果复核以 `run_matching_tests.py` 与当前 `matching_test_results_*.md` 为准
+- 测试结果复核以当前 `matching_test_results_*.md`、`matching_nearest_neighbors.md` 与 `matching_test_summary.md` 的一致口径为准
 
 ## 7. 维护状态
 

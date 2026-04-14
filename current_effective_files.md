@@ -30,7 +30,6 @@
 ### 匹配规则与测试结果
 - `matching_principles.md`
 - `matching_algorithm.md`
-- `run_matching_tests.py`
 - `matching_test_results_round1.md`
 - `matching_test_results_round2.md`
 - `matching_test_results_round2b.md`
@@ -60,5 +59,5 @@
 
 - 总状态说明以 `now.md` 为入口。
 - 文件边界判断以 `current_effective_files.md` 为准。
-- 测试结果需要复核时，以 `run_matching_tests.py` 再生成结果为准。
+- 测试结果需要复核时，以当前测试结果文件之间的一致口径为准。
 - 历史过程文件仅在需要追溯设计过程、审查过程或早期试验逻辑时参考。
