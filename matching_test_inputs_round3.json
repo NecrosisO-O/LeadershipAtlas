@@ -1,0 +1,24 @@
+{
+  "pairs": [
+    {
+      "pair_id": "pair_01_putin_vs_kim",
+      "leaders": ["vladimir_putin", "kim_jong_un"]
+    },
+    {
+      "pair_id": "pair_02_stalin_vs_mao",
+      "leaders": ["joseph_stalin", "mao_zedong"]
+    },
+    {
+      "pair_id": "pair_03_lee_vs_park",
+      "leaders": ["lee_kuan_yew", "park_chung_hee"]
+    },
+    {
+      "pair_id": "pair_04_churchill_vs_de_gaulle",
+      "leaders": ["winston_churchill", "charles_de_gaulle"]
+    },
+    {
+      "pair_id": "pair_05_roosevelt_vs_mandela",
+      "leaders": ["franklin_d_roosevelt", "nelson_mandela"]
+    }
+  ]
+}
