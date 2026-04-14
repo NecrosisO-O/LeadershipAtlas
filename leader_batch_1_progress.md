@@ -12,26 +12,27 @@
 
 说明：
 
-- 在用户明确下达开工指令之前，本表仅作为准备文件使用，不启动实际建库工作。
+- 第一批 `17` 位领导人当前均已按 `82题` 版本完成重建并复核。
+- 本表当前用于维护正式人物库状态，不再是开工前准备表。
 
 ---
 
 | 中文名 | leader_id | status | notes |
 |--------|-----------|--------|-------|
-| 特朗普 | donald_trump | revised | 已完成建档、规则修正后重建、自审通过 |
-| 丘吉尔 | winston_churchill | revised | 已完成建档、规则修正后重建、自审通过 |
-| 斯大林 | joseph_stalin | revised | 已完成建档、规则修正后重建、自审通过 |
-| 金正恩 | kim_jong_un | revised | 已完成建档、规则修正后重建、自审通过 |
-| 普京 | vladimir_putin | revised | 已完成建档、规则修正后重建、自审通过 |
-| 罗斯福 | franklin_d_roosevelt | revised | 已完成建档、规则修正后重建、自审通过 |
-| 希特勒 | adolf_hitler | revised | 已完成建档与自审通过 |
-| 赫鲁晓夫 | nikita_khrushchev | revised | 已完成建档与自审通过 |
-| 毛泽东 | mao_zedong | revised | 已完成建档与自审通过 |
-| 邓小平 | deng_xiaoping | revised | 已完成建档与自审通过 |
-| 朴正熙 | park_chung_hee | revised | 已完成建档与自审通过 |
-| 蒙博托 | mobutu_sese_seko | revised | 已完成建档与自审通过 |
-| 卡斯特罗 | fidel_castro | revised | 已完成建档与自审通过 |
-| 李光耀 | lee_kuan_yew | revised | 已完成建档与自审通过 |
-| 默克尔 | angela_merkel | revised | 已完成建档与自审通过 |
-| 戴高乐 | charles_de_gaulle | revised | 已完成建档与自审通过 |
-| 曼德拉 | nelson_mandela | revised | 已完成建档与自审通过 |
+| 特朗普 | donald_trump | reviewed | 已按82题重建并完成自审 |
+| 丘吉尔 | winston_churchill | reviewed | 已按82题重建并完成自审 |
+| 斯大林 | joseph_stalin | reviewed | 已按82题重建并完成自审 |
+| 金正恩 | kim_jong_un | reviewed | 已按82题重建并完成自审 |
+| 普京 | vladimir_putin | reviewed | 已按82题重建并完成自审 |
+| 罗斯福 | franklin_d_roosevelt | reviewed | 已按82题重建并完成自审 |
+| 希特勒 | adolf_hitler | reviewed | 已按82题重建并完成自审 |
+| 赫鲁晓夫 | nikita_khrushchev | reviewed | 已按82题重建并完成自审 |
+| 毛泽东 | mao_zedong | reviewed | 已按82题重建并完成自审 |
+| 邓小平 | deng_xiaoping | reviewed | 已按82题重建并完成自审 |
+| 朴正熙 | park_chung_hee | reviewed | 已按82题重建并完成自审 |
+| 蒙博托 | mobutu_sese_seko | reviewed | 已按82题重建并完成自审 |
+| 卡斯特罗 | fidel_castro | reviewed | 已按82题重建并完成自审 |
+| 李光耀 | lee_kuan_yew | reviewed | 已按82题重建并完成自审 |
+| 默克尔 | angela_merkel | reviewed | 已按82题重建并完成自审 |
+| 戴高乐 | charles_de_gaulle | reviewed | 已按82题重建并完成自审 |
+| 曼德拉 | nelson_mandela | reviewed | 已按82题重建并完成自审 |
