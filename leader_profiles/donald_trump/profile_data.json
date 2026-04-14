@@ -1,299 +1,291 @@
 {
   "leader_id": "donald_trump",
-  "leader_name": "Donald Trump",
+  "leader_name": "唐纳德·特朗普",
   "answers": {
     "L01": {
       "legacy_id": "4-1",
       "tier": "core",
       "value": 7,
-      "period": "2015-2016 总统竞选期",
-      "evidence_type": "竞选集会风格、个人品牌政治、支持者动员模式",
-      "note": "政治号召力高度依赖个人形象与名号，而非传统职位权威。"
+      "period": "2015-2024",
+      "evidence_type": "竞选集会、个人品牌政治、支持者动员",
+      "note": "其政治追随高度围绕个人品牌与人格化号召，而非传统党内职位。"
     },
     "L02": {
       "legacy_id": "4-2",
       "tier": "core",
       "value": 7,
-      "period": "2015-2016 总统竞选期",
-      "evidence_type": "大型集会、电视辩论、群众动员效果",
-      "note": "其公开讲话极强地调动情绪并制造追随者共鸣。"
+      "period": "2015-2024",
+      "evidence_type": "集会演讲、媒体传播、选举动员",
+      "note": "公开讲话的感染力和情绪带动是其最稳定的政治优势之一。"
     },
     "L03": {
       "legacy_id": "19-1",
       "tier": "core",
       "value": 7,
-      "period": "2015-2016 总统竞选期",
-      "evidence_type": "MAGA 叙事、民粹代表性表达、竞选讲话",
-      "note": "持续把自己塑造成被忽视的真正美国人的代表。"
+      "period": "2015-2024",
+      "evidence_type": "“MAGA”叙事、竞选表述",
+      "note": "长期把自己塑造成“真正美国人”和被忽视选民的代表。"
     },
     "L04": {
       "legacy_id": "19-2",
       "tier": "core",
-      "value": 7,
-      "period": "2015-2024 MAGA 运动期",
-      "evidence_type": "口号政治、集会仪式、运动品牌化",
-      "note": "强力塑造“我们”共同体并与外部者、建制派区分。"
-    },
-    "L09": {
-      "legacy_id": "17-1",
-      "tier": "core",
-      "value": 1,
-      "period": "长期商业与政治生涯",
-      "evidence_type": "公开言论、谈判叙事、长期行为风格",
-      "note": "其稳定风格并非普遍信任，而是默认他人可能利用自己。"
-    },
-    "L10": {
-      "legacy_id": "17-2",
-      "tier": "core",
-      "value": 7,
-      "period": "长期商业与政治生涯",
-      "evidence_type": "公开讲话、谈判叙事、对媒体与建制的敌意表达",
-      "note": "世界观高度竞争化，强调必须保持警惕。"
-    },
-    "L11": {
-      "legacy_id": "17-3",
-      "tier": "core",
       "value": 6,
-      "period": "第一任期与 2020 后政治时期",
-      "evidence_type": "决策圈层、任人模式、忠诚要求",
-      "note": "信任模式明显圈层化，对外部官僚和非亲信持戒备。"
+      "period": "2015-2024",
+      "evidence_type": "身份政治动员、竞选口号、集会文化",
+      "note": "持续强化阵营性“我们”意识，把支持者整合为鲜明共同体。"
     },
-    "L12": {
-      "legacy_id": "18-1",
-      "tier": "core",
-      "value": 7,
-      "period": "2015-2016 总统竞选期",
-      "evidence_type": "移民议题表述、国族边界叙事、竞选讲话",
-      "note": "持续强调本国成员与外来者之间必须明确划界。"
-    },
-    "L13": {
-      "legacy_id": "18-2",
-      "tier": "core",
-      "value": 7,
-      "period": "2015-2025 America First 时期",
-      "evidence_type": "移民政策、贸易保护主义、福利与安全叙事",
-      "note": "资源与安全优先向本国成员倾斜是稳定立场。"
-    },
-    "L14": {
+    "L15": {
       "legacy_id": "5-1",
       "tier": "core",
       "value": 7,
-      "period": "长期商业与政治生涯",
-      "evidence_type": "领导风格记录、白宫决策模式、个人管理叙事",
-      "note": "典型风格是把关键判断收拢到本人并亲自拍板。"
+      "period": "2015-2024",
+      "evidence_type": "管理风格报道、白宫决策、公开表态",
+      "note": "无论商业还是政治场域都强烈偏好自己主导局面。"
     },
-    "L15": {
+    "L16": {
       "legacy_id": "5-3",
       "tier": "core",
       "value": 7,
-      "period": "第一任期（2017-2021）",
-      "evidence_type": "白宫运作、幕僚回忆、关键任免与信息流控制",
-      "note": "对关键议题和忠诚链条表现出强烈亲自把关需求。"
+      "period": "2017-2021",
+      "evidence_type": "白宫运作、用人更替、审批习惯",
+      "note": "关键事务偏好亲自拍板，对授权和放手普遍不放心。"
     },
-    "L16": {
+    "L17": {
       "legacy_id": "5-5",
       "tier": "core",
-      "value": 6,
-      "period": "第一任期（2017-2021）",
-      "evidence_type": "白宫内部信息控制、发言口径、非正式沟通渠道",
-      "note": "偏好由本人及极少数亲信决定何时公开哪些信息。"
+      "value": 7,
+      "period": "2017-2021",
+      "evidence_type": "媒体策略、白宫信息管理、对泄密反应",
+      "note": "强烈强调由自己决定何时放出何种信息。"
     },
-    "L19": {
-      "legacy_id": "7-1",
-      "tier": "reference",
+    "L35": {
+      "legacy_id": "13-2",
+      "tier": "core",
       "value": 6,
-      "period": "长期政治生涯",
-      "evidence_type": "即时反应风格、社交媒体干预、政策突击推进",
-      "note": "整体更倾向迅速发声和介入，而不是长时间观望。"
+      "period": "2015-2024",
+      "evidence_type": "公开讲话、竞选修辞",
+      "note": "经常把立场包装为爱国、忠诚、常识、公平等价值原则。"
     },
-    "L20": {
-      "legacy_id": "7-4",
+    "L36": {
+      "legacy_id": "13-4",
+      "tier": "core",
+      "value": 7,
+      "period": "2015-2024",
+      "evidence_type": "议题设定、社交媒体、危机话语",
+      "note": "遇重大事件常先抛出定义框架，争夺舆论解释权。"
+    },
+    "G10": {
+      "legacy_id": "BLOCK-GOV-VALUES",
+      "tier": "core",
+      "value": {
+        "A": 4,
+        "B": 3,
+        "C": 1,
+        "D": 2
+      },
+      "period": "2015-2024",
+      "evidence_type": "政策重点、竞选议程、执政讲话",
+      "note": "安全、边境与秩序优先，其次是经济绩效；公平与包容不是核心。"
+    },
+    "G24": {
+      "legacy_id": "G11-2",
+      "tier": "core",
+      "value": 7,
+      "period": "2015-2024",
+      "evidence_type": "民粹式代表叙事、竞选讲话",
+      "note": "反复声称自己代表“真正人民”而非建制精英。"
+    },
+    "G25": {
+      "legacy_id": "G11-3",
+      "tier": "core",
+      "value": 6,
+      "period": "2015-2024",
+      "evidence_type": "反精英论述、公投式政治语言",
+      "note": "在重大方向上明显偏向“人民最终发话”的反精英表达。"
+    },
+    "G26": {
+      "legacy_id": "BLOCK-LEGITIMACY",
+      "tier": "core",
+      "value": "C",
+      "period": "2015-2024",
+      "evidence_type": "合法性叙事、反精英表达",
+      "note": "其最稳定的正当性主张不是程序，而是“我代表人民”。"
+    },
+    "G27": {
+      "legacy_id": "G12-1",
+      "tier": "core",
+      "value": 7,
+      "period": "2015-2024",
+      "evidence_type": "对多元主义批评、文化战争表述",
+      "note": "更常把差异与分裂视为治理障碍，而非宝贵资源。"
+    },
+    "G28": {
+      "legacy_id": "G12-2",
+      "tier": "core",
+      "value": 6,
+      "period": "2015-2024",
+      "evidence_type": "对政治对手与制度争论的表达",
+      "note": "更偏好把公开争论视为低效和失序，而非健康常态。"
+    },
+    "G29": {
+      "legacy_id": "G12-4",
+      "tier": "core",
+      "value": 7,
+      "period": "2015-2024",
+      "evidence_type": "文化战争与统一叙事",
+      "note": "倾向要求压制或解决深层分歧，而不是与之长期共存。"
+    },
+    "L10": {
+      "legacy_id": "17-1",
       "tier": "reference",
       "value": 2,
-      "period": "长期政治生涯",
-      "evidence_type": "高频发言、即时介入争议、行政命令使用",
-      "note": "更典型的是提前介入或提前定义问题，而非明显放任。"
+      "period": "2015-2024",
+      "evidence_type": "对媒体、官僚体系、盟友与对手的长期表述",
+      "note": "总体上并不以普遍信任看待大多数人。"
     },
-    "L26": {
-      "legacy_id": "11-3",
-      "tier": "reference",
-      "value": 3,
-      "period": "第一任期（2017-2021）",
-      "evidence_type": "立法交易、幕僚协调、党内谈判",
-      "note": "会做交易，但不属于典型先静默铺垫联盟的斡旋型政治家。"
-    },
-    "L27": {
-      "legacy_id": "11-4",
-      "tier": "reference",
-      "value": 4,
-      "period": "2016-2020 党内执政期",
-      "evidence_type": "党内交易、政策交换、联盟维护",
-      "note": "有交易主义一面，但让步常受个人形象与核心叙事约束。"
-    },
-    "L28": {
-      "legacy_id": "11-5",
-      "tier": "reference",
-      "value": 6,
-      "period": "2015-2016 总统竞选期",
-      "evidence_type": "竞选组织、媒体利用、议题集中打击能力",
-      "note": "能把媒体曝光、群众情绪与个人品牌汇聚到同一目标上。"
-    },
-    "L29": {
-      "legacy_id": "12-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "2015-2017 竞选与上任初期",
-      "evidence_type": "America First 总纲、边境与贸易主线",
-      "note": "偏好先定高辨识度总方向，再让具体政策服从其下。"
-    },
-    "L30": {
-      "legacy_id": "14-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "2015-2024 MAGA 运动期",
-      "evidence_type": "运动型政治、爱国复兴叙事、竞选集会",
-      "note": "把支持者卷入“让美国再次伟大”的更大意义。"
-    },
-    "L31": {
-      "legacy_id": "13-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "2015-2024 竞选与回归竞选期",
-      "evidence_type": "竞选修辞、主权与法秩序叙事",
-      "note": "常把政策立场上升到爱国、主权、公平交易等价值框架。"
-    },
-    "L32": {
-      "legacy_id": "13-4",
+    "L11": {
+      "legacy_id": "17-2",
       "tier": "reference",
       "value": 7,
-      "period": "长期政治生涯",
-      "evidence_type": "社交媒体、即时发言、议程设置行为",
-      "note": "极擅长抢先定义事件并争夺解释权。"
+      "period": "2015-2024",
+      "evidence_type": "“被利用”叙事、交易式世界观",
+      "note": "明显相信复杂环境中若不警惕就会被他人占便宜。"
+    },
+    "L12": {
+      "legacy_id": "17-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "2017-2021",
+      "evidence_type": "内圈政治、忠诚标准、用人模式",
+      "note": "更信任少数熟人和忠诚者，对外部圈层保持戒心。"
+    },
+    "L13": {
+      "legacy_id": "18-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "2015-2024",
+      "evidence_type": "移民、国族和边境话语",
+      "note": "明确区分“自己人”和“外来者”，并认为这种区分必要。"
+    },
+    "L14": {
+      "legacy_id": "18-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "2015-2024",
+      "evidence_type": "“美国优先”叙事、移民与福利议题",
+      "note": "资源有限时偏向优先本国公民和核心支持群体。"
+    },
+    "L26": {
+      "legacy_id": "10-1",
+      "tier": "reference",
+      "value": 2,
+      "period": "2017-2021",
+      "evidence_type": "白宫管理、即兴决策、个人化协调",
+      "note": "相较制度流程，更依赖个人裁断和非正式渠道。"
+    },
+    "L27": {
+      "legacy_id": "10-4",
+      "tier": "reference",
+      "value": 2,
+      "period": "2017-2021",
+      "evidence_type": "组织运转依赖领导人本人",
+      "note": "其理想运作更接近领袖中心，而非离开后也能自走。"
+    },
+    "L28": {
+      "legacy_id": "10-5",
+      "tier": "reference",
+      "value": 2,
+      "period": "2017-2021",
+      "evidence_type": "用人逻辑、私人网络色彩",
+      "note": "更接近依赖领袖掌控忠诚核心圈，而非纯粹依赖抽象国家机器。"
+    },
+    "L29": {
+      "legacy_id": "10-6",
+      "tier": "reference",
+      "value": 7,
+      "period": "2017-2021",
+      "evidence_type": "忠诚测试、关键岗位安排",
+      "note": "对关键资源和位置由忠诚者把持具有明显偏好。"
     },
     "G01": {
       "legacy_id": "G1-2",
       "tier": "reference",
-      "value": 7,
-      "period": "2015-2025 immigration and law-and-order 叙事期",
-      "evidence_type": "边境安全、治安议题、竞选与执政讲话",
-      "note": "安全、边境与犯罪控制长期被置于压倒性优先位置。"
+      "value": 6,
+      "period": "2015-2024",
+      "evidence_type": "边境、安全、治安议程",
+      "note": "公共安全与边境控制在其治理优先级中位置很高。"
     },
     "G02": {
       "legacy_id": "G1-4",
       "tier": "reference",
       "value": 6,
-      "period": "2016-2025 law and order 叙事期",
-      "evidence_type": "治安讲话、抗议应对立场、边境政策表述",
-      "note": "价值排序明显偏秩序优先而非自由优先。"
+      "period": "2015-2024",
+      "evidence_type": "治安与秩序表述",
+      "note": "明确偏好纪律与秩序，愿意牺牲部分自由空间。"
     },
     "G03": {
-      "legacy_id": "G2-2",
+      "legacy_id": "G1-5",
       "tier": "reference",
-      "value": 7,
-      "period": "长期政治生涯",
-      "evidence_type": "绩效叙事、对程序约束的不耐、商业式判断语言",
-      "note": "高度结果主义，反复以“做成事”压过程序性批评。"
+      "value": 5,
+      "period": "2015-2024",
+      "evidence_type": "对抗性政治风格、发展优先叙事",
+      "note": "在发展和治理压力下，对压缩冲突空间有一定容忍。"
     },
-    "G04": {
-      "legacy_id": "G2-3",
-      "tier": "reference",
-      "value": 7,
-      "period": "2015-2024 竞选与回归竞选期",
-      "evidence_type": "就业、制造业、增长与通胀议题表述",
-      "note": "经济表现始终被当作治理成败的核心衡量标准。"
-    },
-    "G09": {
-      "legacy_id": "BLOCK-GOV-VALUES",
-      "tier": "reference",
-      "value": {
-        "A": 4,
-        "B": 4,
-        "C": 0,
-        "D": 2
-      },
-      "period": "2015-2024 竞选与执政综合期",
-      "evidence_type": "议题优先级、政策宣传、价值排序表达",
-      "note": "稳定排序大致是安全与发展并重，公平最低，自由参与保留有限权重。"
-    },
-    "G17": {
-      "legacy_id": "G8-2",
-      "tier": "reference",
-      "value": 7,
-      "period": "长期商业与政治生涯",
-      "evidence_type": "个人决策叙事、反专家表述、自我能力描述",
-      "note": "稳定强调自己的直觉和经验优于官僚程序与专家共识。"
-    },
-    "G18": {
-      "legacy_id": "G8-4",
-      "tier": "reference",
-      "value": "B",
-      "period": "长期政治生涯",
-      "evidence_type": "决策风格、组织行为、公开自我呈现",
-      "note": "最接近依靠自己和核心圈的实战判断拍板。"
-    },
-    "G22": {
-      "legacy_id": "G11-2",
-      "tier": "core",
-      "value": 6,
-      "period": "2015-2024 竞选与回归竞选期",
-      "evidence_type": "民粹代表性叙事、反建制讲话、沉默的大多数诉求",
-      "note": "持续把自身意志表述为人民意志的直接体现。"
-    },
-    "G23": {
-      "legacy_id": "G11-3",
-      "tier": "core",
-      "value": 7,
-      "period": "2015-2024 竞选与回归竞选期",
-      "evidence_type": "反专家主义、反建制民粹表达、集会演讲",
-      "note": "核心叙事之一就是人民对抗专家、官僚和全球主义精英。"
-    },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "core",
-      "value": "C",
-      "period": "2015-2024 政治生涯",
-      "evidence_type": "民粹代表性叙事、对程序与专家的贬抑、集会讲话",
-      "note": "最稳定的正当性语言是自称代表真正人民。"
-    },
-    "G35": {
+    "G38": {
       "legacy_id": "G16-1",
       "tier": "reference",
       "value": 6,
-      "period": "2017-2025 America First 时期",
-      "evidence_type": "主权叙事、国际组织批评、外交讲话",
-      "note": "明显偏主权优先，强调不受外部束缚。"
-    },
-    "G36": {
-      "legacy_id": "G16-4",
-      "tier": "reference",
-      "value": 7,
-      "period": "2017-2025 贸易与供应链议题期",
-      "evidence_type": "制造业回流、供应链安全、能源与产业政策表述",
-      "note": "稳定强调关键领域自主可控和减少外部依赖。"
-    },
-    "G37": {
-      "legacy_id": "G17-1",
-      "tier": "core",
-      "value": 7,
-      "period": "2015-2025 America First 时期",
-      "evidence_type": "外交讲话、贸易政策、联盟成本表述",
-      "note": "对外世界观明显偏零和竞争。"
-    },
-    "G38": {
-      "legacy_id": "G17-2",
-      "tier": "core",
-      "value": 7,
-      "period": "第一任期（2017-2021）",
-      "evidence_type": "对外谈判风格、威慑语言、外交实践",
-      "note": "更强调先用实力和强硬姿态塑造谈判条件。"
+      "period": "2017-2025",
+      "evidence_type": "主权、边境、国际组织立场",
+      "note": "强调外部力量不应干预美国内部事务。"
     },
     "G39": {
-      "legacy_id": "G17-3",
-      "tier": "core",
+      "legacy_id": "G16-4",
+      "tier": "reference",
+      "value": 5,
+      "period": "2017-2025",
+      "evidence_type": "供应链、制造业回流、战略自主",
+      "note": "在关键领域倾向减少对外依赖，但不主张全面自闭。"
+    },
+    "G40": {
+      "legacy_id": "G16-5",
+      "tier": "reference",
       "value": 7,
-      "period": "第一任期（2017-2021）",
-      "evidence_type": "关税政策、贸易战、制造业回流叙事",
-      "note": "经济民族主义和保护主义取向非常鲜明。"
+      "period": "2017-2025",
+      "evidence_type": "国家主权优先的总体话语",
+      "note": "若作抽象化判断，其重心明显偏向对外主权防御而非内部革命改造。"
+    },
+    "G41": {
+      "legacy_id": "G16-6",
+      "tier": "reference",
+      "value": 6,
+      "period": "2017-2025",
+      "evidence_type": "大国地位、美国优先",
+      "note": "强调美国必须是独立的力量中心，不愿从属于他国主导秩序。"
+    },
+    "G42": {
+      "legacy_id": "G17-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "2015-2025",
+      "evidence_type": "贸易与外交语言",
+      "note": "明显更接近把国际关系视为竞争博弈。"
+    },
+    "G43": {
+      "legacy_id": "G17-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "2015-2025",
+      "evidence_type": "谈判风格、威慑表达",
+      "note": "倾向相信强硬姿态和实力更有效。"
+    },
+    "G44": {
+      "legacy_id": "G17-3",
+      "tier": "reference",
+      "value": 7,
+      "period": "2016-2025",
+      "evidence_type": "关税与产业保护政策",
+      "note": "对外经贸上强烈偏向保护本国产业。"
     }
   }
 }

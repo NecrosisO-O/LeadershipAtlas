@@ -1,235 +1,230 @@
 {
   "leader_id": "nelson_mandela",
-  "leader_name": "Nelson Mandela",
+  "leader_name": "纳尔逊·曼德拉",
   "answers": {
-    "L01": {
-      "legacy_id": "4-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1990-1994 年释放后至民主转型完成时期",
-      "evidence_type": "公开演说、谈判时期政治地位、传记研究",
-      "note": "其号召力长期明显超出正式职位本身，是人格性领袖与道义象征。"
-    },
-    "L02": {
-      "legacy_id": "4-2",
-      "tier": "core",
-      "value": 6,
-      "period": "1990-1999 年",
-      "evidence_type": "公开演说、群众动员记录、同时代评价",
-      "note": "公开表达持续具有很强的鼓舞与凝聚效果。"
-    },
     "L03": {
       "legacy_id": "19-1",
       "tier": "core",
-      "value": 6,
-      "period": "1990-1994 年谈判时期",
-      "evidence_type": "ANC领导角色、谈判表态、历史研究",
-      "note": "稳定把自己呈现为黑人多数、反种族隔离运动与未来非种族国家理想的代表。"
+      "value": 7,
+      "period": "1990-1999年",
+      "evidence_type": "谈判时期讲话、总统就职演说、民族和解叙事",
+      "note": "稳定把自己塑造成全体南非人民尤其民主转型共同体的代表。"
     },
     "L04": {
       "legacy_id": "19-2",
       "tier": "core",
-      "value": 6,
-      "period": "1990-1999 年",
-      "evidence_type": "和解政策、国家象征重建、公开讲话",
-      "note": "塑造彩虹之国与共享南非身份是其典型政治工程。"
+      "value": 7,
+      "period": "1990-1999年",
+      "evidence_type": "民族和解、彩虹国族叙事、象征政治",
+      "note": "主动塑造“我们共同属于一个新南非”的整体意识。"
     },
-    "L05": {
-      "legacy_id": "15-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1990-1994 年谈判时期",
-      "evidence_type": "谈判立场、回忆录、同时代评价",
-      "note": "在冲突环境中仍承认对手利益与复杂现实。"
-    },
-    "L06": {
-      "legacy_id": "15-2",
+    "L10": {
+      "legacy_id": "17-1",
       "tier": "reference",
       "value": 5,
-      "period": "1990-1993 年",
-      "evidence_type": "谈判过程、危机处理中止与重启、传记研究",
-      "note": "能在不确定和波动中维持谈判，不急于压成单一结论。"
+      "period": "1990-1999年",
+      "evidence_type": "和解政治、跨种族合作、个人作风",
+      "note": "在高度冲突背景下仍保有相对高水平的普遍信任倾向。"
     },
-    "L07": {
-      "legacy_id": "15-3",
+    "L11": {
+      "legacy_id": "17-2",
       "tier": "reference",
       "value": 5,
-      "period": "1990-1996 年",
-      "evidence_type": "内部磋商、对手接触、顾问意见",
-      "note": "有明显听取异见与接触对手习惯，但不是最核心招牌。"
+      "period": "1990-1994年",
+      "evidence_type": "谈判安全风险、政治暴力环境",
+      "note": "知道必须警惕，但不会把全部政治都建立在高度猜忌上。"
     },
-    "L17": {
-      "legacy_id": "6-2",
+    "L12": {
+      "legacy_id": "17-3",
       "tier": "reference",
-      "value": 5,
-      "period": "1994-1999 年",
-      "evidence_type": "内阁运作、任期安排、组织分工",
-      "note": "愿意让部长和组织体系承担职责，但重大方向仍由本人把握。"
+      "value": 4,
+      "period": "1990-1999年",
+      "evidence_type": "谈判合作、跨阵营关系",
+      "note": "有核心圈层，但并非强烈的封闭式信任模式。"
     },
     "L18": {
+      "legacy_id": "6-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1994-1999年",
+      "evidence_type": "民族团结政府、党内协商、团队分工",
+      "note": "愿意分享部分决策空间，不追求事事亲自掌控。"
+    },
+    "L19": {
       "legacy_id": "6-3",
       "tier": "reference",
-      "value": 5,
-      "period": "1990-1999 年",
-      "evidence_type": "同僚回忆、组织协商文化、领导风格研究",
-      "note": "总体能容纳不同意见，也重视组织讨论。"
-    },
-    "L24": {
-      "legacy_id": "10-1",
-      "tier": "reference",
       "value": 6,
-      "period": "1994-1999 年制宪与执政时期",
-      "evidence_type": "宪制建设、制度移交、执政安排",
-      "note": "明显追求把新南非建立在制度与规则之上。"
+      "period": "1990-1999年",
+      "evidence_type": "谈判团队、党内讨论、政府运作",
+      "note": "能够容纳不同意见和策略辩论。"
     },
-    "L25": {
-      "legacy_id": "10-4",
-      "tier": "reference",
-      "value": 6,
-      "period": "1996-1999 年",
-      "evidence_type": "只做一届总统、制度化交班、组织建设",
-      "note": "主动限制连任并推动交班，体现制度脱离个人继续运转的取向。"
-    },
-    "L26": {
+    "L30": {
       "legacy_id": "11-3",
       "tier": "core",
-      "value": 6,
-      "period": "1990-1994 年谈判时期",
-      "evidence_type": "与德克勒克谈判、幕后协调、转型史研究",
-      "note": "关键政治推进经常建立在与关键力量的预先沟通之上。"
+      "value": 7,
+      "period": "1990-1994年",
+      "evidence_type": "秘密接触、过渡谈判、联盟协调",
+      "note": "重大转型步骤前高度依赖幕后沟通和关键支持整合。"
     },
-    "L27": {
+    "L31": {
       "legacy_id": "11-4",
       "tier": "core",
-      "value": 6,
-      "period": "1993-1996 年转型建制时期",
-      "evidence_type": "宪制谈判、民族团结政府安排、政策妥协",
-      "note": "为实现和平过渡与制度落地，多次接受可交换支持的安排。"
+      "value": 7,
+      "period": "1990-1996年",
+      "evidence_type": "制宪谈判、权力分享安排、过渡妥协",
+      "note": "为促成和平转型，愿在非核心问题上作出显著让步。"
     },
-    "L28": {
+    "L32": {
       "legacy_id": "11-5",
       "tier": "core",
       "value": 6,
-      "period": "1990-1999 年",
-      "evidence_type": "转型治理实践、联盟政治、国际关系资料",
-      "note": "擅长把ANC、国际舆论、商业精英与旧体制可合作力量汇到同一目标。"
+      "period": "1990-1999年",
+      "evidence_type": "党内外联盟、国内外支持整合、过渡政府",
+      "note": "善于把分散力量汇聚到和解与转型目标上。"
     },
-    "L29": {
+    "L33": {
       "legacy_id": "12-2",
       "tier": "core",
       "value": 6,
-      "period": "1990-1996 年",
-      "evidence_type": "政治演说、谈判纲领、执政叙事",
-      "note": "持续以非种族民主、和解、建国作为总方向组织政策与谈判。"
+      "period": "1990-1999年",
+      "evidence_type": "新南非愿景、和解叙事、国家演说",
+      "note": "先给出民主、和解、共同国家的总方向，再组织具体治理。"
     },
-    "L30": {
+    "L34": {
       "legacy_id": "14-1",
       "tier": "core",
-      "value": 6,
-      "period": "1990-1999 年",
-      "evidence_type": "公开演说、国家仪式、传记研究",
-      "note": "把选举、和解、宪政与体育动员都提升为民族重生的一部分。"
+      "value": 7,
+      "period": "1990-1999年",
+      "evidence_type": "就职演说、和解讲话、国际演说",
+      "note": "持续把政治转型提升为尊严、自由和共同未来的事业。"
     },
-    "L31": {
+    "L35": {
       "legacy_id": "13-2",
-      "tier": "core",
-      "value": 6,
-      "period": "1964 年至 1999 年代表性公共表达",
-      "evidence_type": "法庭陈词、就职演说、国际演讲",
-      "note": "习惯把立场连接到尊严、平等、自由与民主原则。"
+      "tier": "reference",
+      "value": 7,
+      "period": "1990-1999年",
+      "evidence_type": "公开讲话、道德语言、和解修辞",
+      "note": "公开表达高度关联自由、平等、尊严和和解原则，但更像其整合与动员风格的表达载体而非独立招牌维度。"
     },
-    "L32": {
+    "L36": {
       "legacy_id": "13-4",
-      "tier": "core",
-      "value": 5,
-      "period": "1990-1995 年",
-      "evidence_type": "出狱讲话、谈判表态、国家危机发言",
-      "note": "会主动把重大转折定义为和解、民主和共同建国的契机。"
-    },
-    "G05": {
-      "legacy_id": "G3-2",
-      "tier": "core",
+      "tier": "reference",
       "value": 6,
-      "period": "1994-1999 年执政时期",
-      "evidence_type": "ANC纲领、重建与发展计划、公开讲话",
-      "note": "把结束制度性不平等和纠正历史剥夺视为重要目标。"
+      "period": "1990-1999年",
+      "evidence_type": "危机沟通、象征政治、国家讲话",
+      "note": "能主动为转型中的重大事件给出道德和政治框架，但代表性略弱于其身份整合与谈判妥协本身。"
     },
     "G06": {
-      "legacy_id": "G3-3",
+      "legacy_id": "G3-2",
       "tier": "core",
-      "value": 6,
-      "period": "1994-1999 年",
-      "evidence_type": "扶贫与住房政策、社会权利论述、公共承诺",
-      "note": "强调国家对贫困者、被排斥者与制度性受害群体负有额外责任。"
+      "value": 7,
+      "period": "1994-1999年",
+      "evidence_type": "重建与发展计划、反不平等承诺",
+      "note": "明确把缩小历史性不平等视为正当治理目标。"
     },
     "G07": {
-      "legacy_id": "G4-3",
+      "legacy_id": "G3-3",
       "tier": "reference",
-      "value": 6,
-      "period": "1990-1999 年",
-      "evidence_type": "民主转型论述、选举政治、公开讲话",
-      "note": "把多数人获得真实政治发言权视为核心目标之一。"
+      "value": 7,
+      "period": "1994-1999年",
+      "evidence_type": "弱势保护、历史正义、公共讲话",
+      "note": "治理者有责任向长期受压迫群体给予额外支持。"
     },
     "G08": {
-      "legacy_id": "G4-4",
+      "legacy_id": "G4-3",
       "tier": "reference",
-      "value": 6,
-      "period": "1994-1999 年",
-      "evidence_type": "宪法价值、民主公开论述、制度安排",
-      "note": "支持把异见容纳进民主秩序。"
+      "value": 7,
+      "period": "1990-1999年",
+      "evidence_type": "民主转型、普选、群众政治",
+      "note": "把人民真实发言权视为新南非正当性的核心。"
     },
     "G09": {
-      "legacy_id": "BLOCK-GOV-VALUES",
+      "legacy_id": "G4-4",
       "tier": "core",
-      "value": {
-        "A": 1,
-        "B": 2,
-        "C": 4,
-        "D": 3
-      },
-      "period": "1994-1999 年代表性执政时期",
-      "evidence_type": "执政理念综合判断、公开讲话、政策优先级",
-      "note": "更接近以公平包容为首位，自由参与紧随其后。"
+      "value": 7,
+      "period": "1990-1999年",
+      "evidence_type": "权利宪章、和解政治、民主表态",
+      "note": "对不受欢迎声音的制度性容忍是其民主理念的重要组成部分。"
     },
-    "G19": {
+    "G21": {
       "legacy_id": "G9-1",
       "tier": "reference",
-      "value": 5,
-      "period": "1993-1996 年制宪时期",
-      "evidence_type": "制宪谈判、宪政表态、执政实践",
-      "note": "高度重视程序与规则，但通常与人民解放目标并置。"
+      "value": 6,
+      "period": "1990-1999年",
+      "evidence_type": "制宪、选举、法治承诺",
+      "note": "高度重视合法程序，但其正当性语言也强烈包含和解与人民意志。"
     },
-    "G20": {
+    "G22": {
       "legacy_id": "G9-2",
       "tier": "reference",
       "value": 6,
-      "period": "1994-1999 年",
-      "evidence_type": "宪政建制、任期选择、公开立场",
-      "note": "代表性行为恰恰是把个人置于法律和制度之下。"
+      "period": "1994-1999年",
+      "evidence_type": "宪政承诺、权力交接、政治实践",
+      "note": "明显支持领导人不能凌驾于法律之上。"
     },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "reference",
-      "value": "C",
-      "period": "1990-1994 年谈判与首次大选时期",
-      "evidence_type": "人民主权论述、反种族隔离政治语言、选举正当性表达",
-      "note": "若三选一，更接近把真正代表人民意愿和利益置于首位。"
+    "G27": {
+      "legacy_id": "G12-1",
+      "tier": "core",
+      "value": 1,
+      "period": "1990-1999年",
+      "evidence_type": "彩虹国族叙事、多元共存语言",
+      "note": "明确把社会多元差异视为新国家的资源而非必须压平的问题。"
     },
     "G28": {
+      "legacy_id": "G12-2",
+      "tier": "core",
+      "value": 2,
+      "period": "1990-1999年",
+      "evidence_type": "民主转型、谈判政治、议会实践",
+      "note": "认为不同政治力量的公开争论是健康民主的组成部分。"
+    },
+    "G29": {
+      "legacy_id": "G12-4",
+      "tier": "core",
+      "value": 1,
+      "period": "1990-1999年",
+      "evidence_type": "和解路线、共存政治、公共讲话",
+      "note": "更接近学习与深层分歧长期共存，而非消灭差异。"
+    },
+    "G30": {
       "legacy_id": "G13-1",
       "tier": "core",
       "value": 6,
-      "period": "1994-1999 年",
-      "evidence_type": "建国叙事、体育与国家象征动员、演说",
-      "note": "高度强调共同身份认同是新南非稳定与力量的基础。"
+      "period": "1990-1999年",
+      "evidence_type": "国家整合、彩虹国族叙事",
+      "note": "把共同身份认同视为跨种族整合新南非的重要支柱。"
     },
-    "G29": {
+    "G31": {
       "legacy_id": "G13-4",
       "tier": "core",
       "value": 6,
-      "period": "1994-1995 年",
-      "evidence_type": "国家象征重塑、橄榄球世界杯案例、公开仪式",
-      "note": "主动利用象征、体育与和解叙事去制造共同记忆。"
+      "period": "1994-1999年",
+      "evidence_type": "橄榄球世界杯、象征政治、和解仪式",
+      "note": "非常善于利用共同象征与记忆促进整合。"
+    },
+    "G42": {
+      "legacy_id": "G17-1",
+      "tier": "reference",
+      "value": 2,
+      "period": "1990-1999年",
+      "evidence_type": "和解外交、非洲合作、国际主义讲话",
+      "note": "总体更偏国际合作与共同获益。"
+    },
+    "G43": {
+      "legacy_id": "G17-2",
+      "tier": "reference",
+      "value": 2,
+      "period": "1990-1999年",
+      "evidence_type": "谈判政治、国际表态、和平解决路径",
+      "note": "明显偏向通过谈判与对话解决争端。"
+    },
+    "G44": {
+      "legacy_id": "G17-3",
+      "tier": "reference",
+      "value": 4,
+      "period": "1994-1999年",
+      "evidence_type": "国际接轨与国内重建并重",
+      "note": "在开放融入与国内保护之间较为平衡。"
     }
   }
 }

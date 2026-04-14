@@ -1,75 +1,576 @@
 {
-  "L01": {"dimension_id": "L4", "dimension_name": "人格感召与魅力自我认知", "layer": "style"},
-  "L02": {"dimension_id": "L4", "dimension_name": "人格感召与魅力自我认知", "layer": "style"},
-  "L03": {"dimension_id": "L19", "dimension_name": "共同体代表性与身份领导", "layer": "style"},
-  "L04": {"dimension_id": "L19", "dimension_name": "共同体代表性与身份领导", "layer": "style"},
-  "L05": {"dimension_id": "L15", "dimension_name": "认知复杂性与信息开放", "layer": "style"},
-  "L06": {"dimension_id": "L15", "dimension_name": "认知复杂性与信息开放", "layer": "style"},
-  "L07": {"dimension_id": "L15", "dimension_name": "认知复杂性与信息开放", "layer": "style"},
-  "L08": {"dimension_id": "L16", "dimension_name": "情绪调节与情绪使用方式", "layer": "style"},
-  "L09": {"dimension_id": "L17", "dimension_name": "他人信任与威胁知觉", "layer": "style"},
-  "L10": {"dimension_id": "L17", "dimension_name": "他人信任与威胁知觉", "layer": "style"},
-  "L11": {"dimension_id": "L17", "dimension_name": "他人信任与威胁知觉", "layer": "style"},
-  "L12": {"dimension_id": "L18", "dimension_name": "共同体边界意识与内群体优先", "layer": "style"},
-  "L13": {"dimension_id": "L18", "dimension_name": "共同体边界意识与内群体优先", "layer": "style"},
-  "L14": {"dimension_id": "L5", "dimension_name": "权力主导与控制倾向", "layer": "style"},
-  "L15": {"dimension_id": "L5", "dimension_name": "权力主导与控制倾向", "layer": "style"},
-  "L16": {"dimension_id": "L5", "dimension_name": "权力主导与控制倾向", "layer": "style"},
-  "L17": {"dimension_id": "L6", "dimension_name": "参与协商与权力分享倾向", "layer": "style"},
-  "L18": {"dimension_id": "L6", "dimension_name": "参与协商与权力分享倾向", "layer": "style"},
-  "L19": {"dimension_id": "L7", "dimension_name": "决策介入时机与回避程度", "layer": "style"},
-  "L20": {"dimension_id": "L7", "dimension_name": "决策介入时机与回避程度", "layer": "style"},
-  "L21": {"dimension_id": "L8", "dimension_name": "结构化推进与任务压强", "layer": "style"},
-  "L22": {"dimension_id": "L8", "dimension_name": "结构化推进与任务压强", "layer": "style"},
-  "L23": {"dimension_id": "L9", "dimension_name": "关系维护与人际关照", "layer": "style"},
-  "L24": {"dimension_id": "L10", "dimension_name": "组织建制与统筹能力取向", "layer": "style"},
-  "L25": {"dimension_id": "L10", "dimension_name": "组织建制与统筹能力取向", "layer": "style"},
-  "L26": {"dimension_id": "L11", "dimension_name": "政治斡旋与资源整合方式", "layer": "style"},
-  "L27": {"dimension_id": "L11", "dimension_name": "政治斡旋与资源整合方式", "layer": "style"},
-  "L28": {"dimension_id": "L11", "dimension_name": "政治斡旋与资源整合方式", "layer": "style"},
-  "L29": {"dimension_id": "L12_14", "dimension_name": "愿景建构与意义动员", "layer": "style"},
-  "L30": {"dimension_id": "L12_14", "dimension_name": "愿景建构与意义动员", "layer": "style"},
-  "L31": {"dimension_id": "L13", "dimension_name": "公共沟通与符号化表达", "layer": "style"},
-  "L32": {"dimension_id": "L13", "dimension_name": "公共沟通与符号化表达", "layer": "style"},
-  "G01": {"dimension_id": "G1", "dimension_name": "秩序与安全优先观", "layer": "ideology"},
-  "G02": {"dimension_id": "G1", "dimension_name": "秩序与安全优先观", "layer": "ideology"},
-  "G03": {"dimension_id": "G2", "dimension_name": "发展与绩效优先观", "layer": "ideology"},
-  "G04": {"dimension_id": "G2", "dimension_name": "发展与绩效优先观", "layer": "ideology"},
-  "G05": {"dimension_id": "G3", "dimension_name": "公平与包容优先观", "layer": "ideology"},
-  "G06": {"dimension_id": "G3", "dimension_name": "公平与包容优先观", "layer": "ideology"},
-  "G07": {"dimension_id": "G4", "dimension_name": "自由、权利与参与优先观", "layer": "ideology"},
-  "G08": {"dimension_id": "G4", "dimension_name": "自由、权利与参与优先观", "layer": "ideology"},
-  "G09": {"dimension_id": "G_BLOCK_VALUES", "dimension_name": "治理目标与公共价值分配", "layer": "ideology"},
-  "G10": {"dimension_id": "G5", "dimension_name": "国家干预—市场关系观", "layer": "ideology"},
-  "G11": {"dimension_id": "G5", "dimension_name": "国家干预—市场关系观", "layer": "ideology"},
-  "G12": {"dimension_id": "G5", "dimension_name": "国家干预—市场关系观", "layer": "ideology"},
-  "G13": {"dimension_id": "G6", "dimension_name": "国家—社会边界与协作观", "layer": "ideology"},
-  "G14": {"dimension_id": "G6", "dimension_name": "国家—社会边界与协作观", "layer": "ideology"},
-  "G15": {"dimension_id": "G6", "dimension_name": "国家—社会边界与协作观", "layer": "ideology"},
-  "G16": {"dimension_id": "G7", "dimension_name": "国家能力与行政效能观", "layer": "ideology"},
-  "G17": {"dimension_id": "G8", "dimension_name": "治理知识与决策依据观", "layer": "ideology"},
-  "G18": {"dimension_id": "G8", "dimension_name": "治理知识与决策依据观", "layer": "ideology"},
-  "G19": {"dimension_id": "G9", "dimension_name": "程序—宪制合法性观", "layer": "ideology"},
-  "G20": {"dimension_id": "G9", "dimension_name": "程序—宪制合法性观", "layer": "ideology"},
-  "G21": {"dimension_id": "G10", "dimension_name": "绩效合法性观", "layer": "ideology"},
-  "G22": {"dimension_id": "G11", "dimension_name": "人民代表性与主体合法性观", "layer": "ideology"},
-  "G23": {"dimension_id": "G11", "dimension_name": "人民代表性与主体合法性观", "layer": "ideology"},
-  "G24": {"dimension_id": "G_BLOCK_LEGIT", "dimension_name": "合法性来源优先级", "layer": "ideology"},
-  "G25": {"dimension_id": "G12", "dimension_name": "多元差异与冲突观", "layer": "ideology"},
-  "G26": {"dimension_id": "G12", "dimension_name": "多元差异与冲突观", "layer": "ideology"},
-  "G27": {"dimension_id": "G12", "dimension_name": "多元差异与冲突观", "layer": "ideology"},
-  "G28": {"dimension_id": "G13", "dimension_name": "共同体凝聚与整合观", "layer": "ideology"},
-  "G29": {"dimension_id": "G13", "dimension_name": "共同体凝聚与整合观", "layer": "ideology"},
-  "G30": {"dimension_id": "G14", "dimension_name": "改革方向与变革节奏观", "layer": "ideology"},
-  "G31": {"dimension_id": "G14", "dimension_name": "改革方向与变革节奏观", "layer": "ideology"},
-  "G32": {"dimension_id": "G14", "dimension_name": "改革方向与变革节奏观", "layer": "ideology"},
-  "G33": {"dimension_id": "G15", "dimension_name": "传统—现代化关系观", "layer": "ideology"},
-  "G34": {"dimension_id": "G15", "dimension_name": "传统—现代化关系观", "layer": "ideology"},
-  "G35": {"dimension_id": "G16", "dimension_name": "主权与自主性观", "layer": "ideology"},
-  "G36": {"dimension_id": "G16", "dimension_name": "主权与自主性观", "layer": "ideology"},
-  "G37": {"dimension_id": "G17", "dimension_name": "对外合作—竞争取向", "layer": "ideology"},
-  "G38": {"dimension_id": "G17", "dimension_name": "对外合作—竞争取向", "layer": "ideology"},
-  "G39": {"dimension_id": "G17", "dimension_name": "对外合作—竞争取向", "layer": "ideology"},
-  "G40": {"dimension_id": "G18", "dimension_name": "国际秩序立场与外部责任观", "layer": "ideology"},
-  "G41": {"dimension_id": "G18", "dimension_name": "国际秩序立场与外部责任观", "layer": "ideology"}
+  "L01": {
+    "dimension_id": "L4",
+    "dimension_name": "人格感召与魅力自我认知",
+    "layer": "style",
+    "legacy_id": "4-1",
+    "display_no": 1
+  },
+  "L02": {
+    "dimension_id": "L4",
+    "dimension_name": "人格感召与魅力自我认知",
+    "layer": "style",
+    "legacy_id": "4-2",
+    "display_no": 2
+  },
+  "L03": {
+    "dimension_id": "L19",
+    "dimension_name": "共同体代表性与身份领导",
+    "layer": "style",
+    "legacy_id": "19-1",
+    "display_no": 3
+  },
+  "L04": {
+    "dimension_id": "L19",
+    "dimension_name": "共同体代表性与身份领导",
+    "layer": "style",
+    "legacy_id": "19-2",
+    "display_no": 4
+  },
+  "L05": {
+    "dimension_id": "L15",
+    "dimension_name": "认知复杂性与信息开放",
+    "layer": "style",
+    "legacy_id": "15-1",
+    "display_no": 5
+  },
+  "L06": {
+    "dimension_id": "L15",
+    "dimension_name": "认知复杂性与信息开放",
+    "layer": "style",
+    "legacy_id": "15-2",
+    "display_no": 6
+  },
+  "L07": {
+    "dimension_id": "L15",
+    "dimension_name": "认知复杂性与信息开放",
+    "layer": "style",
+    "legacy_id": "15-3",
+    "display_no": 7
+  },
+  "L08": {
+    "dimension_id": "L15",
+    "dimension_name": "认知复杂性与信息开放",
+    "layer": "style",
+    "legacy_id": "15-4",
+    "display_no": 8
+  },
+  "L09": {
+    "dimension_id": "L16",
+    "dimension_name": "情绪调节与情绪使用方式",
+    "layer": "style",
+    "legacy_id": "16-1",
+    "display_no": 9
+  },
+  "L10": {
+    "dimension_id": "L17",
+    "dimension_name": "他人信任与威胁知觉",
+    "layer": "style",
+    "legacy_id": "17-1",
+    "display_no": 10
+  },
+  "L11": {
+    "dimension_id": "L17",
+    "dimension_name": "他人信任与威胁知觉",
+    "layer": "style",
+    "legacy_id": "17-2",
+    "display_no": 11
+  },
+  "L12": {
+    "dimension_id": "L17",
+    "dimension_name": "他人信任与威胁知觉",
+    "layer": "style",
+    "legacy_id": "17-3",
+    "display_no": 12
+  },
+  "L13": {
+    "dimension_id": "L18",
+    "dimension_name": "共同体边界意识与内群体优先",
+    "layer": "style",
+    "legacy_id": "18-1",
+    "display_no": 13
+  },
+  "L14": {
+    "dimension_id": "L18",
+    "dimension_name": "共同体边界意识与内群体优先",
+    "layer": "style",
+    "legacy_id": "18-2",
+    "display_no": 14
+  },
+  "L15": {
+    "dimension_id": "L5",
+    "dimension_name": "权力主导与控制倾向",
+    "layer": "style",
+    "legacy_id": "5-1",
+    "display_no": 15
+  },
+  "L16": {
+    "dimension_id": "L5",
+    "dimension_name": "权力主导与控制倾向",
+    "layer": "style",
+    "legacy_id": "5-3",
+    "display_no": 16
+  },
+  "L17": {
+    "dimension_id": "L5",
+    "dimension_name": "权力主导与控制倾向",
+    "layer": "style",
+    "legacy_id": "5-5",
+    "display_no": 17
+  },
+  "L18": {
+    "dimension_id": "L6",
+    "dimension_name": "参与协商与权力分享倾向",
+    "layer": "style",
+    "legacy_id": "6-2",
+    "display_no": 18
+  },
+  "L19": {
+    "dimension_id": "L6",
+    "dimension_name": "参与协商与权力分享倾向",
+    "layer": "style",
+    "legacy_id": "6-3",
+    "display_no": 19
+  },
+  "L20": {
+    "dimension_id": "L7",
+    "dimension_name": "决策介入时机与回避程度",
+    "layer": "style",
+    "legacy_id": "7-1",
+    "display_no": 20
+  },
+  "L21": {
+    "dimension_id": "L7",
+    "dimension_name": "决策介入时机与回避程度",
+    "layer": "style",
+    "legacy_id": "7-4",
+    "display_no": 21
+  },
+  "L22": {
+    "dimension_id": "L8",
+    "dimension_name": "结构化推进与任务压强",
+    "layer": "style",
+    "legacy_id": "8-3",
+    "display_no": 22
+  },
+  "L23": {
+    "dimension_id": "L8",
+    "dimension_name": "结构化推进与任务压强",
+    "layer": "style",
+    "legacy_id": "8-4",
+    "display_no": 23
+  },
+  "L24": {
+    "dimension_id": "L8",
+    "dimension_name": "结构化推进与任务压强",
+    "layer": "style",
+    "legacy_id": "8-5",
+    "display_no": 24
+  },
+  "L25": {
+    "dimension_id": "L9",
+    "dimension_name": "关系维护与人际关照",
+    "layer": "style",
+    "legacy_id": "9-4",
+    "display_no": 25
+  },
+  "L26": {
+    "dimension_id": "L10",
+    "dimension_name": "组织建制与统筹能力取向",
+    "layer": "style",
+    "legacy_id": "10-1",
+    "display_no": 26
+  },
+  "L27": {
+    "dimension_id": "L10",
+    "dimension_name": "组织建制与统筹能力取向",
+    "layer": "style",
+    "legacy_id": "10-4",
+    "display_no": 27
+  },
+  "L28": {
+    "dimension_id": "L10",
+    "dimension_name": "组织建制与统筹能力取向",
+    "layer": "style",
+    "legacy_id": "10-5",
+    "display_no": 28
+  },
+  "L29": {
+    "dimension_id": "L10",
+    "dimension_name": "组织建制与统筹能力取向",
+    "layer": "style",
+    "legacy_id": "10-6",
+    "display_no": 29
+  },
+  "L30": {
+    "dimension_id": "L11",
+    "dimension_name": "政治斡旋与资源整合方式",
+    "layer": "style",
+    "legacy_id": "11-3",
+    "display_no": 30
+  },
+  "L31": {
+    "dimension_id": "L11",
+    "dimension_name": "政治斡旋与资源整合方式",
+    "layer": "style",
+    "legacy_id": "11-4",
+    "display_no": 31
+  },
+  "L32": {
+    "dimension_id": "L11",
+    "dimension_name": "政治斡旋与资源整合方式",
+    "layer": "style",
+    "legacy_id": "11-5",
+    "display_no": 32
+  },
+  "L33": {
+    "dimension_id": "L12_14",
+    "dimension_name": "愿景建构与意义动员",
+    "layer": "style",
+    "legacy_id": "12-2",
+    "display_no": 33
+  },
+  "L34": {
+    "dimension_id": "L12_14",
+    "dimension_name": "愿景建构与意义动员",
+    "layer": "style",
+    "legacy_id": "14-1",
+    "display_no": 34
+  },
+  "L35": {
+    "dimension_id": "L13",
+    "dimension_name": "公共沟通与符号化表达",
+    "layer": "style",
+    "legacy_id": "13-2",
+    "display_no": 35
+  },
+  "L36": {
+    "dimension_id": "L13",
+    "dimension_name": "公共沟通与符号化表达",
+    "layer": "style",
+    "legacy_id": "13-4",
+    "display_no": 36
+  },
+  "G01": {
+    "dimension_id": "G1",
+    "dimension_name": "秩序与安全优先观",
+    "layer": "ideology",
+    "legacy_id": "G1-2",
+    "display_no": 37
+  },
+  "G02": {
+    "dimension_id": "G1",
+    "dimension_name": "秩序与安全优先观",
+    "layer": "ideology",
+    "legacy_id": "G1-4",
+    "display_no": 38
+  },
+  "G03": {
+    "dimension_id": "G1",
+    "dimension_name": "秩序与安全优先观",
+    "layer": "ideology",
+    "legacy_id": "G1-5",
+    "display_no": 39
+  },
+  "G04": {
+    "dimension_id": "G2",
+    "dimension_name": "发展与绩效优先观",
+    "layer": "ideology",
+    "legacy_id": "G2-2",
+    "display_no": 40
+  },
+  "G05": {
+    "dimension_id": "G2",
+    "dimension_name": "发展与绩效优先观",
+    "layer": "ideology",
+    "legacy_id": "G2-3",
+    "display_no": 41
+  },
+  "G06": {
+    "dimension_id": "G3",
+    "dimension_name": "公平与包容优先观",
+    "layer": "ideology",
+    "legacy_id": "G3-2",
+    "display_no": 42
+  },
+  "G07": {
+    "dimension_id": "G3",
+    "dimension_name": "公平与包容优先观",
+    "layer": "ideology",
+    "legacy_id": "G3-3",
+    "display_no": 43
+  },
+  "G08": {
+    "dimension_id": "G4",
+    "dimension_name": "自由、权利与参与优先观",
+    "layer": "ideology",
+    "legacy_id": "G4-3",
+    "display_no": 44
+  },
+  "G09": {
+    "dimension_id": "G4",
+    "dimension_name": "自由、权利与参与优先观",
+    "layer": "ideology",
+    "legacy_id": "G4-4",
+    "display_no": 45
+  },
+  "G10": {
+    "dimension_id": "G_BLOCK_VALUES",
+    "dimension_name": "治理目标与公共价值分配",
+    "layer": "ideology",
+    "legacy_id": "BLOCK-GOV-VALUES",
+    "display_no": 46
+  },
+  "G11": {
+    "dimension_id": "G5",
+    "dimension_name": "国家干预—市场关系观",
+    "layer": "ideology",
+    "legacy_id": "G5-1",
+    "display_no": 47
+  },
+  "G12": {
+    "dimension_id": "G5",
+    "dimension_name": "国家干预—市场关系观",
+    "layer": "ideology",
+    "legacy_id": "G5-2",
+    "display_no": 48
+  },
+  "G13": {
+    "dimension_id": "G5",
+    "dimension_name": "国家干预—市场关系观",
+    "layer": "ideology",
+    "legacy_id": "G5-3",
+    "display_no": 49
+  },
+  "G14": {
+    "dimension_id": "G6",
+    "dimension_name": "国家—社会边界与协作观",
+    "layer": "ideology",
+    "legacy_id": "G6-1",
+    "display_no": 50
+  },
+  "G15": {
+    "dimension_id": "G6",
+    "dimension_name": "国家—社会边界与协作观",
+    "layer": "ideology",
+    "legacy_id": "G6-2",
+    "display_no": 51
+  },
+  "G16": {
+    "dimension_id": "G6",
+    "dimension_name": "国家—社会边界与协作观",
+    "layer": "ideology",
+    "legacy_id": "G6-5",
+    "display_no": 52
+  },
+  "G17": {
+    "dimension_id": "G6",
+    "dimension_name": "国家—社会边界与协作观",
+    "layer": "ideology",
+    "legacy_id": "G6-6",
+    "display_no": 53
+  },
+  "G18": {
+    "dimension_id": "G7",
+    "dimension_name": "国家能力与行政效能观",
+    "layer": "ideology",
+    "legacy_id": "G7-4",
+    "display_no": 54
+  },
+  "G19": {
+    "dimension_id": "G8",
+    "dimension_name": "治理知识与决策依据观",
+    "layer": "ideology",
+    "legacy_id": "G8-2",
+    "display_no": 55
+  },
+  "G20": {
+    "dimension_id": "G8",
+    "dimension_name": "治理知识与决策依据观",
+    "layer": "ideology",
+    "legacy_id": "G8-4",
+    "display_no": 56
+  },
+  "G21": {
+    "dimension_id": "G9",
+    "dimension_name": "程序—宪制合法性观**",
+    "layer": "ideology",
+    "legacy_id": "G9-1",
+    "display_no": 57
+  },
+  "G22": {
+    "dimension_id": "G9",
+    "dimension_name": "程序—宪制合法性观**",
+    "layer": "ideology",
+    "legacy_id": "G9-2",
+    "display_no": 58
+  },
+  "G23": {
+    "dimension_id": "G10",
+    "dimension_name": "绩效合法性观**",
+    "layer": "ideology",
+    "legacy_id": "G10-3",
+    "display_no": 59
+  },
+  "G24": {
+    "dimension_id": "G11",
+    "dimension_name": "人民代表性与主体合法性观**",
+    "layer": "ideology",
+    "legacy_id": "G11-2",
+    "display_no": 60
+  },
+  "G25": {
+    "dimension_id": "G11",
+    "dimension_name": "人民代表性与主体合法性观**",
+    "layer": "ideology",
+    "legacy_id": "G11-3",
+    "display_no": 61
+  },
+  "G26": {
+    "dimension_id": "G_BLOCK_LEGIT",
+    "dimension_name": "合法性来源优先级",
+    "layer": "ideology",
+    "legacy_id": "BLOCK-LEGITIMACY",
+    "display_no": 62
+  },
+  "G27": {
+    "dimension_id": "G12",
+    "dimension_name": "多元差异与冲突观**",
+    "layer": "ideology",
+    "legacy_id": "G12-1",
+    "display_no": 63
+  },
+  "G28": {
+    "dimension_id": "G12",
+    "dimension_name": "多元差异与冲突观**",
+    "layer": "ideology",
+    "legacy_id": "G12-2",
+    "display_no": 64
+  },
+  "G29": {
+    "dimension_id": "G12",
+    "dimension_name": "多元差异与冲突观**",
+    "layer": "ideology",
+    "legacy_id": "G12-4",
+    "display_no": 65
+  },
+  "G30": {
+    "dimension_id": "G13",
+    "dimension_name": "共同体凝聚与整合观**",
+    "layer": "ideology",
+    "legacy_id": "G13-1",
+    "display_no": 66
+  },
+  "G31": {
+    "dimension_id": "G13",
+    "dimension_name": "共同体凝聚与整合观**",
+    "layer": "ideology",
+    "legacy_id": "G13-4",
+    "display_no": 67
+  },
+  "G32": {
+    "dimension_id": "G14",
+    "dimension_name": "改革方向与变革节奏观**",
+    "layer": "ideology",
+    "legacy_id": "G14-1",
+    "display_no": 68
+  },
+  "G33": {
+    "dimension_id": "G14",
+    "dimension_name": "改革方向与变革节奏观**",
+    "layer": "ideology",
+    "legacy_id": "G14-3",
+    "display_no": 69
+  },
+  "G34": {
+    "dimension_id": "G14",
+    "dimension_name": "改革方向与变革节奏观**",
+    "layer": "ideology",
+    "legacy_id": "G14-5",
+    "display_no": 70
+  },
+  "G35": {
+    "dimension_id": "G14",
+    "dimension_name": "改革方向与变革节奏观**",
+    "layer": "ideology",
+    "legacy_id": "G14-6",
+    "display_no": 71
+  },
+  "G36": {
+    "dimension_id": "G15",
+    "dimension_name": "传统—现代化关系观**",
+    "layer": "ideology",
+    "legacy_id": "G15-2",
+    "display_no": 72
+  },
+  "G37": {
+    "dimension_id": "G15",
+    "dimension_name": "传统—现代化关系观**",
+    "layer": "ideology",
+    "legacy_id": "G15-4",
+    "display_no": 73
+  },
+  "G38": {
+    "dimension_id": "G16",
+    "dimension_name": "主权与自主性观**",
+    "layer": "ideology",
+    "legacy_id": "G16-1",
+    "display_no": 74
+  },
+  "G39": {
+    "dimension_id": "G16",
+    "dimension_name": "主权与自主性观**",
+    "layer": "ideology",
+    "legacy_id": "G16-4",
+    "display_no": 75
+  },
+  "G40": {
+    "dimension_id": "G16",
+    "dimension_name": "主权与自主性观**",
+    "layer": "ideology",
+    "legacy_id": "G16-5",
+    "display_no": 76
+  },
+  "G41": {
+    "dimension_id": "G16",
+    "dimension_name": "主权与自主性观**",
+    "layer": "ideology",
+    "legacy_id": "G16-6",
+    "display_no": 77
+  },
+  "G42": {
+    "dimension_id": "G17",
+    "dimension_name": "对外合作—竞争取向**",
+    "layer": "ideology",
+    "legacy_id": "G17-1",
+    "display_no": 78
+  },
+  "G43": {
+    "dimension_id": "G17",
+    "dimension_name": "对外合作—竞争取向**",
+    "layer": "ideology",
+    "legacy_id": "G17-2",
+    "display_no": 79
+  },
+  "G44": {
+    "dimension_id": "G17",
+    "dimension_name": "对外合作—竞争取向**",
+    "layer": "ideology",
+    "legacy_id": "G17-3",
+    "display_no": 80
+  },
+  "G45": {
+    "dimension_id": "G18",
+    "dimension_name": "国际秩序立场与外部责任观**",
+    "layer": "ideology",
+    "legacy_id": "G18-1",
+    "display_no": 81
+  },
+  "G46": {
+    "dimension_id": "G18",
+    "dimension_name": "国际秩序立场与外部责任观**",
+    "layer": "ideology",
+    "legacy_id": "G18-4",
+    "display_no": 82
+  }
 }

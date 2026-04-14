@@ -1,0 +1,19 @@
+{
+  "donald_trump": ["L4", "L19", "L17"],
+  "winston_churchill": ["L4", "L12_14", "L13"],
+  "joseph_stalin": ["L17", "L5", "G5"],
+  "kim_jong_un": ["L19", "L17", "G16"],
+  "vladimir_putin": ["L17", "G16", "G17"],
+  "franklin_d_roosevelt": ["L11", "G3", "G18"],
+  "adolf_hitler": ["L4", "L18", "L12_14"],
+  "nikita_khrushchev": ["L7", "L13", "G14"],
+  "mao_zedong": ["L12_14", "G13", "G14"],
+  "deng_xiaoping": ["L15", "L10", "G2"],
+  "park_chung_hee": ["L8", "G2", "G5"],
+  "mobutu_sese_seko": ["L19", "L13", "L11"],
+  "fidel_castro": ["L4", "L13", "G16"],
+  "lee_kuan_yew": ["L10", "G2", "G6"],
+  "angela_merkel": ["L15", "L6", "G9"],
+  "charles_de_gaulle": ["L19", "L13", "G16"],
+  "nelson_mandela": ["L4", "L11", "G13"]
+}

@@ -1,238 +1,254 @@
 {
   "leader_id": "charles_de_gaulle",
-  "leader_name": "Charles de Gaulle",
+  "leader_name": "夏尔·戴高乐",
   "answers": {
     "L01": {
       "legacy_id": "4-1",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1944 年自由法国领导时期",
-      "evidence_type": "战时广播、回忆录、传记研究",
-      "note": "其正当性起点高度依赖个人意志、象征地位与道德号召。"
+      "value": 7,
+      "period": "1940-1946年",
+      "evidence_type": "自由法国领导、个人象征性、同时代记述",
+      "note": "其追随力高度来自个人象征地位而非既有正式职位。"
     },
     "L02": {
       "legacy_id": "4-2",
       "tier": "core",
       "value": 6,
-      "period": "1940-1965 年代表性公开演说时期",
-      "evidence_type": "广播讲话、记者会、政治演说文本",
-      "note": "高度依赖庄严宏大且能塑造历史感的公开表达。"
+      "period": "1940-1965年",
+      "evidence_type": "广播讲话、新闻发布会、公开演说",
+      "note": "公开表达具有强烈象征动员能力。"
     },
     "L03": {
       "legacy_id": "19-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1940-1946 年",
-      "evidence_type": "战时讲话、制宪表述、政治自我定位",
-      "note": "长期把自己呈现为法国连续性、独立性与伟大传统的代表。"
+      "tier": "reference",
+      "value": 7,
+      "period": "1940-1958年",
+      "evidence_type": "自由法国合法性叙事、民族代表姿态",
+      "note": "极强地把自己塑造成法国连续性与民族意志的代表。"
     },
     "L04": {
       "legacy_id": "19-2",
-      "tier": "core",
+      "tier": "reference",
       "value": 6,
-      "period": "1940-1958 年",
-      "evidence_type": "抵抗叙事、民族共同体修辞、制度设计",
-      "note": "核心政治动作之一是把分裂法国重新整合成共同体叙事。"
-    },
-    "L14": {
-      "legacy_id": "5-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1940 年与 1958 年两次国家危机时期",
-      "evidence_type": "危机决断、组阁实践、历史研究",
-      "note": "体现出强烈的亲自主导倾向。"
+      "period": "1940-1965年",
+      "evidence_type": "民族叙事、国家象征、共同体语言",
+      "note": "主动塑造“真正的法国”这一共同体意识。"
     },
     "L15": {
-      "legacy_id": "5-3",
+      "legacy_id": "5-1",
       "tier": "core",
-      "value": 6,
-      "period": "1958-1965 年",
-      "evidence_type": "总统制运作、幕僚回忆、政策决策史",
-      "note": "外交、核力量、宪制改革等关键议题都需本人最后定调。"
+      "value": 7,
+      "period": "1940-1969年",
+      "evidence_type": "危机接管、宪制重建、最高领导风格",
+      "note": "在重大危机中极强地主张由自己主动接手局面。"
     },
     "L16": {
+      "legacy_id": "5-3",
+      "tier": "core",
+      "value": 7,
+      "period": "1958-1969年",
+      "evidence_type": "第五共和国决策结构、总统权威",
+      "note": "关键问题高度要求由自己亲自把关。"
+    },
+    "L17": {
       "legacy_id": "5-5",
       "tier": "core",
       "value": 6,
-      "period": "1940-1966 年",
-      "evidence_type": "战时指挥、总统记者会风格、核心决策圈记录",
-      "note": "高度重视信息节奏与政治定义权。"
-    },
-    "L19": {
-      "legacy_id": "7-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1940 年与 1958 年",
-      "evidence_type": "危机决断、公开表态、政治行动",
-      "note": "在制度或国家危机中常迅速介入并重设局面。"
-    },
-    "L20": {
-      "legacy_id": "7-4",
-      "tier": "reference",
-      "value": 1,
-      "period": "1940-1965 年",
-      "evidence_type": "危机管理、总统实践、历史研究",
-      "note": "往往在看到结构性危险时就提前出手。"
-    },
-    "L24": {
-      "legacy_id": "10-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1946 年与 1958-1962 年制宪建制时期",
-      "evidence_type": "巴约演说、第五共和国宪制设计、国家机构建设",
-      "note": "追求有清晰权责分工、能稳定运转的强国家制度。"
-    },
-    "L25": {
-      "legacy_id": "10-4",
-      "tier": "core",
-      "value": 6,
-      "period": "1958-1966 年",
-      "evidence_type": "第五共和国制度安排、行政架构、公开论述",
-      "note": "希望法国摆脱离开偶然人物就失灵的脆弱结构。"
+      "period": "1958-1969年",
+      "evidence_type": "总统传播策略、新闻发布会掌控",
+      "note": "对重大政治信息和时机具有较强控制欲。"
     },
     "L26": {
+      "legacy_id": "10-1",
+      "tier": "reference",
+      "value": 5,
+      "period": "1958-1969年",
+      "evidence_type": "第五共和国设计、国家机器重建",
+      "note": "既重个人权威，也重视建立能执行国家意志的制度。"
+    },
+    "L27": {
+      "legacy_id": "10-4",
+      "tier": "reference",
+      "value": 5,
+      "period": "1958-1969年",
+      "evidence_type": "宪制设计、行政国家建设",
+      "note": "试图让国家机器更稳，但仍保留强烈个人主义色彩。"
+    },
+    "L28": {
+      "legacy_id": "10-5",
+      "tier": "reference",
+      "value": 6,
+      "period": "1958-1969年",
+      "evidence_type": "国家主义、宪制架构、行政传统",
+      "note": "明显偏向国家机器而非私人网络。"
+    },
+    "L29": {
+      "legacy_id": "10-6",
+      "tier": "reference",
+      "value": 4,
+      "period": "1958-1969年",
+      "evidence_type": "任用实践、国家主义而非纯私人化逻辑",
+      "note": "重视可靠同路人，但不等于纯粹私人忠诚政治。"
+    },
+    "L30": {
       "legacy_id": "11-3",
       "tier": "reference",
       "value": 5,
-      "period": "1958-1962 年",
-      "evidence_type": "阿尔及利亚转向、制宪推进、核心圈沟通",
-      "note": "重大转向前会先确保军方和关键人物的可控支持。"
+      "period": "1958-1969年",
+      "evidence_type": "精英协调、外交斡旋、政府运作",
+      "note": "会做必要的幕后协调，但不是其最鲜明特征。"
     },
-    "L27": {
+    "L31": {
       "legacy_id": "11-4",
       "tier": "reference",
       "value": 4,
-      "period": "1958-1962 年",
-      "evidence_type": "阿尔及利亚政策转折、联盟管理、回忆录",
-      "note": "会做策略性模糊和阶段性退让，但并不以持续妥协见长。"
+      "period": "1958-1969年",
+      "evidence_type": "现实妥协与原则坚持并存",
+      "note": "会现实妥协，但在国家方向和主权问题上较少退让。"
     },
-    "L28": {
+    "L32": {
       "legacy_id": "11-5",
       "tier": "reference",
       "value": 6,
-      "period": "1940-1944 年与 1958 年",
-      "evidence_type": "自由法国组织建设、国家重建、政治史研究",
-      "note": "体现出很强的资源整合与组织汇聚能力。"
+      "period": "1940-1965年",
+      "evidence_type": "自由法国建构、第五共和国整合",
+      "note": "能把分散力量汇聚到国家复兴叙事之下。"
     },
-    "L29": {
+    "L33": {
       "legacy_id": "12-2",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1966 年",
-      "evidence_type": "战略演说、回忆录、重大政策布局",
-      "note": "先给出法国必须独立且伟大的总方向，再让具体政策服从。"
+      "value": 7,
+      "period": "1940-1969年",
+      "evidence_type": "国家复兴理念、战略演说",
+      "note": "极强地先给出国家总体方向，再组织具体政策服从。"
     },
-    "L30": {
+    "L34": {
       "legacy_id": "14-1",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1944 年与 1958-1965 年",
-      "evidence_type": "战时动员、国家复兴叙事、记者会表述",
-      "note": "持续把现实政治描述为关乎法国命运与历史使命的事业。"
+      "value": 7,
+      "period": "1940-1965年",
+      "evidence_type": "民族使命叙事、抵抗与复兴讲话",
+      "note": "擅长把政治任务提升为法国历史与荣光的使命。"
     },
-    "L31": {
+    "L35": {
       "legacy_id": "13-2",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1967 年",
-      "evidence_type": "公开演说、记者会、回忆录",
-      "note": "几乎总把现实立场提升到国家尊严、独立与文明层面。"
+      "value": 7,
+      "period": "1940-1969年",
+      "evidence_type": "演说、新闻发布会、国家原则叙事",
+      "note": "公开表达高度绑定法国、独立、伟大与国家尊严。"
     },
-    "L32": {
+    "L36": {
       "legacy_id": "13-4",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1967 年",
-      "evidence_type": "广播讲话、对外政策记者会、危机表态",
-      "note": "极善于先行定义局势与理解框架。"
+      "value": 7,
+      "period": "1940-1969年",
+      "evidence_type": "历史讲话、媒体框架设定、危机表态",
+      "note": "总是试图率先定义重大事件的意义和法国应处位置。"
     },
-    "G10": {
-      "legacy_id": "G5-1",
-      "tier": "reference",
-      "value": 2,
-      "period": "1958-1966 年",
-      "evidence_type": "计划化实践、国家工业政策、经济史研究",
-      "note": "明显偏向强国家引导型经济而非放任市场。"
-    },
-    "G11": {
-      "legacy_id": "G5-2",
-      "tier": "reference",
-      "value": 3,
-      "period": "1958-1969 年",
-      "evidence_type": "社会参与论、国家调节立场、政策取向",
-      "note": "接受国家对社会平衡承担责任，但重点是整合与稳定。"
-    },
-    "G12": {
-      "legacy_id": "G5-3",
-      "tier": "reference",
-      "value": 2,
-      "period": "1958-1969 年",
-      "evidence_type": "战略工业政策、核与军工建设、国家规划",
-      "note": "在战略资源和关键行业上明显偏向国家深度掌控。"
-    },
-    "G19": {
+    "G21": {
       "legacy_id": "G9-1",
       "tier": "reference",
       "value": 5,
-      "period": "1946 年与 1958 年",
-      "evidence_type": "巴约演说、宪制改革、全民公投",
-      "note": "目标是重建更强而非更弱的合法程序。"
+      "period": "1958-1969年",
+      "evidence_type": "公投、宪法、政体设计",
+      "note": "重视程序，但其合法性想象并不只停留于程序层面。"
     },
-    "G20": {
+    "G22": {
       "legacy_id": "G9-2",
       "tier": "reference",
       "value": 5,
-      "period": "1958-1969 年",
-      "evidence_type": "宪制实践、1969 年辞职先例、制度论述",
-      "note": "承认制度边界高于个人留任意志。"
+      "period": "1958-1969年",
+      "evidence_type": "第五共和国体制、强总统制",
+      "note": "承认制度重要，但同时赋予领导角色非常特殊的位置。"
     },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "reference",
-      "value": "A",
-      "period": "1946 年与 1958 年",
-      "evidence_type": "巴约演说、制宪设计、制度实践",
-      "note": "更接近把合法宪制与权力取得方式视为首要正当性来源。"
-    },
-    "G35": {
-      "legacy_id": "G16-1",
+    "G30": {
+      "legacy_id": "G13-1",
       "tier": "core",
-      "value": 6,
-      "period": "1958-1969 年",
-      "evidence_type": "外交路线、北约政策、记者会表述",
-      "note": "主权和独立几乎是其执政理念中最不可妥协的轴心。"
+      "value": 7,
+      "period": "1940-1969年",
+      "evidence_type": "民族国家叙事、法国伟大论、国家讲话",
+      "note": "共同身份认同是其国家观的重要核心。"
     },
-    "G36": {
-      "legacy_id": "G16-4",
+    "G31": {
+      "legacy_id": "G13-4",
       "tier": "core",
-      "value": 6,
-      "period": "1958-1969 年",
-      "evidence_type": "独立核力量建设、战略自主政策、外交实践",
-      "note": "强调法国在关键领域必须具备独立自主能力。"
-    },
-    "G37": {
-      "legacy_id": "G17-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1958-1969 年",
-      "evidence_type": "对美、对苏、欧洲政策、外交记者会",
-      "note": "对国际关系的底层理解偏向实力竞争与国家利益博弈。"
+      "value": 7,
+      "period": "1940-1969年",
+      "evidence_type": "国家象征、历史记忆、政治仪式",
+      "note": "非常主动地塑造共同象征、故事和历史记忆。"
     },
     "G38": {
-      "legacy_id": "G17-2",
-      "tier": "reference",
-      "value": 5,
-      "period": "1960-1967 年",
-      "evidence_type": "外交实践、核威慑建设、公开讲话",
-      "note": "坚持谈判必须建立在独立实力与强硬筹码之上。"
+      "legacy_id": "G16-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1958-1969年",
+      "evidence_type": "独立外交、北约政策、核力量建设",
+      "note": "主权和独立是其最稳定、最招牌的理念之一。"
     },
     "G39": {
-      "legacy_id": "G17-3",
-      "tier": "reference",
+      "legacy_id": "G16-4",
+      "tier": "core",
+      "value": 7,
+      "period": "1958-1969年",
+      "evidence_type": "核威慑、工业战略、战略自主",
+      "note": "强烈主张关键领域具备独立自主能力。"
+    },
+    "G40": {
+      "legacy_id": "G16-5",
+      "tier": "core",
+      "value": 6,
+      "period": "抽象映射到自由法国时期",
+      "evidence_type": "民族独立与国家存续优先",
+      "note": "若映射到该命题，会明显更偏向顶住外部压力维护国家独立。"
+    },
+    "G41": {
+      "legacy_id": "G16-6",
+      "tier": "core",
+      "value": 7,
+      "period": "1958-1969年",
+      "evidence_type": "大国地位外交、欧洲与超级大国间自主路线",
+      "note": "明确主张法国必须是独立的大国力量中心。"
+    },
+    "G42": {
+      "legacy_id": "G17-1",
+      "tier": "core",
+      "value": 6,
+      "period": "1958-1969年",
+      "evidence_type": "现实主义外交、均势思维",
+      "note": "承认合作必要，但对国际政治的本质判断更偏竞争与力量。"
+    },
+    "G43": {
+      "legacy_id": "G17-2",
+      "tier": "core",
       "value": 5,
-      "period": "1962-1969 年",
-      "evidence_type": "共同农业政策、国家工业战略、欧洲经济立场",
-      "note": "在国家竞争框架下优先保护法国关键产业与政策自主。"
+      "period": "1958-1969年",
+      "evidence_type": "谈判外交与实力支撑并用",
+      "note": "重视谈判，但坚持谈判必须建立在实力与独立基础上。"
+    },
+    "G44": {
+      "legacy_id": "G17-3",
+      "tier": "core",
+      "value": 5,
+      "period": "1958-1969年",
+      "evidence_type": "国家工业政策、共同市场立场",
+      "note": "总体更重国家经济独立与产业保护，不是纯自由开放派。"
+    },
+    "G45": {
+      "legacy_id": "G18-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "1958-1969年",
+      "evidence_type": "大国责任、联合国与欧洲秩序立场",
+      "note": "认为有实力国家应参与塑造秩序，但须以国家自主为前提。"
+    },
+    "G46": {
+      "legacy_id": "G18-4",
+      "tier": "reference",
+      "value": "A",
+      "period": "1958-1969年",
+      "evidence_type": "国家利益优先的大国责任观",
+      "note": "更接近先确保本国独立与利益，再在此基础上承担责任。"
     }
   }
 }

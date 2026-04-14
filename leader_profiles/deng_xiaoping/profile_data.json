@@ -1,275 +1,49 @@
 {
   "leader_id": "deng_xiaoping",
-  "leader_name": "Deng Xiaoping",
+  "leader_name": "邓小平",
   "answers": {
-    "L03": {
-      "legacy_id": "19-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1984-1992 年改革权威巩固期",
-      "evidence_type": "党内定位、公开论述、政治地位",
-      "note": "长期被塑造成改革路线、国家现代化与党内现实主义方向的代表人物。"
-    },
-    "L04": {
-      "legacy_id": "19-2",
-      "tier": "reference",
-      "value": 5,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "统一叙事、党内讲话、国家发展动员",
-      "note": "会塑造全国一起搞建设的共同体意识，但更偏方向整合而非情感性动员。"
-    },
-    "L05": {
-      "legacy_id": "15-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1978-1984 年改革启动期",
-      "evidence_type": "改革讲话、政策试验思路、党内论述",
-      "note": "反对僵化教条，强调实践检验与具体问题具体分析。"
-    },
-    "L06": {
-      "legacy_id": "15-2",
-      "tier": "core",
-      "value": 6,
-      "period": "1978-1988 年改革探索期",
-      "evidence_type": "试点政策、南方经验吸收、改革方法论",
-      "note": "摸着石头过河意味着允许在不完全确定条件下推进并保留观察期。"
-    },
-    "L07": {
-      "legacy_id": "15-3",
-      "tier": "core",
-      "value": 6,
-      "period": "1978-1984 年拨乱反正与改革设计期",
-      "evidence_type": "会议讨论、调查研究、政策酝酿过程",
-      "note": "重大改革前重视不同地方和干部系统反馈，以避免纯理论拍板。"
-    },
-    "L09": {
-      "legacy_id": "17-1",
-      "tier": "reference",
-      "value": 3,
-      "period": "1975-1989 年高层政治与改革时期",
-      "evidence_type": "政治经历、干部判断、高层博弈记录",
-      "note": "并不表现出高普遍信任，更依赖可验证能力与政治可靠性。"
-    },
-    "L10": {
-      "legacy_id": "17-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "1975-1989 年高层政治时期",
-      "evidence_type": "党内斗争经历、对国内外风险判断、政治史研究",
-      "note": "政治风格带有强现实主义和警觉性。"
-    },
-    "L11": {
-      "legacy_id": "17-3",
-      "tier": "reference",
-      "value": 6,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "核心圈运作、干部任用、政治研究",
-      "note": "关键决策依然依赖有限核心圈与长期可信任干部。"
-    },
-    "L19": {
-      "legacy_id": "7-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1977-1992 年改革与危机处置时期",
-      "evidence_type": "复出后整顿行动、路线调整、重大决断",
-      "note": "在判断方向已定时出手很快，不喜欢长期拖延消耗政治窗口。"
-    },
-    "L20": {
-      "legacy_id": "7-4",
-      "tier": "reference",
-      "value": 2,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "改革推进、机构整顿、关键危机处置",
-      "note": "更偏主动介入而不是被动等问题恶化。"
-    },
-    "L24": {
-      "legacy_id": "10-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1980-1987 年制度重建期",
-      "evidence_type": "党政分工改革、干部制度改革、任期与退休制度设计",
-      "note": "持续推动从个人运动式统治转向制度化治理。"
-    },
-    "L25": {
-      "legacy_id": "10-4",
-      "tier": "core",
-      "value": 6,
-      "period": "1980-1992 年改革体制化阶段",
-      "evidence_type": "接班安排、制度化主张、党内组织改革",
-      "note": "强调废除领导职务终身制、建立接班秩序。"
-    },
-    "L26": {
-      "legacy_id": "11-3",
-      "tier": "core",
-      "value": 7,
-      "period": "1977-1981 年复出与路线重组期",
-      "evidence_type": "党内权力运作、会议前协调、政治史研究",
-      "note": "高度依赖会前沟通与关键老干部支持整合。"
-    },
-    "L27": {
-      "legacy_id": "11-4",
-      "tier": "core",
-      "value": 6,
-      "period": "1978-1987 年改革推进期",
-      "evidence_type": "党内妥协、政策节奏调整、领导班子平衡",
-      "note": "经常通过局部让步和阶段性收缩换取总体改革继续推进。"
-    },
-    "L28": {
-      "legacy_id": "11-5",
-      "tier": "core",
-      "value": 7,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "中央-地方互动、军队与党内协调、对外开放布局",
-      "note": "把老干部、地方试点、技术官僚与外部资本机会压到同一改革方向上。"
-    },
-    "L29": {
-      "legacy_id": "12-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "路线表述、改革纲领、战略讲话",
-      "note": "先定以经济建设为中心、改革开放等总方向，再允许具体政策灵活摸索。"
-    },
-    "L30": {
-      "legacy_id": "14-1",
-      "tier": "reference",
-      "value": 4,
-      "period": "1980-1992 年改革成熟期",
-      "evidence_type": "发展叙事、现代化目标、公开讲话",
-      "note": "会赋予改革以国家复兴意义，但表达方式总体务实克制。"
-    },
-    "G01": {
-      "legacy_id": "G1-2",
-      "tier": "reference",
-      "value": 5,
-      "period": "1980-1990 年代初稳定压倒一切时期",
-      "evidence_type": "维稳论述、政治危机处置、官方表述",
-      "note": "在政治稳定问题上会明显上调安全优先级。"
-    },
-    "G02": {
-      "legacy_id": "G1-4",
-      "tier": "reference",
-      "value": 6,
-      "period": "1980-1992 年改革与稳定并行时期",
-      "evidence_type": "四项基本原则、政治整顿、危机处置",
-      "note": "不接受以失序换自由，改革开放必须服从稳定与党的基本控制。"
-    },
-    "G03": {
-      "legacy_id": "G2-2",
-      "tier": "core",
-      "value": 7,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "执政论述、政策评价标准、改革讲话",
-      "note": "最稳定的判断标准就是能否把经济和国家实力搞上去。"
-    },
-    "G04": {
-      "legacy_id": "G2-3",
-      "tier": "core",
-      "value": 7,
-      "period": "1980-1992 年改革成熟期",
-      "evidence_type": "公开讲话、南方谈话、发展战略表述",
-      "note": "发展是硬道理几乎就是其治理理念的核心压缩表达。"
-    },
-    "G09": {
-      "legacy_id": "BLOCK-GOV-VALUES",
-      "tier": "core",
-      "value": {
-        "A": 3,
-        "B": 5,
-        "C": 1,
-        "D": 1
-      },
-      "period": "1980-1992 年改革开放时期",
-      "evidence_type": "总体政策排序、重要讲话、危机处置",
-      "note": "发展绩效居于首位，秩序稳定紧随其后。"
-    },
-    "G10": {
-      "legacy_id": "G5-1",
-      "tier": "core",
-      "value": 3,
-      "period": "1984-1992 年市场化深化阶段",
-      "evidence_type": "改革文件、特区政策、社会主义市场探索",
-      "note": "接受市场机制，但始终置于国家战略引导和社会主义框架之内。"
-    },
-    "G11": {
-      "legacy_id": "G5-2",
-      "tier": "core",
-      "value": 5,
-      "period": "1980-1992 年改革开放时期",
-      "evidence_type": "先富论述、共同富裕表述、分配政策逻辑",
-      "note": "允许先富与区域差异，并不把即时缩差作为首要目标。"
-    },
-    "G12": {
-      "legacy_id": "G5-3",
-      "tier": "core",
-      "value": 2,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "所有制安排、宏观控制思路、产业政策",
-      "note": "允许市场扩展同时保留国家对关键部门和总方向的控制。"
-    },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "reference",
-      "value": "B",
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "正当化话语、改革成果标准、执政逻辑",
-      "note": "最稳定的合法性逻辑是把国家做强、把人民生活改善。"
-    },
-    "G30": {
-      "legacy_id": "G14-1",
-      "tier": "core",
-      "value": 5,
-      "period": "1978-1984 年改革启动期",
-      "evidence_type": "拨乱反正、经济体制改革、路线调整",
-      "note": "主张在社会主义政体内进行深层结构改革，不是单纯修补。"
-    },
-    "G31": {
-      "legacy_id": "G14-3",
-      "tier": "core",
-      "value": 2,
-      "period": "1979-1992 年改革推进期",
-      "evidence_type": "特区试点、地方实验、政策推广路径",
-      "note": "最典型的改革方法就是先试点、后推广。"
-    },
-    "G32": {
-      "legacy_id": "G14-5",
-      "tier": "core",
-      "value": "A",
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "改革路径、党内路线表述、制度实践",
-      "note": "最贴近其偏好的是在既有政治框架内长期渐进调整。"
-    },
-    "G33": {
-      "legacy_id": "G15-2",
-      "tier": "core",
-      "value": 3,
-      "period": "1980-1992 年改革成熟期",
-      "evidence_type": "社会主义现代化论述、中国特色社会主义表述",
-      "note": "现代化不等于照搬西方制度，可以在中国既有政治框架内推进。"
-    },
-    "G34": {
-      "legacy_id": "G15-4",
-      "tier": "core",
-      "value": 2,
-      "period": "1982-1992 年中国特色社会主义定型期",
-      "evidence_type": "党的正式表述、南方谈话、现代化路径论述",
-      "note": "非常明确地主张中国要走自己的路。"
-    },
-    "G35": {
-      "legacy_id": "G16-1",
-      "tier": "reference",
-      "value": 7,
-      "period": "1978-1992 年对外开放时期",
-      "evidence_type": "外交表态、主权问题讲话、对外政策原则",
-      "note": "坚持开放不等于放弃主权，在总体外交上高度强调反干涉。"
-    },
-    "G36": {
-      "legacy_id": "G16-4",
-      "tier": "reference",
-      "value": 6,
-      "period": "1978-1992 年改革开放时期",
-      "evidence_type": "国防现代化、技术引进方针、对外开放战略",
-      "note": "积极引进外资和技术，但最终目标仍是增强中国自主发展能力。"
-    }
+    "L05": {"legacy_id": "15-1", "tier": "core", "value": 6, "period": "1978-1992", "evidence_type": "改革论述、工作方法、幕僚回忆", "note": "其判断方式明显反教条，承认复杂局势不能靠单线答案解决。"},
+    "L06": {"legacy_id": "15-2", "tier": "core", "value": 6, "period": "1978-1984", "evidence_type": "改革试验、政策摸索", "note": "常以先看结果、边试边判的方式处理不确定性。"},
+    "L07": {"legacy_id": "15-3", "tier": "core", "value": 6, "period": "1978-1987", "evidence_type": "中央会议、调查研究、政策争论", "note": "推进大事前会广泛听取不同方案与风险判断。"},
+    "L08": {"legacy_id": "15-4", "tier": "core", "value": 7, "period": "1979-1992", "evidence_type": "特区试点、地方试验、南方谈话前后政策推进", "note": "试点—推广是其最典型的改革方法论之一。"},
+    "L26": {"legacy_id": "10-1", "tier": "core", "value": 6, "period": "1980-1987", "evidence_type": "党政分工、干部制度、制度重建", "note": "明显倾向恢复和建立规则化运转，而非长期靠个人直接盯办。"},
+    "L27": {"legacy_id": "10-4", "tier": "core", "value": 6, "period": "1980-1989", "evidence_type": "领导职务安排、退休制度、接班设计", "note": "持续强调制度化交接与组织持续运转。"},
+    "L28": {"legacy_id": "10-5", "tier": "core", "value": 7, "period": "1978-1992", "evidence_type": "制度重建、建制化治理观", "note": "明显更偏向依靠长期运转的国家机器，而非私人核心圈子。"},
+    "L29": {"legacy_id": "10-6", "tier": "core", "value": 2, "period": "1980-1987", "evidence_type": "干部路线、制度整顿、反个人依附表述", "note": "重视政治可靠性，但不把私人忠诚网络视为首要治理原则。"},
+    "L30": {"legacy_id": "11-3", "tier": "core", "value": 6, "period": "1978-1992", "evidence_type": "高层协调、元老政治、改革联盟经营", "note": "重大决策通常先做内部沟通和力量整合，再正式推出。"},
+    "L31": {"legacy_id": "11-4", "tier": "core", "value": 5, "period": "1978-1988", "evidence_type": "党内妥协、阶段性平衡安排", "note": "具备显著务实妥协能力，但让步通常服务于更大方向。"},
+    "L32": {"legacy_id": "11-5", "tier": "core", "value": 6, "period": "1978-1992", "evidence_type": "改革 coalition、中央与地方资源配置", "note": "很擅长把党内、地方与外部资源拉到同一改革议程上。"},
+    "G04": {"legacy_id": "G2-2", "tier": "core", "value": 7, "period": "1978-1992", "evidence_type": "发展话语、用人标准、政策论述", "note": "其最稳定的治理判断之一就是结果与成效优先。"},
+    "G05": {"legacy_id": "G2-3", "tier": "core", "value": 7, "period": "1978-1992", "evidence_type": "改革开放论述、南方谈话", "note": "发展是其政治语言中最核心的硬指标。"},
+    "G10": {"legacy_id": "BLOCK-GOV-VALUES", "tier": "core", "value": {"A": 2, "B": 5, "C": 1, "D": 2}, "period": "1978-1992", "evidence_type": "改革战略、政策优先级", "note": "发展绩效显著居首，秩序与有限开放次之，公平不是首要驱动。"},
+    "G11": {"legacy_id": "G5-1", "tier": "core", "value": 3, "period": "1978-1992", "evidence_type": "社会主义市场改革、产业引导、特区政策", "note": "并非放任市场，而是国家主导下引入市场机制。"},
+    "G12": {"legacy_id": "G5-2", "tier": "core", "value": 4, "period": "1980-1992", "evidence_type": "共同富裕表述、先富带后富逻辑", "note": "承认政府有责任，但允许阶段性差距扩大以换取整体增长。"},
+    "G13": {"legacy_id": "G5-3", "tier": "core", "value": 3, "period": "1978-1992", "evidence_type": "国有部门保留、产业政策", "note": "关键部门仍应由国家深度掌握，不走彻底私有化路线。"},
+    "G26": {"legacy_id": "BLOCK-LEGITIMACY", "tier": "core", "value": "B", "period": "1978-1992", "evidence_type": "执政论述、改革正当性表达", "note": "其最稳定的正当性基础是能否把国家发展起来。"},
+    "G32": {"legacy_id": "G14-1", "tier": "core", "value": 4, "period": "1978-1984", "evidence_type": "改革设计、拨乱反正", "note": "承认现有体制需深度调整，但总体仍偏在既有框架内重塑。"},
+    "G33": {"legacy_id": "G14-3", "tier": "core", "value": 2, "period": "1979-1992", "evidence_type": "试点推广、分阶段改革", "note": "典型偏好是先局部试验，再逐步放大。"},
+    "G34": {"legacy_id": "G14-5", "tier": "core", "value": "A", "period": "1978-1987", "evidence_type": "农村改革、城市改革前期策略", "note": "最接近在现有框架内长期渐进调整并逐步改善。"},
+    "G35": {"legacy_id": "G14-6", "tier": "core", "value": 1, "period": "1978-1992", "evidence_type": "反文革路线、政治整顿取代持续动员", "note": "明确否定持续革命式政治运动。"},
+    "L15": {"legacy_id": "5-1", "tier": "reference", "value": 5, "period": "1978-1989", "evidence_type": "重大路线拍板、军队与高层决断", "note": "关键节点仍明显由其定向，但日常并非事事亲管。"},
+    "L16": {"legacy_id": "5-3", "tier": "reference", "value": 5, "period": "1978-1989", "evidence_type": "高层决策习惯、政治危机处置", "note": "对重大路线和政治稳定问题会亲自把关。"},
+    "L17": {"legacy_id": "5-5", "tier": "reference", "value": 5, "period": "1978-1989", "evidence_type": "高层政治、敏感议题处理", "note": "在敏感政治问题上有较强信息控制倾向，但不是其主轴特征。"},
+    "L22": {"legacy_id": "8-3", "tier": "reference", "value": 6, "period": "1978-1988", "evidence_type": "现代化目标、阶段任务部署", "note": "对现代化任务推进具有明显时间表意识。"},
+    "L23": {"legacy_id": "8-4", "tier": "reference", "value": 6, "period": "1978-1988", "evidence_type": "干部谈话、整顿作风、会议讲话", "note": "对执行不力和空谈作风往往直接批评。"},
+    "L24": {"legacy_id": "8-5", "tier": "reference", "value": 7, "period": "1978-1992", "evidence_type": "四个现代化、地方竞进机制", "note": "一旦方向确定，推进上明显强调层层落实。"},
+    "L33": {"legacy_id": "12-2", "tier": "reference", "value": 5, "period": "1978-1992", "evidence_type": "战略方向表述、改革总路线", "note": "会给出总方向，但其风格比纯粹愿景型领导更务实。"},
+    "L34": {"legacy_id": "14-1", "tier": "reference", "value": 4, "period": "1978-1992", "evidence_type": "现代化叙事、民族复兴表述", "note": "会赋予工作以国家振兴意义，但动员方式更偏务实而非煽情。"},
+    "G01": {"legacy_id": "G1-2", "tier": "reference", "value": 5, "period": "1979-1989", "evidence_type": "稳定压倒一切、秩序恢复", "note": "秩序重要，但通常仍服务于发展主线。"},
+    "G02": {"legacy_id": "G1-4", "tier": "reference", "value": 5, "period": "1978-1989", "evidence_type": "整顿秩序、政治稳定表述", "note": "对秩序与纪律有稳定偏好，但不以纯安全观统摄全部治理。"},
+    "G03": {"legacy_id": "G1-5", "tier": "reference", "value": 6, "period": "1979-1989", "evidence_type": "改革环境维护、1989 年处置", "note": "在其判断里，现代化与稳定之间确实允许较强的政治压缩。"},
+    "G14": {"legacy_id": "G6-1", "tier": "reference", "value": 3, "period": "1978-1992", "evidence_type": "党领导原则、社会管理方式", "note": "总体仍偏国家主导，不支持完全独立自治。"},
+    "G15": {"legacy_id": "G6-2", "tier": "reference", "value": 3, "period": "1980-1992", "evidence_type": "精神文明建设、意识形态管理", "note": "认为政府应在文化和道德上保持方向性引导。"},
+    "G16": {"legacy_id": "G6-5", "tier": "reference", "value": 3, "period": "1978-1992", "evidence_type": "改革领导体制、国家主导发展模式", "note": "大方向主要由国家确定，社会力量在执行中发挥作用。"},
+    "G17": {"legacy_id": "G6-6", "tier": "reference", "value": 6, "period": "1980-1992", "evidence_type": "精神文明、社会秩序建设", "note": "不只强调经济发展，也强调国家对社会纪律的塑造。"},
+    "G36": {"legacy_id": "G15-2", "tier": "reference", "value": 2, "period": "1978-1992", "evidence_type": "社会主义现代化、中国特色表述", "note": "明显相信现代化可以和本国制度传统相结合。"},
+    "G37": {"legacy_id": "G15-4", "tier": "reference", "value": 1, "period": "1978-1992", "evidence_type": "中国特色社会主义、对外学习但不照搬", "note": "强烈主张不照搬外来模式的独特发展道路。"},
+    "G38": {"legacy_id": "G16-1", "tier": "reference", "value": 7, "period": "1978-1992", "evidence_type": "外交表态、香港谈判、对外关系原则", "note": "国家主权是其非常稳定的底线。"},
+    "G39": {"legacy_id": "G16-4", "tier": "reference", "value": 6, "period": "1978-1992", "evidence_type": "四个现代化、国防与科技自主", "note": "对外开放不等于放弃关键领域自主能力。"},
+    "G40": {"legacy_id": "G16-5", "tier": "reference", "value": 7, "period": "1978-1984", "evidence_type": "反持续革命转向、国家建设重心", "note": "明显反对继续内向型革命动员，更重国家独立与安全环境。"},
+    "G41": {"legacy_id": "G16-6", "tier": "reference", "value": 6, "period": "1978-1992", "evidence_type": "独立自主外交、国际地位恢复", "note": "中国应作为独立力量中心存在，是其稳定判断之一。"}
   }
 }

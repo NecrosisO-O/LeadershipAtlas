@@ -1,275 +1,267 @@
 {
   "leader_id": "winston_churchill",
-  "leader_name": "Winston Churchill",
+  "leader_name": "温斯顿·丘吉尔",
   "answers": {
     "L01": {
       "legacy_id": "4-1",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1941 年战时首相初期",
-      "evidence_type": "战时演说、同时代评价、传记研究",
-      "note": "领导权威高度依赖个人声望、勇气与语言魅力。"
+      "value": 7,
+      "period": "1940-1945",
+      "evidence_type": "战时领导、公众反应、同时代评价",
+      "note": "其追随力高度来自个人勇气、声望与象征性人格。"
     },
     "L02": {
       "legacy_id": "4-2",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1941 年战时首相初期",
-      "evidence_type": "战时演说文本、公众反应、历史研究",
-      "note": "公开演说感染力是其最稳定、最具代表性的招牌特征之一。"
+      "value": 7,
+      "period": "1940-1945",
+      "evidence_type": "议会演说、广播讲话、战时动员",
+      "note": "公开讲话极具鼓动性，是其最鲜明的政治资产。"
     },
-    "L03": {
-      "legacy_id": "19-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1940 年不列颠危机时期",
-      "evidence_type": "议会演说、广播讲话、政治自我定位",
-      "note": "持续把自己塑造成英国民族抵抗意志与议会传统的代表。"
-    },
-    "L04": {
-      "legacy_id": "19-2",
-      "tier": "core",
-      "value": 6,
-      "period": "1940-1941 年",
-      "evidence_type": "动员演说、联合政府实践、公共传播",
-      "note": "反复将阶级与党派差异压到国家共同体叙事之下。"
-    },
-    "L14": {
-      "legacy_id": "5-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1940 年组建战时政府时",
-      "evidence_type": "组阁实践、危机领导、传记研究",
-      "note": "危机情境下高度倾向亲自接手局面并决定方向。"
-    },
-    "L15": {
-      "legacy_id": "5-3",
-      "tier": "reference",
-      "value": 5,
-      "period": "1940-1942 年",
-      "evidence_type": "内阁文件、秘书记录、传记",
-      "note": "有明显亲自过问冲动，但并非全盘事无巨细型控制者。"
-    },
-    "L16": {
-      "legacy_id": "5-5",
-      "tier": "reference",
-      "value": 5,
-      "period": "1940-1945 年",
-      "evidence_type": "战时保密制度、内阁运作、情报史",
-      "note": "战时状态下接受强信息分层与政治性披露控制。"
-    },
-    "L19": {
-      "legacy_id": "7-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1933-1940 年反绥靖时期",
-      "evidence_type": "议会警告、公开写作、政治行动",
-      "note": "尤其在外部威胁问题上长期以及早出手著称。"
-    },
-    "L20": {
-      "legacy_id": "7-4",
-      "tier": "reference",
-      "value": 1,
-      "period": "1933-1940 年反绥靖时期",
-      "evidence_type": "议会发言、政治警告、历史研究",
-      "note": "其典型风格是否定被动等待。"
-    },
-    "L24": {
-      "legacy_id": "10-1",
-      "tier": "reference",
-      "value": 5,
-      "period": "1940-1945 年",
-      "evidence_type": "战时内阁机制、参谋体系、行政安排",
-      "note": "重视通过战时内阁和参谋体系实现统筹。"
-    },
-    "L25": {
-      "legacy_id": "10-4",
-      "tier": "reference",
-      "value": 5,
-      "period": "1940-1945 年",
-      "evidence_type": "联合政府架构、制度分工、行政实践",
-      "note": "需要强力中心，但并不追求一切离开本人就停摆。"
-    },
-    "L26": {
+    "L30": {
       "legacy_id": "11-3",
       "tier": "core",
       "value": 6,
-      "period": "1940-1945 年联合政府运作期",
-      "evidence_type": "内阁运作史、传记、联盟政治研究",
-      "note": "高度依赖与工党、军方、美国等关键方事先协调。"
+      "period": "1940-1945",
+      "evidence_type": "战时联合政府、盟国协调、内阁运作",
+      "note": "重大事项常先做私下沟通与联盟整合，再正式推进。"
     },
-    "L27": {
+    "L31": {
       "legacy_id": "11-4",
       "tier": "core",
       "value": 5,
-      "period": "1940-1945 年联合政府运作期",
-      "evidence_type": "联合政府实践、议会妥协、外交谈判",
-      "note": "不爱退让，但在组阁和大战略协商中经常务实让步。"
+      "period": "1940-1945",
+      "evidence_type": "战时联合政府、对美对苏协作",
+      "note": "在关键联盟关系上愿为大局做现实性让步。"
     },
-    "L28": {
+    "L32": {
       "legacy_id": "11-5",
       "tier": "core",
       "value": 6,
-      "period": "1940-1945 年",
-      "evidence_type": "战时治理记录、同盟协调、军事史研究",
-      "note": "极擅长整合议会、帝国、军方、工业与盟国力量。"
+      "period": "1940-1945",
+      "evidence_type": "战时资源统筹、联盟协调",
+      "note": "非常擅长把有限资源、盟友力量与政治支持拉到同一方向。"
     },
-    "L29": {
+    "L33": {
       "legacy_id": "12-2",
       "tier": "core",
-      "value": 6,
-      "period": "1940 年",
-      "evidence_type": "战略演说、战时决策、回忆录",
-      "note": "先明确打到底并取胜的总方向，再安排具体政策服从之。"
+      "value": 7,
+      "period": "1940-1945",
+      "evidence_type": "战争战略讲话",
+      "note": "习惯先给出总方向与总体使命，再组织具体事务服从。"
     },
-    "L30": {
+    "L34": {
       "legacy_id": "14-1",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1941 年",
-      "evidence_type": "演说文本、公众动员、历史评价",
-      "note": "持续把战争描述为保卫文明、自由与历史使命。"
+      "value": 7,
+      "period": "1940-1945",
+      "evidence_type": "战时动员、民族叙事",
+      "note": "持续把抗战表述为超越日常任务的文明与历史使命。"
     },
-    "L31": {
+    "L35": {
       "legacy_id": "13-2",
       "tier": "core",
-      "value": 6,
-      "period": "1940-1946 年",
-      "evidence_type": "议会演说、国际演说、写作",
-      "note": "习惯把现实立场提升为自由、宪政、文明延续等原则问题。"
+      "value": 7,
+      "period": "1940-1945",
+      "evidence_type": "演说与文章",
+      "note": "公开表达常把政策与自由、荣誉、文明等原则绑定。"
     },
-    "L32": {
+    "L36": {
       "legacy_id": "13-4",
       "tier": "core",
       "value": 6,
-      "period": "1936-1946 年",
-      "evidence_type": "危机发言、战争演说、冷战早期讲话",
-      "note": "善于率先给局势命名并设定理解框架。"
+      "period": "1940-1945",
+      "evidence_type": "战时广播、议会陈述、国际会议",
+      "note": "面对重大事件常主动定义其意义，塑造公众理解框架。"
     },
-    "G01": {
-      "legacy_id": "G1-2",
+    "G26": {
+      "legacy_id": "BLOCK-LEGITIMACY",
+      "tier": "core",
+      "value": "A",
+      "period": "1940-1951",
+      "evidence_type": "议会传统、法治观、反极权论述",
+      "note": "其最稳定的正当性语言是程序、宪制与法治。"
+    },
+    "G38": {
+      "legacy_id": "G16-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1940-1951",
+      "evidence_type": "对纳粹德国和战后国际秩序的讲话",
+      "note": "把国家主权与独立视为不可退让底线。"
+    },
+    "G39": {
+      "legacy_id": "G16-4",
+      "tier": "core",
+      "value": 6,
+      "period": "1940-1951",
+      "evidence_type": "帝国防务、战略自主思维",
+      "note": "关键安全与战略领域强调自主能力和独立决定。"
+    },
+    "G40": {
+      "legacy_id": "G16-5",
+      "tier": "core",
+      "value": 7,
+      "period": "1940-1945",
+      "evidence_type": "战时讲话与战略重心",
+      "note": "若置于革命政权抽象命题中，其选择显然偏向长期抵御外部威胁。"
+    },
+    "G41": {
+      "legacy_id": "G16-6",
+      "tier": "core",
+      "value": 7,
+      "period": "1940-1951",
+      "evidence_type": "大国地位与欧洲均势观",
+      "note": "明确主张英国必须作为独立大国力量中心存在。"
+    },
+    "G42": {
+      "legacy_id": "G17-1",
+      "tier": "core",
+      "value": 6,
+      "period": "1938-1946",
+      "evidence_type": "反绥靖、战时联盟、冷战早期讲话",
+      "note": "认为合作重要，但对国际政治的本质判断明显更偏竞争与实力。"
+    },
+    "G43": {
+      "legacy_id": "G17-2",
+      "tier": "core",
+      "value": 6,
+      "period": "1938-1946",
+      "evidence_type": "反绥靖与战时决策",
+      "note": "在争端处理中始终认为没有实力支撑的谈判不可靠。"
+    },
+    "G44": {
+      "legacy_id": "G17-3",
+      "tier": "core",
+      "value": 4,
+      "period": "1940-1951",
+      "evidence_type": "对自由贸易帝国体系与战后现实考量",
+      "note": "不属极端保护主义，通常在开放与国家利益之间取中右位置。"
+    },
+    "L05": {
+      "legacy_id": "15-1",
       "tier": "reference",
       "value": 6,
-      "period": "1940-1941 年",
-      "evidence_type": "战时讲话、政策优先级、内阁决策",
-      "note": "国家生存与安全压倒几乎所有其他政策目标。"
+      "period": "1930-1951",
+      "evidence_type": "写作、战略争论、内阁讨论",
+      "note": "虽然立场鲜明，但通常能识别复杂局势中的多重因素。"
     },
-    "G02": {
-      "legacy_id": "G1-4",
+    "L06": {
+      "legacy_id": "15-2",
       "tier": "reference",
       "value": 5,
-      "period": "1940-1942 年",
-      "evidence_type": "战时治理、紧急状态政策、演说",
-      "note": "重视自由，但在生存危机下愿把秩序与纪律置于更高位置。"
+      "period": "1940-1945",
+      "evidence_type": "战时不确定性管理",
+      "note": "能够在信息不完备下暂时承受不确定性，但不会长期停留。"
     },
-    "G07": {
-      "legacy_id": "G4-3",
+    "L07": {
+      "legacy_id": "15-3",
       "tier": "reference",
-      "value": 4,
-      "period": "1945-1951 年在野时期",
-      "evidence_type": "议会民主立场、选举政治、宪政表达",
-      "note": "坚定捍卫议会民主，但不是激进的大众直接民主倡导者。"
+      "value": 6,
+      "period": "1940-1945",
+      "evidence_type": "参谋系统、内阁辩论、跨盟友协调",
+      "note": "重大决策前会广泛接触不同意见和不利信息。"
+    },
+    "L08": {
+      "legacy_id": "15-4",
+      "tier": "reference",
+      "value": 5,
+      "period": "1940-1951",
+      "evidence_type": "政策与军事试探、渐进调整",
+      "note": "并非教条式渐进主义，但对先试探再扩大并不排斥。"
+    },
+    "L18": {
+      "legacy_id": "6-2",
+      "tier": "reference",
+      "value": 5,
+      "period": "1940-1945",
+      "evidence_type": "战时内阁、军政分工",
+      "note": "在自己定方向的同时，也允许下属在专门领域保留裁量。"
+    },
+    "L19": {
+      "legacy_id": "6-3",
+      "tier": "reference",
+      "value": 5,
+      "period": "1940-1945",
+      "evidence_type": "内阁争论、参谋意见",
+      "note": "会容纳挑战意见，虽不等于放弃强主导。"
     },
     "G08": {
+      "legacy_id": "G4-3",
+      "tier": "reference",
+      "value": 5,
+      "period": "1940-1951",
+      "evidence_type": "议会民主与人民战时参与",
+      "note": "支持公众在重大事务上有真实声音，但不走直接民粹路线。"
+    },
+    "G09": {
       "legacy_id": "G4-4",
       "tier": "reference",
       "value": 5,
-      "period": "1945-1946 年",
-      "evidence_type": "反极权演说、宪政自由表达、政治立场",
-      "note": "对自由社会的理解包含容忍异见，尽管并非无限制。"
+      "period": "1940-1951",
+      "evidence_type": "议会反对派与言论传统",
+      "note": "对令人不适的声音总体具有制度性容忍。"
     },
-    "G09": {
+    "G10": {
       "legacy_id": "BLOCK-GOV-VALUES",
       "tier": "reference",
       "value": {
         "A": 4,
-        "B": 1,
+        "B": 2,
         "C": 1,
-        "D": 4
+        "D": 3
       },
-      "period": "1940-1946 年代表性综合时期",
-      "evidence_type": "战时与战后演说、政策优先级综合判断",
-      "note": "代表性组合是把国家安全与自由宪政并列置顶。"
+      "period": "1940-1945",
+      "evidence_type": "战时议程与政治语言",
+      "note": "战时首先是安全与秩序，其次仍强调自由和制度价值。"
     },
-    "G19": {
+    "G21": {
       "legacy_id": "G9-1",
       "tier": "reference",
-      "value": 5,
-      "period": "1945-1951 年在野时期",
-      "evidence_type": "反极权演说、议会传统、宪政立场",
-      "note": "高度重视合法程序与议会规则。"
+      "value": 6,
+      "period": "1940-1951",
+      "evidence_type": "法治与宪制讲话",
+      "note": "政治权力正当性高度依赖合法程序。"
     },
-    "G20": {
+    "G22": {
       "legacy_id": "G9-2",
       "tier": "reference",
-      "value": 5,
-      "period": "1945-1951 年在野时期",
-      "evidence_type": "宪政论述、议会政治传统、公开讲话",
-      "note": "崇尚伟人政治，但总体承认法律和制度高于个人魅力。"
+      "value": 6,
+      "period": "1940-1951",
+      "evidence_type": "反独裁论述、议会传统",
+      "note": "明确反对任何个人凌驾于法律和制度之上。"
     },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "reference",
-      "value": "A",
-      "period": "1945-1951 年在野时期",
-      "evidence_type": "战后反极权论述、宪政语言、议会立场",
-      "note": "若必须三选一，更接近把程序—宪制合法性置于首位。"
-    },
-    "G28": {
+    "G30": {
       "legacy_id": "G13-1",
-      "tier": "core",
+      "tier": "reference",
       "value": 6,
-      "period": "1940-1941 年",
-      "evidence_type": "民族动员演说、战时宣传框架",
-      "note": "高度强调英国人民的共同身份、共同命运与共同意志。"
+      "period": "1940-1945",
+      "evidence_type": "民族动员与共同命运叙事",
+      "note": "相信国家最强大时需要共同身份认同和公共归属。"
     },
-    "G29": {
+    "G31": {
       "legacy_id": "G13-4",
-      "tier": "core",
+      "tier": "reference",
       "value": 6,
-      "period": "1940-1945 年",
-      "evidence_type": "演说修辞、纪念叙事、国家象征动员",
-      "note": "极善于调动历史记忆、民族象征与文明叙事来塑造凝聚力。"
+      "period": "1940-1945",
+      "evidence_type": "战争记忆、国家象征、历史修辞",
+      "note": "非常主动地调用共同象征、故事和记忆来维系统合。"
     },
-    "G37": {
-      "legacy_id": "G17-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1936-1946 年",
-      "evidence_type": "反绥靖发言、战时外交、冷战早期演说",
-      "note": "对国际政治的底层判断明显偏向强权竞争与实力博弈。"
-    },
-    "G38": {
-      "legacy_id": "G17-2",
-      "tier": "core",
-      "value": 6,
-      "period": "1938-1946 年",
-      "evidence_type": "反绥靖立场、战时决策、战后演说",
-      "note": "把谈判建立在实力与威慑基础之上。"
-    },
-    "G39": {
-      "legacy_id": "G17-3",
-      "tier": "core",
-      "value": 5,
-      "period": "1931-1952 年",
-      "evidence_type": "帝国偏好、战略产业判断、经济政策立场",
-      "note": "并非纯粹保护主义，但接受优先保障本国和帝国利益。"
-    },
-    "G40": {
+    "G45": {
       "legacy_id": "G18-1",
       "tier": "reference",
-      "value": 6,
-      "period": "1941-1946 年",
-      "evidence_type": "大西洋宪章、战时外交、战后演说",
-      "note": "强烈相信大国负有塑造国际秩序与承担外部责任的使命。"
+      "value": 7,
+      "period": "1941-1951",
+      "evidence_type": "联合国、战后秩序、英美关系",
+      "note": "强国不应只顾自己，而应参与塑造和维护国际秩序。"
     },
-    "G41": {
+    "G46": {
       "legacy_id": "G18-4",
       "tier": "reference",
       "value": "B",
-      "period": "1941-1946 年",
-      "evidence_type": "大战略观、国际秩序主张、演说",
-      "note": "明显更接近有能力国家承担广泛责任的立场。"
+      "period": "1941-1951",
+      "evidence_type": "国际主义与大战后秩序设计",
+      "note": "其对外责任观明显超过狭义自保。"
     }
   }
 }

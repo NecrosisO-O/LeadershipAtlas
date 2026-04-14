@@ -1,112 +1,80 @@
 {
   "leader_id": "franklin_d_roosevelt",
-  "leader_name": "Franklin D. Roosevelt",
+  "leader_name": "富兰克林·D·罗斯福",
   "answers": {
-    "L01": {
-      "legacy_id": "4-1",
-      "tier": "core",
-      "value": 7,
-      "period": "1932-1936 年全国竞选与新政初期",
-      "evidence_type": "竞选演说、首次就职演说、公众反应、历史研究",
-      "note": "追随力高度依赖其个人魅力、乐观与危机中的安定感。"
-    },
-    "L02": {
-      "legacy_id": "4-2",
-      "tier": "core",
-      "value": 7,
-      "period": "1933-1944 年炉边谈话与战时广播讲话",
-      "evidence_type": "炉边谈话、战争演说、新闻反应、历史研究",
-      "note": "公开讲话感染力极强，能稳定激发信心与共鸣。"
-    },
-    "L03": {
-      "legacy_id": "19-1",
-      "tier": "reference",
-      "value": 7,
-      "period": "1933-1944 年总统任期",
-      "evidence_type": "全国性民意、公开修辞、连任表现",
-      "note": "长期把自己塑造成普通美国人利益与民主制度的代表。"
-    },
-    "L04": {
-      "legacy_id": "19-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "1933-1945 年危机领导时期",
-      "evidence_type": "炉边谈话、战争动员讲话、象征政治",
-      "note": "反复用我们叙事整合危机中的国民共同体。"
-    },
-    "L24": {
-      "legacy_id": "10-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1933-1939 年新政建制期",
-      "evidence_type": "机构创建、监管架构、行政重组",
-      "note": "通过 SEC、FDIC、社会保障等制度化安排重塑治理。"
-    },
-    "L25": {
-      "legacy_id": "10-4",
-      "tier": "reference",
-      "value": 7,
-      "period": "1935-1944 年制度成熟期",
-      "evidence_type": "长期制度建设、行政组织改革、历史研究",
-      "note": "追求联邦治理能力制度化，而非完全依附个人。"
-    },
-    "L26": {
+    "L30": {
       "legacy_id": "11-3",
       "tier": "core",
       "value": 7,
-      "period": "1933-1938 年新政立法推进期",
-      "evidence_type": "白宫运作研究、国会博弈记录、传记",
-      "note": "极擅长先做私下沟通，再正式推出重要事项。"
+      "period": "1933-1945年",
+      "evidence_type": "党内外联盟经营、立法协商、战时协调",
+      "note": "极擅长先整合关键支持，再正式推进重大议程。"
     },
-    "L27": {
+    "L31": {
       "legacy_id": "11-4",
       "tier": "core",
       "value": 6,
-      "period": "1933-1941 年新政与连任执政期",
-      "evidence_type": "立法谈判案例、党内联盟管理、历史研究",
-      "note": "反复使用交易与妥协维持新政联盟，但并非无底线让步。"
+      "period": "1933-1945年",
+      "evidence_type": "国会交易、联盟政治、任命策略",
+      "note": "为获得关键支持经常进行现实妥协。"
     },
-    "L28": {
+    "L32": {
       "legacy_id": "11-5",
       "tier": "core",
       "value": 7,
-      "period": "1933-1945 年总统任期",
-      "evidence_type": "新政机构设计、战时动员、历史综述",
-      "note": "持续整合政党、官僚、企业、工会与盟友资源。"
+      "period": "1933-1945年",
+      "evidence_type": "新政机构设计、战时动员、跨部门统筹",
+      "note": "善于把政治、行政、经济与社会资源拉到同一方向。"
     },
-    "L29": {
+    "L33": {
       "legacy_id": "12-2",
       "tier": "core",
-      "value": 6,
-      "period": "1932-1937 年新政前中期",
-      "evidence_type": "竞选纲领、就职演说、政策组织方式",
-      "note": "先给出国家复苏和制度重建的大方向，再调整具体方案。"
+      "value": 7,
+      "period": "1933-1945年",
+      "evidence_type": "炉边谈话、竞选演说、治理纲领",
+      "note": "先给出总体方向，再用方向统摄具体政策。"
     },
-    "L30": {
+    "L34": {
       "legacy_id": "14-1",
       "tier": "core",
       "value": 7,
-      "period": "1933-1945 年新政与战争时期",
-      "evidence_type": "四大自由讲话、炉边谈话、战争动员讲话",
-      "note": "经常把政策包装为具有更大意义的共同事业。"
+      "period": "1933-1945年",
+      "evidence_type": "炉边谈话、四大自由、战争动员演说",
+      "note": "极强的意义动员能力，把治理任务提升为共同使命。"
     },
-    "G05": {
-      "legacy_id": "G3-2",
+    "L35": {
+      "legacy_id": "13-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1933-1945年",
+      "evidence_type": "公开讲话、价值框架建构",
+      "note": "公开表达高度连接自由、安全、民主与社会正义等原则。"
+    },
+    "L36": {
+      "legacy_id": "13-4",
       "tier": "core",
       "value": 6,
-      "period": "1935-1944 年第二次新政至第二权利法案时期",
-      "evidence_type": "社会保障立法、税收主张、第二权利法案讲话",
-      "note": "明确支持联邦政府纠正贫富失衡与社会不安全。"
+      "period": "1933-1945年",
+      "evidence_type": "危机讲话、议程设定、媒体沟通",
+      "note": "面对重大事件时有较强的框架设定能力。"
     },
     "G06": {
+      "legacy_id": "G3-2",
+      "tier": "core",
+      "value": 7,
+      "period": "1933-1945年",
+      "evidence_type": "新政立法、社会保障、税制与劳工政策",
+      "note": "明确主张通过政府行动缩小过度不平等。"
+    },
+    "G07": {
       "legacy_id": "G3-3",
       "tier": "core",
-      "value": 6,
-      "period": "1933-1944 年新政时期",
-      "evidence_type": "救济政策、社会保障、公开讲话",
-      "note": "执政核心之一就是为弱势群体提供额外扶助。"
+      "value": 7,
+      "period": "1933-1945年",
+      "evidence_type": "社会救济、就业计划、弱势保护政策",
+      "note": "治理者应主动向弱势群体倾斜支持。"
     },
-    "G09": {
+    "G10": {
       "legacy_id": "BLOCK-GOV-VALUES",
       "tier": "core",
       "value": {
@@ -115,113 +83,209 @@
         "C": 4,
         "D": 2
       },
-      "period": "1935-1944 年成熟新政时期",
-      "evidence_type": "政策优先级、年度咨文、第二权利法案",
-      "note": "治理重心首先是社会保障与公平修复，其次是经济复苏。"
-    },
-    "G10": {
-      "legacy_id": "G5-1",
-      "tier": "core",
-      "value": 1,
-      "period": "1933-1938 年新政立法高峰期",
-      "evidence_type": "新政制度、监管扩张、历史研究",
-      "note": "明确反对让市场自行复原，主张联邦政府积极介入经济。"
+      "period": "1933-1945年",
+      "evidence_type": "新政目标排序、公开治理理念",
+      "note": "公平保护与经济恢复居前，同时保留民主参与和自由价值。"
     },
     "G11": {
+      "legacy_id": "G5-1",
+      "tier": "core",
+      "value": 2,
+      "period": "1933-1945年",
+      "evidence_type": "新政经济治理、战争经济管理",
+      "note": "显著偏向国家积极介入经济和引导产业。"
+    },
+    "G12": {
       "legacy_id": "G5-2",
       "tier": "core",
       "value": 2,
-      "period": "1935-1944 年第二次新政至晚期讲话",
-      "evidence_type": "税收主张、社会保障、反经济保皇派讲话",
-      "note": "支持政府纠偏不平等，但仍保留资本主义框架。"
+      "period": "1933-1945年",
+      "evidence_type": "新政分配理念、税收与监管政策",
+      "note": "将缩小贫富差距视为政府正当职责。"
     },
-    "G12": {
+    "G13": {
       "legacy_id": "G5-3",
       "tier": "core",
-      "value": 1,
-      "period": "1933-1944 年新政与战时经济管理期",
-      "evidence_type": "银行监管、公共电力、战时统制、制度史",
-      "note": "倾向让国家掌握关键行业与关键控制力。"
-    },
-    "G28": {
-      "legacy_id": "G13-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1933-1945 年危机与战争时期",
-      "evidence_type": "国家讲话、战时动员、四大自由修辞",
-      "note": "重视共同身份认同与 national purpose。"
-    },
-    "G29": {
-      "legacy_id": "G13-4",
-      "tier": "reference",
-      "value": 5,
-      "period": "1933-1945 年总统任期",
-      "evidence_type": "象征性修辞、公共仪式、战争动员",
-      "note": "善于塑造国家共同叙事，但非以神话建构为首要特征。"
-    },
-    "G30": {
-      "legacy_id": "G14-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1933-1936 年新政前中期",
-      "evidence_type": "新政纲领、制度创新、历史研究",
-      "note": "面对危机时主张深度制度重构，但以拯救资本主义为边界。"
-    },
-    "G31": {
-      "legacy_id": "G14-3",
-      "tier": "reference",
-      "value": 5,
-      "period": "1933-1935 年百日新政与早期实验期",
-      "evidence_type": "百日立法、政策试验风格、幕僚回忆",
-      "note": "机会窗口出现时行动很快，但保留试验和修正逻辑。"
+      "value": 3,
+      "period": "1933-1945年",
+      "evidence_type": "银行与关键行业监管、战时统制",
+      "note": "并非全面国有化，但对关键领域深度管理持积极立场。"
     },
     "G32": {
-      "legacy_id": "G14-5",
-      "tier": "reference",
-      "value": "C",
-      "period": "1933-1938 年新政重建期",
-      "evidence_type": "新政实施路径、立法节奏、历史研究",
-      "note": "更像打破旧平衡后分阶段重建，而非一步到位革命。"
+      "legacy_id": "G14-1",
+      "tier": "core",
+      "value": 6,
+      "period": "1933-1938年尤典型",
+      "evidence_type": "新政改革、制度重构",
+      "note": "当旧体制失灵时，主张进行较深层的结构性调整。"
     },
-    "G37": {
-      "legacy_id": "G17-1",
-      "tier": "reference",
-      "value": 2,
-      "period": "1941-1945 年联盟外交时期",
-      "evidence_type": "联合国构想、大西洋宪章、盟国协调",
-      "note": "总体相信制度化合作能够约束强权竞争。"
-    },
-    "G38": {
-      "legacy_id": "G17-2",
-      "tier": "reference",
-      "value": 2,
-      "period": "1933-1941 年对外政策调整期",
-      "evidence_type": "睦邻政策、前战期外交、战时联盟管理",
-      "note": "通常先用谈判和联盟工具，但承认实力后盾的重要性。"
-    },
-    "G39": {
-      "legacy_id": "G17-3",
-      "tier": "reference",
+    "G33": {
+      "legacy_id": "G14-3",
+      "tier": "core",
       "value": 3,
-      "period": "1934-1945 年贸易与战后构想期",
-      "evidence_type": "互惠贸易协定法、战后开放设想",
-      "note": "总体偏向更开放的国际经济秩序，但并非纯粹自由贸易主义者。"
+      "period": "1933-1945年",
+      "evidence_type": "政策实验主义、试错式治理",
+      "note": "虽然改革力度大，但偏好边做边试、不断修正，而非一锤定音。"
     },
-    "G40": {
+    "G34": {
+      "legacy_id": "G14-5",
+      "tier": "core",
+      "value": "B",
+      "period": "1933-1938年",
+      "evidence_type": "新政政策推进方式",
+      "note": "更像在现有宪制框架内集中力量快速推出大幅优化。"
+    },
+    "G35": {
+      "legacy_id": "G14-6",
+      "tier": "core",
+      "value": 1,
+      "period": "1933-1945年",
+      "evidence_type": "民主宪政框架、反极端运动式政治",
+      "note": "不属于持续革命式领导人。"
+    },
+    "G45": {
       "legacy_id": "G18-1",
       "tier": "core",
       "value": 7,
-      "period": "1941-1945 年战争与联合国筹建期",
-      "evidence_type": "大西洋宪章、联合国构想、战时外交",
-      "note": "典型国际秩序塑造者，主张美国参与构建战后规则。"
+      "period": "1941-1945年尤典型",
+      "evidence_type": "联合国构想、战后秩序设计、国际主义讲话",
+      "note": "明确主张强国积极塑造并维护国际秩序。"
     },
-    "G41": {
+    "G46": {
       "legacy_id": "G18-4",
       "tier": "core",
       "value": "B",
-      "period": "1941-1945 年战争领导与战后构想期",
-      "evidence_type": "租借法、联合国规划、四大自由讲话",
-      "note": "认为有能力的大国应承担广泛国际责任。"
+      "period": "1941-1945年",
+      "evidence_type": "四大自由、租借法案、联合国设想",
+      "note": "接受美国承担超出狭义本国利益的广泛国际责任。"
+    },
+    "L03": {
+      "legacy_id": "19-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "公开讲话、人民代言姿态",
+      "note": "持续把自己塑造成普通美国人尤其弱势群体利益的代表。"
+    },
+    "L04": {
+      "legacy_id": "19-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "全国共同体叙事、战时团结动员",
+      "note": "主动强化“我们一起渡过危机”的整体意识。"
+    },
+    "L05": {
+      "legacy_id": "15-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "实验主义表述、政策修正实践",
+      "note": "对复杂问题通常承认并不存在单一绝对答案。"
+    },
+    "L06": {
+      "legacy_id": "15-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "危机管理、政策试错",
+      "note": "能在信息不完整时接受暂时不确定并继续试验。"
+    },
+    "L07": {
+      "legacy_id": "15-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "政策辩论、幕僚体系、跨派别吸纳",
+      "note": "会吸收反对意见和不利信息来修正政策。"
+    },
+    "L08": {
+      "legacy_id": "15-4",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "新政“大胆持续实验”思路",
+      "note": "很接近先试验、再扩展、边做边改的改革观。"
+    },
+    "L18": {
+      "legacy_id": "6-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "幕僚体系、机构授权、战争动员分工",
+      "note": "愿意给团队与机构一定自主决策空间。"
+    },
+    "L19": {
+      "legacy_id": "6-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "内部辩论、顾问团队运作",
+      "note": "整体上能容纳不同意见和政策挑战。"
+    },
+    "G04": {
+      "legacy_id": "G2-2",
+      "tier": "reference",
+      "value": 5,
+      "period": "1933-1945年",
+      "evidence_type": "危机治理与改革实践",
+      "note": "危机中重视结果，但并未完全无视程序与规范。"
+    },
+    "G05": {
+      "legacy_id": "G2-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "大萧条时期公开讲话与政策逻辑",
+      "note": "在其语境下，经济恢复确实是检验治理成败的关键前提。"
+    },
+    "G08": {
+      "legacy_id": "G4-3",
+      "tier": "reference",
+      "value": 7,
+      "period": "1933-1945年",
+      "evidence_type": "民主政治立场、竞选与公共沟通",
+      "note": "坚持重大方向不能只由领导者单方面决定。"
+    },
+    "G09": {
+      "legacy_id": "G4-4",
+      "tier": "reference",
+      "value": 6,
+      "period": "1933-1945年",
+      "evidence_type": "民主制度立场、公民自由传统",
+      "note": "总体接受让多数不舒服的声音继续存在。"
+    },
+    "G26": {
+      "legacy_id": "BLOCK-LEGITIMACY",
+      "tier": "reference",
+      "value": "A",
+      "period": "1933-1945年",
+      "evidence_type": "宪政民主立场、选举与制度正当性",
+      "note": "若强制三选一，其自我理解仍以民主程序与宪制框架为根本正当性来源。"
+    },
+    "G42": {
+      "legacy_id": "G17-1",
+      "tier": "reference",
+      "value": 2,
+      "period": "1941-1945年尤典型",
+      "evidence_type": "国际主义理念、同盟合作",
+      "note": "更接近把国际关系理解为可通过合作获得共同收益。"
+    },
+    "G43": {
+      "legacy_id": "G17-2",
+      "tier": "reference",
+      "value": 2,
+      "period": "1933-1941年与战后设计阶段",
+      "evidence_type": "外交表述、国际制度构想",
+      "note": "原则上优先谈判合作，但在战争情境下也不排除实力使用。"
+    },
+    "G44": {
+      "legacy_id": "G17-3",
+      "tier": "reference",
+      "value": 3,
+      "period": "1941-1945年",
+      "evidence_type": "战后开放秩序设想与国内现实平衡",
+      "note": "总体偏开放合作，但保留一定国家保护与调控空间。"
     }
   }
 }

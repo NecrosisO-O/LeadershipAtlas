@@ -2,258 +2,43 @@
   "leader_id": "park_chung_hee",
   "leader_name": "朴正熙",
   "answers": {
-    "L03": {
-      "legacy_id": "19-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1961-1979 年整体执政期",
-      "evidence_type": "公开自我定位、国家再建叙事",
-      "note": "长期把自己塑造成国家重建、反共与现代化意志的代表者。"
-    },
-    "L04": {
-      "legacy_id": "19-2",
-      "tier": "reference",
-      "value": 7,
-      "period": "1960 年代后期至 1970 年代",
-      "evidence_type": "国家主义动员、Saemaul Undong、反共教育",
-      "note": "极重视塑造纪律化、同向度的共同体意识。"
-    },
-    "L12": {
-      "legacy_id": "18-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1961-1979 年整体执政期",
-      "evidence_type": "反共意识形态、国家安全叙事",
-      "note": "政治语汇高度依赖敌我区分与共同体边界。"
-    },
-    "L13": {
-      "legacy_id": "18-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "1960 年代后期至 1970 年代",
-      "evidence_type": "国家优先叙事、资源配置逻辑",
-      "note": "明显优先国家竞争力与本国共同体利益。"
-    },
-    "L14": {
-      "legacy_id": "5-1",
-      "tier": "core",
-      "value": 7,
-      "period": "1961-1972 年，从政变夺权到第三共和国中期",
-      "evidence_type": "军事政变、集权执政、关键决策风格",
-      "note": "直接以军方接管国家并长期个人拍板，典型高控制型领导。"
-    },
-    "L15": {
-      "legacy_id": "5-3",
-      "tier": "core",
-      "value": 7,
-      "period": "1972-1979 年维新体制时期",
-      "evidence_type": "制度安排、亲自审定、权力集中",
-      "note": "关键政治与安全事务大量须经本人裁断。"
-    },
-    "L16": {
-      "legacy_id": "5-5",
-      "tier": "core",
-      "value": 7,
-      "period": "1972-1979 年维新体制时期",
-      "evidence_type": "媒体管制、KCIA 运作、审查制度",
-      "note": "对媒体、情报与公开表达实行严格信息控制。"
-    },
-    "L21": {
-      "legacy_id": "8-3",
-      "tier": "core",
-      "value": 7,
-      "period": "1962-1979 年五年计划与重化工业推进期",
-      "evidence_type": "经济计划、官僚考核、项目推进风格",
-      "note": "以五年计划、出口指标和工程时限驱动治理。"
-    },
-    "L22": {
-      "legacy_id": "8-4",
-      "tier": "core",
-      "value": 7,
-      "period": "1960 年代中后期至 1970 年代",
-      "evidence_type": "官僚问责、军式管理、干部纪律",
-      "note": "治理风格以军式纪律和直接问责著称。"
-    },
-    "L26": {
-      "legacy_id": "11-3",
-      "tier": "core",
-      "value": 6,
-      "period": "1961-1965 年政权巩固与韩日邦交正常化前后",
-      "evidence_type": "幕后协调、军政联盟、对外谈判",
-      "note": "重大事项常先协调军方、官僚和关键外部支持。"
-    },
-    "L27": {
-      "legacy_id": "11-4",
-      "tier": "core",
-      "value": 5,
-      "period": "1963-1971 年第三共和国时期",
-      "evidence_type": "政治交易、利益调配、外交妥协",
-      "note": "存在策略性让步，但主要服务于更大控制目标。"
-    },
-    "L28": {
-      "legacy_id": "11-5",
-      "tier": "core",
-      "value": 7,
-      "period": "1962-1979 年工业化时期",
-      "evidence_type": "国家计划、财阀扶植、对外资金调动",
-      "note": "通过 EPB、国有金融与财阀体系整合有限资源。"
-    },
-    "L29": {
-      "legacy_id": "12-2",
-      "tier": "core",
-      "value": 7,
-      "period": "1961-1979 年整体执政期",
-      "evidence_type": "公开论述、国家战略、五年计划",
-      "note": "长期先定国家再建与工业化总方向，再压具体问题服从。"
-    },
-    "L30": {
-      "legacy_id": "14-1",
-      "tier": "core",
-      "value": 7,
-      "period": "1960 年代后期至 1970 年代",
-      "evidence_type": "公开讲话、国民动员、Saemaul Undong",
-      "note": "把工业化、勤勉和牺牲包装为民族复兴使命。"
-    },
-    "L31": {
-      "legacy_id": "13-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "1960 年代后期至 1970 年代",
-      "evidence_type": "公开讲话、国家主义修辞",
-      "note": "常把政策包装为民族复兴、纪律与反共生存等更高原则。"
-    },
-    "L32": {
-      "legacy_id": "13-4",
-      "tier": "reference",
-      "value": 7,
-      "period": "1961 政变后与 1972 维新时期",
-      "evidence_type": "政变公告、紧急政治声明、制度解释权",
-      "note": "倾向抢先给出官方定义，压缩他者解释空间。"
-    },
-    "G01": {
-      "legacy_id": "G1-2",
-      "tier": "core",
-      "value": 7,
-      "period": "1961-1979 年整体执政期",
-      "evidence_type": "反共国安政策、紧急措施、政治镇压",
-      "note": "始终把国家安全和反共秩序置于首位。"
-    },
-    "G02": {
-      "legacy_id": "G1-4",
-      "tier": "core",
-      "value": 7,
-      "period": "1972-1979 年维新体制时期",
-      "evidence_type": "维新宪法、紧急措施、公开正当化论述",
-      "note": "以纪律和秩序压倒自由开放，是维新体制核心逻辑。"
-    },
-    "G03": {
-      "legacy_id": "G2-2",
-      "tier": "core",
-      "value": 7,
-      "period": "1961-1979 年整体执政期",
-      "evidence_type": "治国论述、政策优先级、政绩导向",
-      "note": "最典型自我正当化就是成果优先于程序。"
-    },
-    "G04": {
-      "legacy_id": "G2-3",
-      "tier": "core",
-      "value": 7,
-      "period": "1962-1979 年工业化时期",
-      "evidence_type": "经济政策、国家目标排序、发展型国家实践",
-      "note": "把经济起飞视为国家生存和政权正当性基础。"
-    },
-    "G09": {
-      "legacy_id": "BLOCK-GOV-VALUES",
-      "tier": "core",
-      "value": {
-        "A": 4,
-        "B": 5,
-        "C": 0,
-        "D": 1
-      },
-      "period": "1970 年代维新时期",
-      "evidence_type": "总体治理优先级、制度与政策排序",
-      "note": "发展与秩序明显压倒公平和自由。"
-    },
-    "G10": {
-      "legacy_id": "G5-1",
-      "tier": "core",
-      "value": 1,
-      "period": "1962-1979 年发展型国家时期",
-      "evidence_type": "经济计划、产业政策、国家金融控制",
-      "note": "典型强国家主导工业化路线。"
-    },
-    "G11": {
-      "legacy_id": "G5-2",
-      "tier": "core",
-      "value": 5,
-      "period": "1970 年代重化工业时期",
-      "evidence_type": "分配结构、财阀扶植、政策偏好",
-      "note": "国家干预主要服务于增长与升级，而非平等主义再分配。"
-    },
-    "G12": {
-      "legacy_id": "G5-3",
-      "tier": "core",
-      "value": 1,
-      "period": "1970 年代重化工业驱动期",
-      "evidence_type": "重化工业政策、信贷配置、国家引导",
-      "note": "关键产业明显偏国家掌控和深度管理。"
-    },
-    "G16": {
-      "legacy_id": "G7-4",
-      "tier": "reference",
-      "value": 7,
-      "period": "1961-1979 年整体执政期",
-      "evidence_type": "执政理念、发展国家实践",
-      "note": "效能优先、程序服从结果是其典型国家观。"
-    },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "core",
-      "value": "B",
-      "period": "1960 年代后期至 1970 年代",
-      "evidence_type": "公开正当化逻辑、执政叙事",
-      "note": "最稳定的正当性叙事是治理成效与生活改善。"
-    },
-    "G30": {
-      "legacy_id": "G14-1",
-      "tier": "reference",
-      "value": 7,
-      "period": "1961-1963 年军政接管与制度重组期",
-      "evidence_type": "军事政变、制度重构、国家重建论述",
-      "note": "以上台方式和治理论述看，明显偏结构性重组端。"
-    },
-    "G31": {
-      "legacy_id": "G14-3",
-      "tier": "reference",
-      "value": 6,
-      "period": "1972 维新与 1970 年代重化工业推进期",
-      "evidence_type": "重大制度转向、集中推进式改革",
-      "note": "通常偏好抓住窗口集中快速推进。"
-    },
-    "G32": {
-      "legacy_id": "G14-5",
-      "tier": "reference",
-      "value": "C",
-      "period": "1961-1963 年国家重建初期",
-      "evidence_type": "制度重组、规划推进路径",
-      "note": "更接近打破旧框架后分阶段重建。"
-    },
-    "G35": {
-      "legacy_id": "G16-1",
-      "tier": "reference",
-      "value": 6,
-      "period": "1970 年代后期",
-      "evidence_type": "对外主权表述、安保自主论述",
-      "note": "原则表达上强烈强调主权与反外部掣肘。"
-    },
-    "G36": {
-      "legacy_id": "G16-4",
-      "tier": "reference",
-      "value": 7,
-      "period": "1970 年代重化工业与自主国防推进期",
-      "evidence_type": "自主国防、产业升级、重化工业政策",
-      "note": "推动关键产业和自主国防，本质上就是提高关键自主性。"
-    }
+    "L15": {"legacy_id": "5-1", "tier": "core", "value": 7, "period": "1961-1979", "evidence_type": "军事政变、总统决断、维新体制", "note": "其治理方式高度自上而下，重大方向往往由本人直接定夺。"},
+    "L16": {"legacy_id": "5-3", "tier": "core", "value": 7, "period": "1963-1979", "evidence_type": "经济计划审查、人事控制、安全事务", "note": "对发展项目、人事与安全议题都有明显亲自把关倾向。"},
+    "L17": {"legacy_id": "5-5", "tier": "core", "value": 6, "period": "1972-1979", "evidence_type": "KCIA、媒体控制、维新体制", "note": "对信息流通和政治表达保持强控制。"},
+    "L22": {"legacy_id": "8-3", "tier": "core", "value": 7, "period": "1962-1979", "evidence_type": "五年计划、出口目标、工业项目管理", "note": "发展项目推进带有很强的时间纪律和指标意识。"},
+    "L23": {"legacy_id": "8-4", "tier": "core", "value": 6, "period": "1960 年代后期-1970 年代", "evidence_type": "企业家会议、官僚问责、执行督导", "note": "对未完成任务的官员和企业家会直接施压问责。"},
+    "L24": {"legacy_id": "8-5", "tier": "core", "value": 7, "period": "1962-1979", "evidence_type": "出口导向工业化、国家动员体制", "note": "其发展国家模式正是逐级压实目标的典型案例。"},
+    "L26": {"legacy_id": "10-1", "tier": "core", "value": 6, "period": "1962-1979", "evidence_type": "经济计划机构、总统府协调、官僚体系", "note": "虽然个人权威极强，但非常依赖制度化官僚机器推进发展。"},
+    "L27": {"legacy_id": "10-4", "tier": "core", "value": 6, "period": "1960 年代后期-1970 年代", "evidence_type": "国家计划体系、官僚建制、军政系统", "note": "其理想治理图景明显包含高效国家机器的持续运转。"},
+    "L28": {"legacy_id": "10-5", "tier": "core", "value": 5, "period": "1962-1979", "evidence_type": "经济官僚体系、军政网络并用", "note": "更偏国家机器，但仍保留明显核心圈控制色彩。"},
+    "L29": {"legacy_id": "10-6", "tier": "core", "value": 6, "period": "1972-1979", "evidence_type": "安全机关、人事安排、维新体制", "note": "关键位置必须掌握在可靠且服从路线者手里。"},
+    "G01": {"legacy_id": "G1-2", "tier": "core", "value": 7, "period": "1961-1979", "evidence_type": "反共安全国家、对朝威胁叙事", "note": "国家安全与秩序始终被置于极高优先级。"},
+    "G02": {"legacy_id": "G1-4", "tier": "core", "value": 7, "period": "1961-1979", "evidence_type": "国家重建论述、维新宪制语言", "note": "明显偏好纪律化社会而非高自由度但难控制的政治环境。"},
+    "G03": {"legacy_id": "G1-5", "tier": "core", "value": 7, "period": "1961-1979", "evidence_type": "反对派压制、紧急措施、维新体制", "note": "其现代化逻辑明确允许以压缩政治空间换取发展与稳定。"},
+    "G04": {"legacy_id": "G2-2", "tier": "core", "value": 7, "period": "1962-1979", "evidence_type": "绩效合法性、工业化成果叙事", "note": "其执政正当性高度依赖结果与经济成绩。"},
+    "G05": {"legacy_id": "G2-3", "tier": "core", "value": 7, "period": "1962-1979", "evidence_type": "出口导向增长、现代化国家叙事", "note": "发展几乎是压倒性的治理评判标准。"},
+    "G10": {"legacy_id": "BLOCK-GOV-VALUES", "tier": "core", "value": {"A": 4, "B": 4, "C": 1, "D": 1}, "period": "1961-1979", "evidence_type": "国家安全与经济建设双优先", "note": "安全与发展并列为最核心目标，自由与分配明显靠后。"},
+    "G14": {"legacy_id": "G6-1", "tier": "core", "value": 2, "period": "1961-1979", "evidence_type": "国家 corporatism、社会管控", "note": "社会组织总体应纳入国家指导和整合框架。"},
+    "G15": {"legacy_id": "G6-2", "tier": "core", "value": 2, "period": "1960 年代后期-1970 年代", "evidence_type": "国民教育、伦理整顿、反腐与生活纪律宣传", "note": "认为国家应主动塑造社会道德和国民精神。"},
+    "G16": {"legacy_id": "G6-5", "tier": "core", "value": 2, "period": "1961-1979", "evidence_type": "发展国家体制、政府主导协作", "note": "公共事务大方向由国家确定，社会与企业负责配合执行。"},
+    "G17": {"legacy_id": "G6-6", "tier": "core", "value": 7, "period": "1961-1979", "evidence_type": "国民动员、村庄运动、社会纪律建设", "note": "国家不仅发展经济，也要改造行为习惯与公共纪律。"},
+    "L10": {"legacy_id": "17-1", "tier": "reference", "value": 4, "period": "1961-1979", "evidence_type": "官僚监督、政治安全逻辑", "note": "并非极端多疑，但对政治和官僚环境显然保留戒心。"},
+    "L11": {"legacy_id": "17-2", "tier": "reference", "value": 6, "period": "1961-1979", "evidence_type": "冷战安全环境、对朝对内威胁感知", "note": "对外部渗透和内部挑战的警惕性很高。"},
+    "L12": {"legacy_id": "17-3", "tier": "reference", "value": 5, "period": "1972-1979", "evidence_type": "内圈治理、安全机构依赖", "note": "晚期明显更依赖核心圈和安全系统。"},
+    "L30": {"legacy_id": "11-3", "tier": "reference", "value": 5, "period": "1961-1971", "evidence_type": "军方、官僚、财阀协调", "note": "推进重大事项前会先做关键力量的私下铺垫。"},
+    "L31": {"legacy_id": "11-4", "tier": "reference", "value": 5, "period": "1963-1971", "evidence_type": "对美关系、财阀合作、党内平衡", "note": "务实让步能力存在，但总体仍由其主导方向。"},
+    "L32": {"legacy_id": "11-5", "tier": "reference", "value": 6, "period": "1962-1979", "evidence_type": "国家金融、官僚与企业协同", "note": "其最成功之处之一就是把国家、企业和外援资源汇集到工业化目标上。"},
+    "G18": {"legacy_id": "G7-4", "tier": "reference", "value": 7, "period": "1961-1979", "evidence_type": "发展合法性、威权治理逻辑", "note": "明显更信任有效率和能完成目标的政府。"},
+    "G26": {"legacy_id": "BLOCK-LEGITIMACY", "tier": "reference", "value": "B", "period": "1961-1979", "evidence_type": "执政叙事、经济成绩正当化", "note": "其最稳定的正当性来源是治理成效与生活改善。"},
+    "G30": {"legacy_id": "G13-1", "tier": "reference", "value": 6, "period": "1960 年代后期-1970 年代", "evidence_type": "民族动员、反共国家认同", "note": "高度重视共同认同对发展国家的整合作用。"},
+    "G31": {"legacy_id": "G13-4", "tier": "reference", "value": 6, "period": "1961-1979", "evidence_type": "国家仪式、爱国教育、历史叙事", "note": "主动使用国家象征和共同记忆来巩固整合。"},
+    "G32": {"legacy_id": "G14-1", "tier": "reference", "value": 4, "period": "1961-1972", "evidence_type": "政变建政、经济体制重组", "note": "有结构改造意愿，但通常服务于国家建设与秩序重整，不追求全面革命。"},
+    "G33": {"legacy_id": "G14-3", "tier": "reference", "value": 6, "period": "1962-1979", "evidence_type": "工业政策推进、重化工业驱动", "note": "一旦判断机会成熟，倾向快速集中推进。"},
+    "G34": {"legacy_id": "G14-5", "tier": "reference", "value": "B", "period": "1961-1972", "evidence_type": "体制内强推进、国家主导改革", "note": "最接近在既有框架内集中力量短期大幅优化。"},
+    "G35": {"legacy_id": "G14-6", "tier": "reference", "value": 2, "period": "1961-1979", "evidence_type": "威权秩序维护而非持续革命", "note": "会动员社会，但并不属于持续革命型逻辑。"},
+    "G38": {"legacy_id": "G16-1", "tier": "reference", "value": 7, "period": "1963-1979", "evidence_type": "对朝政策、对美关系中的自主强调", "note": "虽依赖同盟，但主权与国家独立感非常强。"},
+    "G39": {"legacy_id": "G16-4", "tier": "reference", "value": 6, "period": "1970 年代", "evidence_type": "重化工业化、国防工业、自立口号", "note": "明显追求关键产业和安全领域的自主能力。"},
+    "G40": {"legacy_id": "G16-5", "tier": "reference", "value": 7, "period": "1961-1979", "evidence_type": "反共安全国家、对朝威胁感", "note": "若置入该抽象题，其选择会明显偏向保卫独立与主权。"},
+    "G41": {"legacy_id": "G16-6", "tier": "reference", "value": 6, "period": "1970 年代", "evidence_type": "中等强国抱负、区域自主外交", "note": "倾向把韩国塑造为独立而非附庸的地区力量中心。"}
   }
 }

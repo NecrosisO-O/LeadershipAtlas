@@ -1,291 +1,318 @@
 {
   "leader_id": "lee_kuan_yew",
-  "leader_name": "Lee Kuan Yew",
+  "leader_name": "李光耀",
   "answers": {
-    "L03": {
-      "legacy_id": "19-1",
-      "tier": "reference",
-      "value": 7,
-      "period": "1965-1990 年长期执政期",
-      "evidence_type": "公开自我定位、国家叙事、政治地位",
-      "note": "长期把自己塑造成新加坡国家利益、现实主义和生存理性的代表人物。"
-    },
-    "L04": {
-      "legacy_id": "19-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "1965-1985 年国家认同期",
-      "evidence_type": "多族群整合、国民教育、住房政策",
-      "note": "非常主动地塑造新加坡人共同体，只是更偏制度整合而非煽情动员。"
-    },
     "L05": {
       "legacy_id": "15-1",
-      "tier": "reference",
+      "tier": "core",
       "value": 6,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "访谈、回忆录、政策论述",
-      "note": "明显不是教条主义者，常以具体条件和国情差异处理争议问题。"
+      "period": "1965-1990年",
+      "evidence_type": "政策讲话、回忆录、务实治理论述",
+      "note": "对复杂议题通常承认没有单一简单答案。"
     },
     "L06": {
       "legacy_id": "15-2",
-      "tier": "reference",
-      "value": 5,
-      "period": "1965-1980 年建国前中期",
-      "evidence_type": "政策试验、人口与教育政策调整、治理实践",
-      "note": "不喜欢长期悬而未决，但在信息尚未充分时会保留观察和调整空间。"
+      "tier": "core",
+      "value": 6,
+      "period": "1965-1990年",
+      "evidence_type": "政策试验、国际比较、长期规划",
+      "note": "能在矛盾信息下暂时保留判断并继续观察。"
     },
     "L07": {
       "legacy_id": "15-3",
-      "tier": "reference",
-      "value": 6,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "内阁讨论、文官体系、传记研究",
-      "note": "在治理内部重视能力型官僚和技术团队提供逆耳信息。"
-    },
-    "L14": {
-      "legacy_id": "5-1",
       "tier": "core",
-      "value": 7,
-      "period": "1959-1984 年长期执政期",
-      "evidence_type": "执政风格、内阁运作、传记研究",
-      "note": "重大方向、关键任命与战略抉择通常都由他亲自定调。"
+      "value": 6,
+      "period": "1965-1990年",
+      "evidence_type": "公务体系、国际比较、反复论证",
+      "note": "重大决策前重视不利信息、比较资料与反方观点。"
+    },
+    "L08": {
+      "legacy_id": "15-4",
+      "tier": "core",
+      "value": 6,
+      "period": "1965-1990年",
+      "evidence_type": "政策试验、住房教育语言政策调整",
+      "note": "相当接近先试行再扩展的治理方法。"
     },
     "L15": {
-      "legacy_id": "5-3",
-      "tier": "core",
-      "value": 7,
-      "period": "1965-1985 年国家建构期",
-      "evidence_type": "内阁记述、政策制定过程、回忆录",
-      "note": "在关键政策上表现出极强的最终把关欲和不愿失控的倾向。"
+      "legacy_id": "5-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "1965-1985年",
+      "evidence_type": "建国决策、核心领导风格",
+      "note": "在关键事务上明显偏强主导。"
     },
     "L16": {
-      "legacy_id": "5-5",
-      "tier": "core",
+      "legacy_id": "5-3",
+      "tier": "reference",
       "value": 6,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "媒体管理、政治诉讼、政府传播实践",
-      "note": "明显主张由执政者界定哪些信息可公开、何时公开以及如何公开。"
+      "period": "1965-1990年",
+      "evidence_type": "干部回忆、政策审批、领导集中度",
+      "note": "对国家关键方向通常要求自己亲自把关。"
     },
-    "L19": {
-      "legacy_id": "7-1",
+    "L17": {
+      "legacy_id": "5-5",
       "tier": "reference",
-      "value": 7,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "危机处置、社会治理、政策调整",
-      "note": "治理风格高度强调预先干预，不愿坐等问题扩散后再补救。"
-    },
-    "L20": {
-      "legacy_id": "7-4",
-      "tier": "reference",
-      "value": 1,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "公共秩序管理、社会工程、政策实践",
-      "note": "典型风格恰恰是在隐患阶段就介入并塑形。"
-    },
-    "L21": {
-      "legacy_id": "8-3",
-      "tier": "reference",
-      "value": 7,
-      "period": "1965-1985 年国家建构期",
-      "evidence_type": "行政管理、工程推进、绩效治理",
-      "note": "以高执行压强著称，强调效率、速度和可兑现的治理时间表。"
+      "value": 6,
+      "period": "1965-1990年",
+      "evidence_type": "舆论管理、政治传播控制",
+      "note": "较强地相信关键政治信息需要由领导层掌控节奏。"
     },
     "L22": {
+      "legacy_id": "8-3",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1990年",
+      "evidence_type": "官僚体系要求、执行文化、回忆录",
+      "note": "高度强调时限、落实和行政执行效率。"
+    },
+    "L23": {
       "legacy_id": "8-4",
-      "tier": "reference",
-      "value": 6,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "内阁文化、文官考核、近身记述",
-      "note": "不回避严厉批评能力不足或执行不到位的官员。"
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1990年",
+      "evidence_type": "干部管理、公开批评、组织文化",
+      "note": "对未达标准者直接问责是其典型风格。"
     },
     "L24": {
-      "legacy_id": "10-1",
+      "legacy_id": "8-5",
       "tier": "core",
-      "value": 6,
-      "period": "1965-1990 年制度建构期",
-      "evidence_type": "文官体系建设、法制设计、机构建设",
-      "note": "重视把治理能力沉淀进高效官僚机构、反腐机制和规则化流程中。"
+      "value": 7,
+      "period": "1965-1990年",
+      "evidence_type": "发展型国家治理、绩效链条、行政推进",
+      "note": "极强的目标压强式推进特征。"
     },
     "L25": {
+      "legacy_id": "9-4",
+      "tier": "reference",
+      "value": 5,
+      "period": "1965-1990年",
+      "evidence_type": "政策渐进、社会整合考量",
+      "note": "会考虑社会承受力，但通常不会让其压倒总体目标。"
+    },
+    "L26": {
+      "legacy_id": "10-1",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1990年",
+      "evidence_type": "公务员制度、法制与流程设计",
+      "note": "强烈偏好制度化和流程化管理。"
+    },
+    "L27": {
       "legacy_id": "10-4",
       "tier": "core",
       "value": 7,
-      "period": "1970-1990 年接班与制度化阶段",
-      "evidence_type": "接班安排、干部培养、制度论述",
-      "note": "长期有意识培养第二代班子并强化制度连续性。"
+      "period": "1970-1990年",
+      "evidence_type": "接班安排、官僚体系建设、机构治理",
+      "note": "追求组织能够脱离个人而长期稳定运转。"
     },
-    "L26": {
-      "legacy_id": "11-3",
+    "L28": {
+      "legacy_id": "10-5",
       "tier": "core",
       "value": 7,
-      "period": "1959-1980 年执政前中期",
-      "evidence_type": "党内运作、外交谈判、政策推动方式",
-      "note": "重大政策和敏感调整上通常先与关键人物充分沟通，再正式推出。"
+      "period": "1965-1990年",
+      "evidence_type": "建制国家论述、反裙带政治立场",
+      "note": "明确偏向能长期按统一路线运转的国家机器。"
     },
-    "L27": {
+    "L29": {
+      "legacy_id": "10-6",
+      "tier": "core",
+      "value": 3,
+      "period": "1965-1990年",
+      "evidence_type": "制度化任用、精英甄别逻辑",
+      "note": "重视可靠性，但更强调能力、制度和国家机器而非私人忠诚。"
+    },
+    "L30": {
+      "legacy_id": "11-3",
+      "tier": "core",
+      "value": 6,
+      "period": "1965-1990年",
+      "evidence_type": "党政协同、精英沟通、国际谈判",
+      "note": "重大事项常先做好关键利益方协调。"
+    },
+    "L31": {
       "legacy_id": "11-4",
       "tier": "core",
       "value": 5,
-      "period": "1965-1985 年执政期",
-      "evidence_type": "多族群平衡、劳资安排、外交谈判",
-      "note": "会做策略性让步，以确保整体可控与长期目标。"
+      "period": "1965-1990年",
+      "evidence_type": "联盟经营、现实妥协、政策平衡",
+      "note": "会做实用让步，但通常不会在核心方向上大幅退让。"
     },
-    "L28": {
+    "L32": {
       "legacy_id": "11-5",
       "tier": "core",
       "value": 7,
-      "period": "1965-1990 年国家建构期",
-      "evidence_type": "工业化战略、外交布局、机构协同",
-      "note": "把外资、港口优势、英语教育、文官体系与安全外交捆成同一发展机器。"
-    },
-    "L31": {
-      "legacy_id": "13-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "1980 年代后期",
-      "evidence_type": "公开讲话、国际访谈、价值辩论",
-      "note": "常把政策立场与文明差异、家庭伦理、国家生存和社会纪律等原则挂钩。"
-    },
-    "L32": {
-      "legacy_id": "13-4",
-      "tier": "reference",
-      "value": 7,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "政治传播、危机讲话、媒体管理",
-      "note": "极善于先行给出事件框架，把争议定义成国家生存或治理理性的选择题。"
+      "period": "1965-1990年",
+      "evidence_type": "建国资源整合、外资与国家能力结合",
+      "note": "极善于把有限资源和多方力量拉到同一国家目标上。"
     },
     "G01": {
       "legacy_id": "G1-2",
       "tier": "core",
       "value": 6,
-      "period": "1965-1989 年执政期",
-      "evidence_type": "公开讲话、内安政策、政治理念论述",
-      "note": "持续把社会稳定、治安与国家生存放在非常高位置。"
+      "period": "1965-1990年",
+      "evidence_type": "国家生存论述、治安和国防政策",
+      "note": "把安全与社会稳定视为国家生存前提。"
     },
     "G02": {
       "legacy_id": "G1-4",
       "tier": "core",
       "value": 7,
-      "period": "1980 年代后期亚洲价值观论述期",
-      "evidence_type": "公开访谈、政策辩护、价值论述",
-      "note": "反复把纪律、秩序与治理有效性置于无边界自由之上。"
+      "period": "1965-1990年",
+      "evidence_type": "公开讲话、治理理念、社会政策",
+      "note": "长期主张纪律、秩序和规则优先于无边界自由。"
     },
     "G03": {
-      "legacy_id": "G2-2",
+      "legacy_id": "G1-5",
       "tier": "core",
-      "value": 7,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "执政论述、制度辩护、外部访谈",
-      "note": "对领导正当性的核心衡量标准是能否把国家治理好。"
+      "value": 6,
+      "period": "1965-1985年",
+      "evidence_type": "一党优势治理、政治竞争控制",
+      "note": "认为建国和现代化初期需要压缩高烈度政治冲突。"
     },
     "G04": {
+      "legacy_id": "G2-2",
+      "tier": "core",
+      "value": 6,
+      "period": "1965-1990年",
+      "evidence_type": "绩效合法性论述、治理评价标准",
+      "note": "衡量领导人时明显偏重是否把事情做成。"
+    },
+    "G05": {
       "legacy_id": "G2-3",
       "tier": "core",
       "value": 7,
-      "period": "1965-1990 年发展型国家时期",
-      "evidence_type": "经济战略、公开讲话、政策排序",
-      "note": "经济生存、就业和竞争力是国家独立得以持续的根基。"
+      "period": "1965-1990年",
+      "evidence_type": "发展主义讲话、工业化实践",
+      "note": "把经济发展视为国家生存与政治正当性的根本。"
     },
-    "G09": {
-      "legacy_id": "BLOCK-GOV-VALUES",
-      "tier": "core",
-      "value": {
-        "A": 3,
-        "B": 5,
-        "C": 1,
-        "D": 1
-      },
-      "period": "1965-1990 年执政期",
-      "evidence_type": "总体治理排序、政策取向、公开表述",
-      "note": "经济发展压在最前，秩序安全紧随其后。"
-    },
-    "G10": {
-      "legacy_id": "G5-1",
-      "tier": "core",
-      "value": 2,
-      "period": "1965-1985 年工业化与招商引资期",
-      "evidence_type": "产业政策、政府投资机构、经济战略",
-      "note": "主张由高能力国家设定方向、营造规则并主动配置关键资源。"
-    },
-    "G11": {
-      "legacy_id": "G5-2",
-      "tier": "core",
-      "value": 4,
-      "period": "1970-1990 年发展成熟期",
-      "evidence_type": "住房、教育、社会政策、公开论述",
-      "note": "不赞成强平等主义式再分配，但也不接受完全放任差距扩大。"
-    },
-    "G12": {
-      "legacy_id": "G5-3",
-      "tier": "core",
-      "value": 2,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "淡马锡体系、法定机构、战略产业布局",
-      "note": "在关键领域明显支持国家深度管理而非完全交给市场。"
-    },
-    "G13": {
+    "G14": {
       "legacy_id": "G6-1",
       "tier": "core",
       "value": 2,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "社团治理、工会整合、政治管理实践",
-      "note": "更偏好有组织、有边界、受引导的社会协作。"
-    },
-    "G14": {
-      "legacy_id": "G6-2",
-      "tier": "core",
-      "value": 1,
-      "period": "1980 年代后期至 1990 年前后",
-      "evidence_type": "道德教育、家庭政策、文化保守主义表述",
-      "note": "明确认为政府不能对社会价值中立，应主动维护共同规范。"
+      "period": "1965-1990年",
+      "evidence_type": "国家主导社团关系、治理架构",
+      "note": "更偏向国家指导社会组织运行而非完全自治。"
     },
     "G15": {
+      "legacy_id": "G6-2",
+      "tier": "core",
+      "value": 2,
+      "period": "1965-1990年",
+      "evidence_type": "社会工程、价值教育、文化政策",
+      "note": "明确认为政府应积极塑造社会行为规范与价值风气。"
+    },
+    "G16": {
       "legacy_id": "G6-5",
       "tier": "core",
       "value": 2,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "治理模式、政策执行体系、国家观",
-      "note": "可吸纳企业和社会力量，但最终大方向仍应由国家来定。"
+      "period": "1965-1990年",
+      "evidence_type": "国家主导治理、协商但不平权分享",
+      "note": "更接近政府定大方向，社会力量负责配合执行。"
     },
     "G17": {
+      "legacy_id": "G6-6",
+      "tier": "core",
+      "value": 7,
+      "period": "1965-1990年",
+      "evidence_type": "公共纪律、住房与家庭政策、社会规范塑造",
+      "note": "这是其治理哲学中的招牌特征。"
+    },
+    "G19": {
       "legacy_id": "G8-2",
       "tier": "reference",
-      "value": 3,
-      "period": "1965-1990 年执政期",
-      "evidence_type": "技术官僚体系、决策风格、公开论述",
-      "note": "重视经验判断，但不迷信脱离数据和专家的纯直觉治理。"
+      "value": 4,
+      "period": "1965-1990年",
+      "evidence_type": "实战经验与数据并用、精英治理观",
+      "note": "重视经验判断，但并不完全排斥证据与专业分析。"
     },
-    "G18": {
+    "G20": {
       "legacy_id": "G8-4",
       "tier": "reference",
-      "value": "A",
-      "period": "1965-1990 年执政期",
-      "evidence_type": "技术官僚治理、政策制定结构、机构实践",
-      "note": "最接近其偏好的是以顶级专家和高能力官僚的分析作为主要依据。"
-    },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "reference",
       "value": "B",
-      "period": "1965-1990 年执政期",
-      "evidence_type": "执政辩护、公开访谈、政治理念",
-      "note": "最稳定的合法性逻辑是国家做得好、人民生活改善、社会保持有序。"
+      "period": "1965-1990年",
+      "evidence_type": "精英治国观、核心团队决策实践",
+      "note": "更接近依靠自己与核心团队的经验和政治判断拍板。"
+    },
+    "G32": {
+      "legacy_id": "G14-1",
+      "tier": "reference",
+      "value": 4,
+      "period": "1965-1990年",
+      "evidence_type": "制度工程、务实改革",
+      "note": "不是保守维持现状，但更偏在既有国家框架内持续改造。"
     },
     "G33": {
+      "legacy_id": "G14-3",
+      "tier": "reference",
+      "value": 4,
+      "period": "1965-1990年",
+      "evidence_type": "务实试验和高压执行并用",
+      "note": "兼具试验和快推特征，整体略偏中间偏快。"
+    },
+    "G34": {
+      "legacy_id": "G14-5",
+      "tier": "reference",
+      "value": "B",
+      "period": "1965-1980年",
+      "evidence_type": "建国期政策重塑",
+      "note": "更像在既有国家框架内集中力量快速优化。"
+    },
+    "G35": {
+      "legacy_id": "G14-6",
+      "tier": "reference",
+      "value": 1,
+      "period": "1965-1990年",
+      "evidence_type": "反运动式治理、制度化执政",
+      "note": "非常不赞成持续革命式政治动员。"
+    },
+    "G36": {
       "legacy_id": "G15-2",
       "tier": "reference",
       "value": 2,
-      "period": "1980 年代后期亚洲价值观论述期",
-      "evidence_type": "公开讲话、国际访谈、文化政策论述",
-      "note": "明确主张现代化不必等于全面西化。"
+      "period": "1965-1990年",
+      "evidence_type": "亚洲价值观论述、社会保守主义",
+      "note": "明显相信现代化可以与本土传统和价值保留并行。"
     },
-    "G34": {
+    "G37": {
       "legacy_id": "G15-4",
       "tier": "reference",
       "value": 2,
-      "period": "1980 年代后期至 1990 年前后",
-      "evidence_type": "亚洲价值观论战、对西方民主批评、治理理念",
-      "note": "明显倾向各国可按自身文明和历史条件走不同现代化道路。"
+      "period": "1970-1990年",
+      "evidence_type": "亚洲模式论述、国家发展经验总结",
+      "note": "强调可以走出不照搬西方的独特现代化道路。"
+    },
+    "G38": {
+      "legacy_id": "G16-1",
+      "tier": "reference",
+      "value": 6,
+      "period": "1965-1990年",
+      "evidence_type": "小国生存、外交自主、国家安全论述",
+      "note": "对外部干涉和主权受损高度敏感。"
+    },
+    "G39": {
+      "legacy_id": "G16-4",
+      "tier": "reference",
+      "value": 5,
+      "period": "1965-1990年",
+      "evidence_type": "战略自主与全球开放并存",
+      "note": "支持开放，但在安全和关键能力上强调自主。"
+    },
+    "G40": {
+      "legacy_id": "G16-5",
+      "tier": "reference",
+      "value": 6,
+      "period": "抽象映射到建国时期",
+      "evidence_type": "国家生存和安全优先思维",
+      "note": "若映射到该命题，会更偏向长期顶住外部压力和维护独立。"
+    },
+    "G41": {
+      "legacy_id": "G16-6",
+      "tier": "reference",
+      "value": 5,
+      "period": "1965-1990年",
+      "evidence_type": "主权外交、务实小国战略",
+      "note": "重视自主，但不追求大国式力量中心地位。"
     }
   }
 }

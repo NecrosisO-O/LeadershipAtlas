@@ -1,275 +1,291 @@
 {
   "leader_id": "vladimir_putin",
-  "leader_name": "Vladimir Putin",
+  "leader_name": "弗拉基米尔·普京",
   "answers": {
     "L03": {
       "legacy_id": "19-1",
-      "tier": "reference",
+      "tier": "core",
       "value": 6,
-      "period": "2012-2024 文明国家代表性强化时期",
-      "evidence_type": "公开讲话 + 竞选叙事 + 国家认同建构",
-      "note": "长期把自己塑造成俄罗斯国家连续性、尊严与复兴的代表者。"
+      "period": "2012年至今",
+      "evidence_type": "公开讲话、国家象征性角色塑造",
+      "note": "持续把自己定位为俄罗斯国家连续性与利益的代表。"
     },
     "L04": {
       "legacy_id": "19-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "国家叙事 + 历史记忆政治 + 公民整合话语",
-      "note": "持续主动强化国家共同体与命运共同体式的我们意识。"
-    },
-    "L09": {
-      "legacy_id": "17-1",
       "tier": "core",
-      "value": 1,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "公开讲话 + 安全机构背景 + 长期治理实践",
-      "note": "政治世界观长期以渗透、颠覆、欺骗风险为前提，对广泛社会信任明显偏低。"
+      "value": 6,
+      "period": "2012年至今",
+      "evidence_type": "国家认同叙事、爱国动员、历史记忆政治",
+      "note": "主动塑造“俄罗斯共同体”的整体意识。"
     },
     "L10": {
-      "legacy_id": "17-2",
+      "legacy_id": "17-1",
       "tier": "core",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "公开讲话 + 安全政策 + 外交表述",
-      "note": "长期将国际与国内政治都表述为高威胁环境，强调必须始终保持警惕。"
+      "value": 2,
+      "period": "2000年至今",
+      "evidence_type": "安全系统背景、公开表述、统治实践",
+      "note": "对一般人性与政治环境的基础信任偏低。"
     },
     "L11": {
+      "legacy_id": "17-2",
+      "tier": "core",
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "国家安全叙事、国际关系观、内部政治控制",
+      "note": "长期以高警惕、高威胁感来理解政治环境。"
+    },
+    "L12": {
       "legacy_id": "17-3",
       "tier": "core",
       "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "核心圈层结构 + 用人模式 + 传记研究",
-      "note": "权力结构高度依赖长期熟悉的亲信与安全系统圈层，对外部人士普遍保持戒备。"
-    },
-    "L12": {
-      "legacy_id": "18-1",
-      "tier": "core",
-      "value": 5,
-      "period": "2012-2024 保守主权叙事强化时期",
-      "evidence_type": "公开讲话 + 文明国家叙事 + 对外立场",
-      "note": "长期强调俄罗斯文明共同体与西方异质性，认为内外边界区分具有必要性。"
-    },
-    "L13": {
-      "legacy_id": "18-2",
-      "tier": "core",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "国家利益表述 + 对外政策 + 社会分配叙事",
-      "note": "在地缘政治和国内治理上都明显把本国共同体利益放在优先位置。"
-    },
-    "L14": {
-      "legacy_id": "5-1",
-      "tier": "core",
-      "value": 6,
-      "period": "1999-2008 权力整合期",
-      "evidence_type": "危机决策 + 权力集中 + 治理风格",
-      "note": "典型风格是主动接手局面并由本人定调方向。"
+      "period": "2000年至今",
+      "evidence_type": "近圈用人、权力网络、精英管理",
+      "note": "信任明显向少数可靠圈层集中。"
     },
     "L15": {
-      "legacy_id": "5-3",
+      "legacy_id": "5-1",
       "tier": "core",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "决策体制 + 幕僚研究 + 制度安排",
-      "note": "关键安全、外交与精英平衡事项均需其亲自把关。"
+      "value": 7,
+      "period": "2000-2024年",
+      "evidence_type": "总统主导决策、垂直权力结构",
+      "note": "典型的集中拍板型领导。"
     },
     "L16": {
+      "legacy_id": "5-3",
+      "tier": "core",
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "关键事务亲自过问、统帅式管理",
+      "note": "对关键事务有很强的亲自把关倾向。"
+    },
+    "L17": {
       "legacy_id": "5-5",
       "tier": "core",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "媒体控制 + 安全国家实践 + 统治技术",
-      "note": "治理明显强调信息分层、叙事管理与可控披露，信息控制权集中于最高层。"
-    },
-    "L26": {
-      "legacy_id": "11-3",
-      "tier": "core",
-      "value": 6,
-      "period": "2000-2012 精英整合期",
-      "evidence_type": "精英协调 + 联盟构建 + 治理实践",
-      "note": "重大事项通常先在关键节点完成私下协调，再正式推出。"
-    },
-    "L27": {
-      "legacy_id": "11-4",
-      "tier": "core",
-      "value": 4,
-      "period": "2000-2012 精英整合期",
-      "evidence_type": "政治交易 + 精英平衡 + 联邦治理",
-      "note": "并非原则性分享权力者，但在维持联盟和稳定时愿作有限交易性让步。"
-    },
-    "L28": {
-      "legacy_id": "11-5",
-      "tier": "core",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "国家机器整合 + 外交操作 + 权力网络",
-      "note": "典型长项是把安全机构、官僚系统、能源资源与外部杠杆整合到单一目标之下。"
-    },
-    "L29": {
-      "legacy_id": "12-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "国家战略文件 + 总统国情咨文 + 治理风格",
-      "note": "常先给出国家方向、历史任务与总框架，再要求各领域服从整体路线。"
-    },
-    "L30": {
-      "legacy_id": "14-1",
-      "tier": "reference",
-      "value": 5,
-      "period": "2012-2024 文明国家叙事强化时期",
-      "evidence_type": "公开讲话 + 爱国主义动员 + 战争叙事",
-      "note": "经常把政策包装为国家命运、历史责任与文明保卫。"
-    },
-    "L31": {
-      "legacy_id": "13-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "2012-2024 保守主权叙事时期",
-      "evidence_type": "演讲文本 + 价值宣示 + 对外讲话",
-      "note": "公开立场常与主权、传统、历史正义、反霸权等原则性价值绑定。"
-    },
-    "L32": {
-      "legacy_id": "13-4",
-      "tier": "reference",
-      "value": 6,
-      "period": "2007-2024 长期执政时期",
-      "evidence_type": "危机讲话 + 框架设定 + 官方叙事管理",
-      "note": "重大事件中倾向于抢先给出解释框架并定义情境。"
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "媒体管理、信息战、叙事控制",
+      "note": "高度重视由中心决定什么信息何时释放。"
     },
     "G01": {
       "legacy_id": "G1-2",
       "tier": "core",
-      "value": 6,
-      "period": "1999-2008 国家恢复期",
-      "evidence_type": "公开讲话 + 反恐治理 + 国家重建叙事",
-      "note": "最核心合法性叙事之一就是结束混乱、恢复秩序与安全。"
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "安全国家建设、反恐与战时治理",
+      "note": "安全与稳定长期压过其他公共价值。"
     },
     "G02": {
       "legacy_id": "G1-4",
       "tier": "core",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "制度设计 + 公开讲话 + 政治理念",
-      "note": "长期把九十年代式自由混乱当作反面教材，稳定与纪律始终优先。"
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "秩序恢复叙事、自由与稳定权衡表述",
+      "note": "更偏向纪律有序社会而非充分自由但混乱的社会。"
     },
-    "G09": {
+    "G03": {
+      "legacy_id": "G1-5",
+      "tier": "core",
+      "value": 6,
+      "period": "2000年代尤典型",
+      "evidence_type": "国家重建与集中权力逻辑",
+      "note": "默认在国家恢复和发展阶段需要压缩高冲突政治空间。"
+    },
+    "G10": {
       "legacy_id": "BLOCK-GOV-VALUES",
       "tier": "core",
       "value": {
-        "A": 5,
+        "A": 4,
         "B": 3,
         "C": 1,
-        "D": 1
+        "D": 2
       },
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "长期治理优先序 + 政策排序 + 公开表述",
-      "note": "典型排序是安全与秩序第一，发展第二，自由参与和再分配靠后。"
+      "period": "2000年至今",
+      "evidence_type": "国家优先序、资源配置、公开治理话语",
+      "note": "秩序与发展居前，自由次之，公平分配不居中心。"
     },
-    "G13": {
-      "legacy_id": "G6-1",
-      "tier": "reference",
+    "G27": {
+      "legacy_id": "G12-1",
+      "tier": "core",
       "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "制度安排 + NGO 管制 + 国家治理实践",
-      "note": "对公民社会的基本态度是允许存在但须置于国家监督与引导之下。"
-    },
-    "G14": {
-      "legacy_id": "G6-2",
-      "tier": "reference",
-      "value": 6,
-      "period": "2012-2024 保守价值强化时期",
-      "evidence_type": "价值政策 + 公开讲话 + 立法导向",
-      "note": "长期主张国家应积极守护传统道德、历史记忆与文化方向。"
-    },
-    "G15": {
-      "legacy_id": "G6-5",
-      "tier": "reference",
-      "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "治理模式 + 国家主导协作实践",
-      "note": "偏好明显是政府定方向、社会与企业在既定框架内执行配合。"
-    },
-    "G24": {
-      "legacy_id": "BLOCK-LEGITIMACY",
-      "tier": "reference",
-      "value": "B",
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "执政合法性叙事 + 民生稳定表述 + 国家恢复话语",
-      "note": "实际执政合法性最常诉诸国家恢复、秩序、安全与生活改善。"
+      "period": "2012年至今",
+      "evidence_type": "政治话语、国家统一叙事",
+      "note": "更把差异扩张视为混乱来源，强调统一力量。"
     },
     "G28": {
-      "legacy_id": "G13-1",
-      "tier": "reference",
+      "legacy_id": "G12-2",
+      "tier": "core",
       "value": 6,
-      "period": "2012-2024 文明国家叙事强化时期",
-      "evidence_type": "国家认同叙事 + 公开讲话 + 历史政治",
-      "note": "反复把国家强盛与统一认同、集体归属感和爱国主义联系在一起。"
+      "period": "2012年至今",
+      "evidence_type": "对反对政治的表述、治理实践",
+      "note": "倾向认为过多公开争论削弱国家治理效率。"
     },
     "G29": {
-      "legacy_id": "G13-4",
-      "tier": "reference",
+      "legacy_id": "G12-4",
+      "tier": "core",
       "value": 6,
-      "period": "2000-2024 长期执政时期",
-      "evidence_type": "纪念政治 + 教育叙事 + 国家象征操作",
-      "note": "高度重视共同象征、共同故事与共同记忆来巩固整合。"
+      "period": "2012年至今",
+      "evidence_type": "国家整合叙事、社会稳定观",
+      "note": "对深层分歧长期共存的接受度较低。"
     },
-    "G33": {
-      "legacy_id": "G15-2",
-      "tier": "reference",
-      "value": 1,
-      "period": "2012-2024 保守现代化叙事时期",
-      "evidence_type": "公开讲话 + 文明道路论 + 价值政策",
-      "note": "主张俄罗斯可以现代化，但不必切断本国传统制度与价值。"
-    },
-    "G34": {
-      "legacy_id": "G15-4",
-      "tier": "reference",
-      "value": 1,
-      "period": "2012-2024 主权文明叙事时期",
-      "evidence_type": "公开讲话 + 外交文件 + 国家发展叙事",
-      "note": "长期反对照搬西方模式，强调俄罗斯有独特历史道路与现代化路径。"
-    },
-    "G35": {
+    "G38": {
       "legacy_id": "G16-1",
       "tier": "core",
-      "value": 6,
-      "period": "2007-2024 主权国家叙事高强度时期",
-      "evidence_type": "慕尼黑演讲 + 外交讲话 + 国家理念",
-      "note": "最稳定的对外立场之一就是反干涉、反单极、主权不可让渡。"
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "主权民主论述、对外政策声明",
+      "note": "国家主权与不受外部干预是其核心原则。"
     },
-    "G36": {
+    "G39": {
       "legacy_id": "G16-4",
       "tier": "core",
-      "value": 6,
-      "period": "2014-2024 制裁应对与战略自主时期",
-      "evidence_type": "产业政策 + 制裁应对 + 主权经济叙事",
-      "note": "从金融、军工到粮食能源，长期强调关键领域自主可控与去依赖。"
+      "value": 7,
+      "period": "2014年至今尤典型",
+      "evidence_type": "战略自主、制裁应对、产业安全政策",
+      "note": "关键领域自主可控被定义为国家安全问题。"
     },
-    "G37": {
+    "G40": {
+      "legacy_id": "G16-5",
+      "tier": "core",
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "对外压力叙事、国家独立表述",
+      "note": "若以革命政权类比，更接近把重心放在长期顶住外压与维护主权。"
+    },
+    "G41": {
+      "legacy_id": "G16-6",
+      "tier": "core",
+      "value": 7,
+      "period": "2000年至今",
+      "evidence_type": "大国地位叙事、国际战略文件",
+      "note": "明确追求俄罗斯作为独立力量中心而非被西方秩序吸纳。"
+    },
+    "G42": {
       "legacy_id": "G17-1",
       "tier": "core",
       "value": 7,
-      "period": "2007-2024 主权竞争叙事时期",
-      "evidence_type": "慕尼黑演讲 + 对西方关系叙事 + 战略文件",
-      "note": "世界观明显将大国关系视为实力竞争与地缘博弈，而非稳定正和合作。"
+      "period": "2007年至今尤典型",
+      "evidence_type": "国际关系公开表述、战略文件",
+      "note": "更接近把国际关系理解为竞争与力量博弈。"
     },
-    "G38": {
+    "G43": {
       "legacy_id": "G17-2",
       "tier": "core",
-      "value": 7,
-      "period": "2007-2024 主权竞争叙事时期",
-      "evidence_type": "外交讲话 + 军事行动 + 威慑逻辑",
-      "note": "并不拒绝谈判，但长期认为真正有效的谈判基础是实力、威慑与强硬姿态。"
+      "value": 6,
+      "period": "2000年至今",
+      "evidence_type": "外交实践、军事威慑、谈判姿态",
+      "note": "承认谈判工具性，但更强调实力与强硬作为有效手段。"
     },
-    "G39": {
+    "G44": {
       "legacy_id": "G17-3",
       "tier": "core",
       "value": 6,
-      "period": "2014-2024 制裁与进口替代时期",
-      "evidence_type": "经济政策 + 国家安全叙事 + 战略产业实践",
-      "note": "并非全面闭关，但在关键产业与外部压力条件下显著偏向保护和国家掌控。"
+      "period": "2014年至今尤典型",
+      "evidence_type": "产业安全、进口替代、对外经济政策",
+      "note": "在国际经济竞争中更偏向保护本国产业。"
+    },
+    "L30": {
+      "legacy_id": "11-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "2000年至今",
+      "evidence_type": "精英协调、幕后沟通、政策推出方式",
+      "note": "重大事项常先完成关键精英沟通与布置。"
+    },
+    "L31": {
+      "legacy_id": "11-4",
+      "tier": "reference",
+      "value": 5,
+      "period": "2000年代至2010年代",
+      "evidence_type": "精英联盟管理、地区与寡头协调",
+      "note": "在需要稳住关键支持者时具备务实让步能力。"
+    },
+    "L32": {
+      "legacy_id": "11-5",
+      "tier": "reference",
+      "value": 6,
+      "period": "2000年至今",
+      "evidence_type": "国家资源整合、权力网络动员",
+      "note": "善于把官僚、安全系统与商业资源整合到同一目标上。"
+    },
+    "L35": {
+      "legacy_id": "13-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "2012年至今",
+      "evidence_type": "演讲、年度国情咨文、历史叙事",
+      "note": "公开表达常与国家主权、传统价值和文明使命相连。"
+    },
+    "L36": {
+      "legacy_id": "13-4",
+      "tier": "reference",
+      "value": 7,
+      "period": "2012年至今",
+      "evidence_type": "官方叙事、危机定调、媒体传播",
+      "note": "高度重视由自己一方先定义重大事件。"
+    },
+    "G14": {
+      "legacy_id": "G6-1",
+      "tier": "reference",
+      "value": 2,
+      "period": "2000年至今",
+      "evidence_type": "NGO管理、社会组织法规",
+      "note": "社会组织被置于强国家监管和指导框架内。"
+    },
+    "G15": {
+      "legacy_id": "G6-2",
+      "tier": "reference",
+      "value": 6,
+      "period": "2012年至今",
+      "evidence_type": "传统价值政策、教育文化议程",
+      "note": "政府应当引导社会文化和道德方向。"
+    },
+    "G16": {
+      "legacy_id": "G6-5",
+      "tier": "reference",
+      "value": 2,
+      "period": "2000年至今",
+      "evidence_type": "协作治理结构、国家主导公共事务",
+      "note": "大方向首先由国家决定，其余主体配合。"
+    },
+    "G17": {
+      "legacy_id": "G6-6",
+      "tier": "reference",
+      "value": 6,
+      "period": "2012年至今",
+      "evidence_type": "爱国主义教育、社会动员、价值规制",
+      "note": "国家不仅管经济，也应塑造公共纪律与行为方式。"
+    },
+    "G23": {
+      "legacy_id": "G10-3",
+      "tier": "reference",
+      "value": 6,
+      "period": "2000年代尤典型",
+      "evidence_type": "执政合法性论述、绩效承诺",
+      "note": "其统治长期依赖恢复秩序与改善生活的绩效证明。"
+    },
+    "G26": {
+      "legacy_id": "BLOCK-LEGITIMACY",
+      "tier": "reference",
+      "value": "B",
+      "period": "2000年至今",
+      "evidence_type": "执政叙事、社会契约式合法性",
+      "note": "若在三者中择一，更接近把治理成效与国家恢复视为最核心正当性来源。"
+    },
+    "G30": {
+      "legacy_id": "G13-1",
+      "tier": "reference",
+      "value": 7,
+      "period": "2012年至今",
+      "evidence_type": "民族国家叙事、国家整合话语",
+      "note": "共同身份认同被视为国家力量的重要基础。"
+    },
+    "G31": {
+      "legacy_id": "G13-4",
+      "tier": "reference",
+      "value": 7,
+      "period": "2012年至今",
+      "evidence_type": "胜利记忆、历史政策、象征政治",
+      "note": "主动强化共同象征、共同故事和共同记忆。"
     }
   }
 }
