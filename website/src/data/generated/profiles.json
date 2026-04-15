@@ -1,0 +1,2740 @@
+[
+  {
+    "leaderId": "adolf_hitler",
+    "leaderName": "阿道夫·希特勒",
+    "monogram": "AH",
+    "coreDimensions": [
+      "L4",
+      "L18",
+      "L5",
+      "L12_14",
+      "L13",
+      "G12",
+      "G16"
+    ],
+    "answers": {
+      "L01": {
+        "tier": "core",
+        "value": 7
+      },
+      "L02": {
+        "tier": "core",
+        "value": 7
+      },
+      "L13": {
+        "tier": "core",
+        "value": 7
+      },
+      "L14": {
+        "tier": "core",
+        "value": 7
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "L33": {
+        "tier": "core",
+        "value": 7
+      },
+      "L34": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 7
+      },
+      "G27": {
+        "tier": "core",
+        "value": 7
+      },
+      "G28": {
+        "tier": "core",
+        "value": 7
+      },
+      "G29": {
+        "tier": "core",
+        "value": 7
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 7
+      },
+      "G40": {
+        "tier": "core",
+        "value": 6
+      },
+      "G41": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L11": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L12": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L22": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L23": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L24": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G01": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G02": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G03": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G10": {
+        "tier": "reference",
+        "value": {
+          "A": 5,
+          "B": 3,
+          "C": 0,
+          "D": 2
+        }
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G42": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G43": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G44": {
+        "tier": "reference",
+        "value": 7
+      }
+    }
+  },
+  {
+    "leaderId": "angela_merkel",
+    "leaderName": "安格拉·默克尔",
+    "monogram": "AM",
+    "coreDimensions": [
+      "L15",
+      "L6",
+      "L11",
+      "G9",
+      "G12",
+      "G14",
+      "G17"
+    ],
+    "answers": {
+      "L05": {
+        "tier": "core",
+        "value": 7
+      },
+      "L06": {
+        "tier": "core",
+        "value": 7
+      },
+      "L07": {
+        "tier": "core",
+        "value": 7
+      },
+      "L08": {
+        "tier": "core",
+        "value": 6
+      },
+      "L18": {
+        "tier": "core",
+        "value": 6
+      },
+      "L19": {
+        "tier": "core",
+        "value": 6
+      },
+      "L25": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L26": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L27": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L28": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L29": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L30": {
+        "tier": "core",
+        "value": 7
+      },
+      "L31": {
+        "tier": "core",
+        "value": 6
+      },
+      "L32": {
+        "tier": "core",
+        "value": 6
+      },
+      "G08": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G09": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G21": {
+        "tier": "core",
+        "value": 7
+      },
+      "G22": {
+        "tier": "core",
+        "value": 7
+      },
+      "G27": {
+        "tier": "core",
+        "value": 2
+      },
+      "G28": {
+        "tier": "core",
+        "value": 2
+      },
+      "G29": {
+        "tier": "core",
+        "value": 2
+      },
+      "G32": {
+        "tier": "core",
+        "value": 3
+      },
+      "G33": {
+        "tier": "core",
+        "value": 2
+      },
+      "G34": {
+        "tier": "core",
+        "value": "A"
+      },
+      "G35": {
+        "tier": "core",
+        "value": 1
+      },
+      "G38": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G39": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G40": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G41": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G42": {
+        "tier": "core",
+        "value": 2
+      },
+      "G43": {
+        "tier": "core",
+        "value": 2
+      },
+      "G44": {
+        "tier": "core",
+        "value": 3
+      },
+      "G45": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G46": {
+        "tier": "reference",
+        "value": "B"
+      }
+    }
+  },
+  {
+    "leaderId": "charles_de_gaulle",
+    "leaderName": "夏尔·戴高乐",
+    "monogram": "CDG",
+    "coreDimensions": [
+      "L4",
+      "L5",
+      "L12_14",
+      "L13",
+      "G13",
+      "G16",
+      "G17"
+    ],
+    "answers": {
+      "L01": {
+        "tier": "core",
+        "value": 7
+      },
+      "L02": {
+        "tier": "core",
+        "value": 6
+      },
+      "L03": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L04": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 6
+      },
+      "L26": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L27": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L28": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L29": {
+        "tier": "reference",
+        "value": 4
+      },
+      "L30": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L31": {
+        "tier": "reference",
+        "value": 4
+      },
+      "L32": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L33": {
+        "tier": "core",
+        "value": 7
+      },
+      "L34": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 7
+      },
+      "G21": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G22": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G30": {
+        "tier": "core",
+        "value": 7
+      },
+      "G31": {
+        "tier": "core",
+        "value": 7
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 7
+      },
+      "G40": {
+        "tier": "core",
+        "value": 6
+      },
+      "G41": {
+        "tier": "core",
+        "value": 7
+      },
+      "G42": {
+        "tier": "core",
+        "value": 6
+      },
+      "G43": {
+        "tier": "core",
+        "value": 5
+      },
+      "G44": {
+        "tier": "core",
+        "value": 5
+      },
+      "G45": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G46": {
+        "tier": "reference",
+        "value": "A"
+      }
+    }
+  },
+  {
+    "leaderId": "deng_xiaoping",
+    "leaderName": "邓小平",
+    "monogram": "DX",
+    "coreDimensions": [
+      "L15",
+      "L10",
+      "L11",
+      "G2",
+      "G5",
+      "G14"
+    ],
+    "answers": {
+      "L05": {
+        "tier": "core",
+        "value": 6
+      },
+      "L06": {
+        "tier": "core",
+        "value": 6
+      },
+      "L07": {
+        "tier": "core",
+        "value": 6
+      },
+      "L08": {
+        "tier": "core",
+        "value": 7
+      },
+      "L26": {
+        "tier": "core",
+        "value": 6
+      },
+      "L27": {
+        "tier": "core",
+        "value": 6
+      },
+      "L28": {
+        "tier": "core",
+        "value": 7
+      },
+      "L29": {
+        "tier": "core",
+        "value": 2
+      },
+      "L30": {
+        "tier": "core",
+        "value": 6
+      },
+      "L31": {
+        "tier": "core",
+        "value": 5
+      },
+      "L32": {
+        "tier": "core",
+        "value": 6
+      },
+      "G04": {
+        "tier": "core",
+        "value": 7
+      },
+      "G05": {
+        "tier": "core",
+        "value": 7
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 2,
+          "B": 5,
+          "C": 1,
+          "D": 2
+        }
+      },
+      "G11": {
+        "tier": "core",
+        "value": 3
+      },
+      "G12": {
+        "tier": "core",
+        "value": 4
+      },
+      "G13": {
+        "tier": "core",
+        "value": 3
+      },
+      "G26": {
+        "tier": "core",
+        "value": "B"
+      },
+      "G32": {
+        "tier": "core",
+        "value": 4
+      },
+      "G33": {
+        "tier": "core",
+        "value": 2
+      },
+      "G34": {
+        "tier": "core",
+        "value": "A"
+      },
+      "G35": {
+        "tier": "core",
+        "value": 1
+      },
+      "L15": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L16": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L17": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L22": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L23": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L24": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L33": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L34": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G01": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G02": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G03": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G14": {
+        "tier": "reference",
+        "value": 3
+      },
+      "G15": {
+        "tier": "reference",
+        "value": 3
+      },
+      "G16": {
+        "tier": "reference",
+        "value": 3
+      },
+      "G17": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G36": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G37": {
+        "tier": "reference",
+        "value": 1
+      },
+      "G38": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G39": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G40": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G41": {
+        "tier": "reference",
+        "value": 6
+      }
+    }
+  },
+  {
+    "leaderId": "donald_trump",
+    "leaderName": "唐纳德·特朗普",
+    "monogram": "DT",
+    "coreDimensions": [
+      "L4",
+      "L19",
+      "L5",
+      "L13",
+      "G11",
+      "G12"
+    ],
+    "answers": {
+      "L01": {
+        "tier": "core",
+        "value": 7
+      },
+      "L02": {
+        "tier": "core",
+        "value": 7
+      },
+      "L03": {
+        "tier": "core",
+        "value": 7
+      },
+      "L04": {
+        "tier": "core",
+        "value": 6
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 6
+      },
+      "L36": {
+        "tier": "core",
+        "value": 7
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 4,
+          "B": 3,
+          "C": 1,
+          "D": 2
+        }
+      },
+      "G24": {
+        "tier": "core",
+        "value": 7
+      },
+      "G25": {
+        "tier": "core",
+        "value": 6
+      },
+      "G26": {
+        "tier": "core",
+        "value": "C"
+      },
+      "G27": {
+        "tier": "core",
+        "value": 7
+      },
+      "G28": {
+        "tier": "core",
+        "value": 6
+      },
+      "G29": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L11": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L12": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L13": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L14": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L26": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L27": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L28": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L29": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G01": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G02": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G03": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G38": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G39": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G40": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G41": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G42": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G43": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G44": {
+        "tier": "reference",
+        "value": 7
+      }
+    }
+  },
+  {
+    "leaderId": "fidel_castro",
+    "leaderName": "菲德尔·卡斯特罗",
+    "monogram": "FC",
+    "coreDimensions": [
+      "L19",
+      "L5",
+      "L12_14",
+      "L13",
+      "G5",
+      "G14",
+      "G16"
+    ],
+    "answers": {
+      "L01": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L02": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L03": {
+        "tier": "core",
+        "value": 7
+      },
+      "L04": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L11": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L12": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L13": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L14": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "L26": {
+        "tier": "reference",
+        "value": 3
+      },
+      "L27": {
+        "tier": "reference",
+        "value": 3
+      },
+      "L28": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L29": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L33": {
+        "tier": "core",
+        "value": 7
+      },
+      "L34": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 7
+      },
+      "G01": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G02": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G03": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G11": {
+        "tier": "core",
+        "value": 1
+      },
+      "G12": {
+        "tier": "core",
+        "value": 1
+      },
+      "G13": {
+        "tier": "core",
+        "value": 1
+      },
+      "G24": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G25": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G32": {
+        "tier": "core",
+        "value": 7
+      },
+      "G33": {
+        "tier": "core",
+        "value": 6
+      },
+      "G34": {
+        "tier": "core",
+        "value": "D"
+      },
+      "G35": {
+        "tier": "core",
+        "value": 6
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 7
+      },
+      "G40": {
+        "tier": "core",
+        "value": 2
+      },
+      "G41": {
+        "tier": "core",
+        "value": 6
+      }
+    }
+  },
+  {
+    "leaderId": "franklin_d_roosevelt",
+    "leaderName": "富兰克林·D·罗斯福",
+    "monogram": "FDR",
+    "coreDimensions": [
+      "L11",
+      "L12_14",
+      "L13",
+      "G3",
+      "G5",
+      "G14",
+      "G18"
+    ],
+    "answers": {
+      "L30": {
+        "tier": "core",
+        "value": 7
+      },
+      "L31": {
+        "tier": "core",
+        "value": 6
+      },
+      "L32": {
+        "tier": "core",
+        "value": 7
+      },
+      "L33": {
+        "tier": "core",
+        "value": 7
+      },
+      "L34": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 6
+      },
+      "G06": {
+        "tier": "core",
+        "value": 7
+      },
+      "G07": {
+        "tier": "core",
+        "value": 7
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 1,
+          "B": 3,
+          "C": 4,
+          "D": 2
+        }
+      },
+      "G11": {
+        "tier": "core",
+        "value": 2
+      },
+      "G12": {
+        "tier": "core",
+        "value": 2
+      },
+      "G13": {
+        "tier": "core",
+        "value": 3
+      },
+      "G32": {
+        "tier": "core",
+        "value": 6
+      },
+      "G33": {
+        "tier": "core",
+        "value": 3
+      },
+      "G34": {
+        "tier": "core",
+        "value": "B"
+      },
+      "G35": {
+        "tier": "core",
+        "value": 1
+      },
+      "G45": {
+        "tier": "core",
+        "value": 7
+      },
+      "G46": {
+        "tier": "core",
+        "value": "B"
+      },
+      "L03": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L04": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L05": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L06": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L07": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L08": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L18": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L19": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G04": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G05": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G08": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G09": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "A"
+      },
+      "G42": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G43": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G44": {
+        "tier": "reference",
+        "value": 3
+      }
+    }
+  },
+  {
+    "leaderId": "joseph_stalin",
+    "leaderName": "约瑟夫·斯大林",
+    "monogram": "JS",
+    "coreDimensions": [
+      "L17",
+      "L5",
+      "G5",
+      "G6",
+      "G14"
+    ],
+    "answers": {
+      "L10": {
+        "tier": "core",
+        "value": 1
+      },
+      "L11": {
+        "tier": "core",
+        "value": 7
+      },
+      "L12": {
+        "tier": "core",
+        "value": 7
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 3,
+          "B": 4,
+          "C": 2,
+          "D": 1
+        }
+      },
+      "G11": {
+        "tier": "core",
+        "value": 1
+      },
+      "G12": {
+        "tier": "core",
+        "value": 1
+      },
+      "G13": {
+        "tier": "core",
+        "value": 1
+      },
+      "G14": {
+        "tier": "core",
+        "value": 1
+      },
+      "G15": {
+        "tier": "core",
+        "value": 1
+      },
+      "G16": {
+        "tier": "core",
+        "value": 1
+      },
+      "G17": {
+        "tier": "core",
+        "value": 7
+      },
+      "G32": {
+        "tier": "core",
+        "value": 7
+      },
+      "G33": {
+        "tier": "core",
+        "value": 7
+      },
+      "G34": {
+        "tier": "core",
+        "value": "D"
+      },
+      "G35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L03": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L04": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L13": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L14": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L26": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L27": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L28": {
+        "tier": "reference",
+        "value": 3
+      },
+      "L29": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G01": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G02": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G03": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G04": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G05": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "B"
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G38": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G39": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G40": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G41": {
+        "tier": "reference",
+        "value": 7
+      }
+    }
+  },
+  {
+    "leaderId": "kim_jong_un",
+    "leaderName": "金正恩",
+    "monogram": "KJU",
+    "coreDimensions": [
+      "L19",
+      "L17",
+      "L5",
+      "L13",
+      "G1",
+      "G6",
+      "G16"
+    ],
+    "answers": {
+      "L03": {
+        "tier": "core",
+        "value": 7
+      },
+      "L04": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "core",
+        "value": 1
+      },
+      "L11": {
+        "tier": "core",
+        "value": 7
+      },
+      "L12": {
+        "tier": "core",
+        "value": 7
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 7
+      },
+      "G01": {
+        "tier": "core",
+        "value": 7
+      },
+      "G02": {
+        "tier": "core",
+        "value": 7
+      },
+      "G03": {
+        "tier": "core",
+        "value": 7
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 5,
+          "B": 3,
+          "C": 1,
+          "D": 1
+        }
+      },
+      "G14": {
+        "tier": "core",
+        "value": 1
+      },
+      "G15": {
+        "tier": "core",
+        "value": 7
+      },
+      "G16": {
+        "tier": "core",
+        "value": 1
+      },
+      "G17": {
+        "tier": "core",
+        "value": 7
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 7
+      },
+      "G40": {
+        "tier": "core",
+        "value": 7
+      },
+      "G41": {
+        "tier": "core",
+        "value": 6
+      },
+      "L22": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L23": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L24": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L26": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L27": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L28": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L29": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L33": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L34": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "C"
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G42": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G43": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G44": {
+        "tier": "reference",
+        "value": 7
+      }
+    }
+  },
+  {
+    "leaderId": "lee_kuan_yew",
+    "leaderName": "李光耀",
+    "monogram": "LKY",
+    "coreDimensions": [
+      "L15",
+      "L8",
+      "L10",
+      "L11",
+      "G1",
+      "G2",
+      "G6"
+    ],
+    "answers": {
+      "L05": {
+        "tier": "core",
+        "value": 6
+      },
+      "L06": {
+        "tier": "core",
+        "value": 6
+      },
+      "L07": {
+        "tier": "core",
+        "value": 6
+      },
+      "L08": {
+        "tier": "core",
+        "value": 6
+      },
+      "L15": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L16": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L17": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L22": {
+        "tier": "core",
+        "value": 7
+      },
+      "L23": {
+        "tier": "core",
+        "value": 7
+      },
+      "L24": {
+        "tier": "core",
+        "value": 7
+      },
+      "L25": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L26": {
+        "tier": "core",
+        "value": 7
+      },
+      "L27": {
+        "tier": "core",
+        "value": 7
+      },
+      "L28": {
+        "tier": "core",
+        "value": 7
+      },
+      "L29": {
+        "tier": "core",
+        "value": 3
+      },
+      "L30": {
+        "tier": "core",
+        "value": 6
+      },
+      "L31": {
+        "tier": "core",
+        "value": 5
+      },
+      "L32": {
+        "tier": "core",
+        "value": 7
+      },
+      "G01": {
+        "tier": "core",
+        "value": 6
+      },
+      "G02": {
+        "tier": "core",
+        "value": 7
+      },
+      "G03": {
+        "tier": "core",
+        "value": 6
+      },
+      "G04": {
+        "tier": "core",
+        "value": 6
+      },
+      "G05": {
+        "tier": "core",
+        "value": 7
+      },
+      "G14": {
+        "tier": "core",
+        "value": 2
+      },
+      "G15": {
+        "tier": "core",
+        "value": 2
+      },
+      "G16": {
+        "tier": "core",
+        "value": 2
+      },
+      "G17": {
+        "tier": "core",
+        "value": 7
+      },
+      "G19": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G20": {
+        "tier": "reference",
+        "value": "B"
+      },
+      "G32": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G33": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G34": {
+        "tier": "reference",
+        "value": "B"
+      },
+      "G35": {
+        "tier": "reference",
+        "value": 1
+      },
+      "G36": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G37": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G38": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G39": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G40": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G41": {
+        "tier": "reference",
+        "value": 5
+      }
+    }
+  },
+  {
+    "leaderId": "mao_zedong",
+    "leaderName": "毛泽东",
+    "monogram": "MZ",
+    "coreDimensions": [
+      "L19",
+      "L18",
+      "L5",
+      "L12_14",
+      "L13",
+      "G14",
+      "G16"
+    ],
+    "answers": {
+      "L03": {
+        "tier": "core",
+        "value": 7
+      },
+      "L04": {
+        "tier": "core",
+        "value": 7
+      },
+      "L13": {
+        "tier": "core",
+        "value": 7
+      },
+      "L14": {
+        "tier": "core",
+        "value": 6
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "L33": {
+        "tier": "core",
+        "value": 7
+      },
+      "L34": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 7
+      },
+      "G32": {
+        "tier": "core",
+        "value": 7
+      },
+      "G33": {
+        "tier": "core",
+        "value": 7
+      },
+      "G34": {
+        "tier": "core",
+        "value": "D"
+      },
+      "G35": {
+        "tier": "core",
+        "value": 7
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 7
+      },
+      "G40": {
+        "tier": "core",
+        "value": 2
+      },
+      "G41": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "reference",
+        "value": 3
+      },
+      "L11": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L12": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G11": {
+        "tier": "reference",
+        "value": 1
+      },
+      "G12": {
+        "tier": "reference",
+        "value": 1
+      },
+      "G13": {
+        "tier": "reference",
+        "value": 1
+      },
+      "G14": {
+        "tier": "reference",
+        "value": 1
+      },
+      "G15": {
+        "tier": "reference",
+        "value": 1
+      },
+      "G16": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G17": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G24": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G25": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "C"
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G42": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G43": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G44": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G10": {
+        "tier": "reference",
+        "value": {
+          "A": 2,
+          "B": 2,
+          "C": 4,
+          "D": 2
+        }
+      }
+    }
+  },
+  {
+    "leaderId": "mobutu_sese_seko",
+    "leaderName": "蒙博托·塞塞·塞科",
+    "monogram": "MSS",
+    "coreDimensions": [
+      "L19",
+      "L17",
+      "L5",
+      "L13",
+      "G6",
+      "G16"
+    ],
+    "answers": {
+      "L03": {
+        "tier": "core",
+        "value": 7
+      },
+      "L04": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "core",
+        "value": 2
+      },
+      "L11": {
+        "tier": "core",
+        "value": 7
+      },
+      "L12": {
+        "tier": "core",
+        "value": 7
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 7
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 5,
+          "B": 2,
+          "C": 1,
+          "D": 2
+        }
+      },
+      "G14": {
+        "tier": "core",
+        "value": 1
+      },
+      "G15": {
+        "tier": "core",
+        "value": 1
+      },
+      "G16": {
+        "tier": "core",
+        "value": 1
+      },
+      "G17": {
+        "tier": "core",
+        "value": 7
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 7
+      },
+      "G40": {
+        "tier": "core",
+        "value": 6
+      },
+      "G41": {
+        "tier": "core",
+        "value": 5
+      },
+      "L13": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L14": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L26": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L27": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L28": {
+        "tier": "reference",
+        "value": 2
+      },
+      "L29": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G01": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G02": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G03": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G04": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G05": {
+        "tier": "reference",
+        "value": 3
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "C"
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 7
+      }
+    }
+  },
+  {
+    "leaderId": "nelson_mandela",
+    "leaderName": "纳尔逊·曼德拉",
+    "monogram": "NM",
+    "coreDimensions": [
+      "L19",
+      "L11",
+      "L12_14",
+      "G3",
+      "G12",
+      "G13"
+    ],
+    "answers": {
+      "L03": {
+        "tier": "core",
+        "value": 7
+      },
+      "L04": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L11": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L12": {
+        "tier": "reference",
+        "value": 4
+      },
+      "L18": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L19": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L30": {
+        "tier": "core",
+        "value": 7
+      },
+      "L31": {
+        "tier": "core",
+        "value": 7
+      },
+      "L32": {
+        "tier": "core",
+        "value": 6
+      },
+      "L33": {
+        "tier": "core",
+        "value": 6
+      },
+      "L34": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "reference",
+        "value": 7
+      },
+      "L36": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G06": {
+        "tier": "core",
+        "value": 7
+      },
+      "G07": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G08": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G09": {
+        "tier": "core",
+        "value": 7
+      },
+      "G21": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G22": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G27": {
+        "tier": "core",
+        "value": 1
+      },
+      "G28": {
+        "tier": "core",
+        "value": 2
+      },
+      "G29": {
+        "tier": "core",
+        "value": 1
+      },
+      "G30": {
+        "tier": "core",
+        "value": 6
+      },
+      "G31": {
+        "tier": "core",
+        "value": 6
+      },
+      "G42": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G43": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G44": {
+        "tier": "reference",
+        "value": 4
+      }
+    }
+  },
+  {
+    "leaderId": "nikita_khrushchev",
+    "leaderName": "尼基塔·赫鲁晓夫",
+    "monogram": "NK",
+    "coreDimensions": [
+      "L15",
+      "L7",
+      "L11",
+      "G5",
+      "G14",
+      "G17"
+    ],
+    "answers": {
+      "L05": {
+        "tier": "core",
+        "value": 6
+      },
+      "L06": {
+        "tier": "core",
+        "value": 5
+      },
+      "L07": {
+        "tier": "core",
+        "value": 5
+      },
+      "L08": {
+        "tier": "core",
+        "value": 6
+      },
+      "L20": {
+        "tier": "core",
+        "value": 7
+      },
+      "L21": {
+        "tier": "core",
+        "value": 1
+      },
+      "L30": {
+        "tier": "core",
+        "value": 6
+      },
+      "L31": {
+        "tier": "core",
+        "value": 5
+      },
+      "L32": {
+        "tier": "core",
+        "value": 6
+      },
+      "G11": {
+        "tier": "core",
+        "value": 1
+      },
+      "G12": {
+        "tier": "core",
+        "value": 1
+      },
+      "G13": {
+        "tier": "core",
+        "value": 1
+      },
+      "G32": {
+        "tier": "core",
+        "value": 6
+      },
+      "G33": {
+        "tier": "core",
+        "value": 5
+      },
+      "G34": {
+        "tier": "core",
+        "value": "D"
+      },
+      "G35": {
+        "tier": "core",
+        "value": 3
+      },
+      "G42": {
+        "tier": "core",
+        "value": 5
+      },
+      "G43": {
+        "tier": "core",
+        "value": 5
+      },
+      "G44": {
+        "tier": "core",
+        "value": 6
+      },
+      "L01": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L02": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L22": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L23": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L24": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G01": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G02": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G03": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G14": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G15": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G16": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G17": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G19": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G20": {
+        "tier": "reference",
+        "value": "B"
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G36": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G37": {
+        "tier": "reference",
+        "value": 3
+      },
+      "G38": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G39": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "B"
+      }
+    }
+  },
+  {
+    "leaderId": "park_chung_hee",
+    "leaderName": "朴正熙",
+    "monogram": "PCH",
+    "coreDimensions": [
+      "L5",
+      "L8",
+      "L10",
+      "G1",
+      "G2",
+      "G6"
+    ],
+    "answers": {
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 6
+      },
+      "L22": {
+        "tier": "core",
+        "value": 7
+      },
+      "L23": {
+        "tier": "core",
+        "value": 6
+      },
+      "L24": {
+        "tier": "core",
+        "value": 7
+      },
+      "L26": {
+        "tier": "core",
+        "value": 6
+      },
+      "L27": {
+        "tier": "core",
+        "value": 6
+      },
+      "L28": {
+        "tier": "core",
+        "value": 5
+      },
+      "L29": {
+        "tier": "core",
+        "value": 6
+      },
+      "G01": {
+        "tier": "core",
+        "value": 7
+      },
+      "G02": {
+        "tier": "core",
+        "value": 7
+      },
+      "G03": {
+        "tier": "core",
+        "value": 7
+      },
+      "G04": {
+        "tier": "core",
+        "value": 7
+      },
+      "G05": {
+        "tier": "core",
+        "value": 7
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 4,
+          "B": 4,
+          "C": 1,
+          "D": 1
+        }
+      },
+      "G14": {
+        "tier": "core",
+        "value": 2
+      },
+      "G15": {
+        "tier": "core",
+        "value": 2
+      },
+      "G16": {
+        "tier": "core",
+        "value": 2
+      },
+      "G17": {
+        "tier": "core",
+        "value": 7
+      },
+      "L10": {
+        "tier": "reference",
+        "value": 4
+      },
+      "L11": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L12": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L30": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L31": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L32": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G18": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "B"
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G32": {
+        "tier": "reference",
+        "value": 4
+      },
+      "G33": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G34": {
+        "tier": "reference",
+        "value": "B"
+      },
+      "G35": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G38": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G39": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G40": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G41": {
+        "tier": "reference",
+        "value": 6
+      }
+    }
+  },
+  {
+    "leaderId": "vladimir_putin",
+    "leaderName": "弗拉基米尔·普京",
+    "monogram": "VP",
+    "coreDimensions": [
+      "L17",
+      "L5",
+      "L19",
+      "G1",
+      "G12",
+      "G16",
+      "G17"
+    ],
+    "answers": {
+      "L03": {
+        "tier": "core",
+        "value": 6
+      },
+      "L04": {
+        "tier": "core",
+        "value": 6
+      },
+      "L10": {
+        "tier": "core",
+        "value": 2
+      },
+      "L11": {
+        "tier": "core",
+        "value": 7
+      },
+      "L12": {
+        "tier": "core",
+        "value": 6
+      },
+      "L15": {
+        "tier": "core",
+        "value": 7
+      },
+      "L16": {
+        "tier": "core",
+        "value": 7
+      },
+      "L17": {
+        "tier": "core",
+        "value": 7
+      },
+      "G01": {
+        "tier": "core",
+        "value": 7
+      },
+      "G02": {
+        "tier": "core",
+        "value": 7
+      },
+      "G03": {
+        "tier": "core",
+        "value": 6
+      },
+      "G10": {
+        "tier": "core",
+        "value": {
+          "A": 4,
+          "B": 3,
+          "C": 1,
+          "D": 2
+        }
+      },
+      "G27": {
+        "tier": "core",
+        "value": 6
+      },
+      "G28": {
+        "tier": "core",
+        "value": 6
+      },
+      "G29": {
+        "tier": "core",
+        "value": 6
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 7
+      },
+      "G40": {
+        "tier": "core",
+        "value": 7
+      },
+      "G41": {
+        "tier": "core",
+        "value": 7
+      },
+      "G42": {
+        "tier": "core",
+        "value": 7
+      },
+      "G43": {
+        "tier": "core",
+        "value": 6
+      },
+      "G44": {
+        "tier": "core",
+        "value": 6
+      },
+      "L30": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L31": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L32": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L35": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L36": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G14": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G15": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G16": {
+        "tier": "reference",
+        "value": 2
+      },
+      "G17": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G23": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G26": {
+        "tier": "reference",
+        "value": "B"
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 7
+      }
+    }
+  },
+  {
+    "leaderId": "winston_churchill",
+    "leaderName": "温斯顿·丘吉尔",
+    "monogram": "WC",
+    "coreDimensions": [
+      "L4",
+      "L11",
+      "L12_14",
+      "L13",
+      "G16",
+      "G17"
+    ],
+    "answers": {
+      "L01": {
+        "tier": "core",
+        "value": 7
+      },
+      "L02": {
+        "tier": "core",
+        "value": 7
+      },
+      "L30": {
+        "tier": "core",
+        "value": 6
+      },
+      "L31": {
+        "tier": "core",
+        "value": 5
+      },
+      "L32": {
+        "tier": "core",
+        "value": 6
+      },
+      "L33": {
+        "tier": "core",
+        "value": 7
+      },
+      "L34": {
+        "tier": "core",
+        "value": 7
+      },
+      "L35": {
+        "tier": "core",
+        "value": 7
+      },
+      "L36": {
+        "tier": "core",
+        "value": 6
+      },
+      "G26": {
+        "tier": "core",
+        "value": "A"
+      },
+      "G38": {
+        "tier": "core",
+        "value": 7
+      },
+      "G39": {
+        "tier": "core",
+        "value": 6
+      },
+      "G40": {
+        "tier": "core",
+        "value": 7
+      },
+      "G41": {
+        "tier": "core",
+        "value": 7
+      },
+      "G42": {
+        "tier": "core",
+        "value": 6
+      },
+      "G43": {
+        "tier": "core",
+        "value": 6
+      },
+      "G44": {
+        "tier": "core",
+        "value": 4
+      },
+      "L05": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L06": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L07": {
+        "tier": "reference",
+        "value": 6
+      },
+      "L08": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L18": {
+        "tier": "reference",
+        "value": 5
+      },
+      "L19": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G08": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G09": {
+        "tier": "reference",
+        "value": 5
+      },
+      "G10": {
+        "tier": "reference",
+        "value": {
+          "A": 4,
+          "B": 2,
+          "C": 1,
+          "D": 3
+        }
+      },
+      "G21": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G22": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G30": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G31": {
+        "tier": "reference",
+        "value": 6
+      },
+      "G45": {
+        "tier": "reference",
+        "value": 7
+      },
+      "G46": {
+        "tier": "reference",
+        "value": "B"
+      }
+    }
+  }
+]

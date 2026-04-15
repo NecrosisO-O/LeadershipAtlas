@@ -1,14 +1,22 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "description": "Leadership Atlas alpha website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate:data": "python3 scripts/generate_alpha_assets.py"
   },
-  "keywords": [],
+  "keywords": [
+    "leadership-atlas",
+    "react",
+    "vite"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@vitejs/plugin-react": "^6.0.1",
     "react": "^19.2.5",

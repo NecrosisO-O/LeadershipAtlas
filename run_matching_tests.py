@@ -1,122 +1,102 @@
+"""Current matching engine.
+
+The filename is kept for historical compatibility, but this module no longer
+generates the removed legacy test artifacts.
+"""
+
 import json
 from pathlib import Path
-from math import isclose
+from collections import Counter
+import re
 
 ROOT = Path('/root/workspace/query')
 PROFILES = ROOT / 'leader_profiles'
 ITEM_MAP = json.loads((ROOT / 'item_dimension_mapping.json').read_text())
-
+SIGNATURE = json.loads((ROOT / 'signature_dimensions.json').read_text())
 leaders = [p for p in PROFILES.iterdir() if p.is_dir() and p.name != '_template']
 
-def item_similarity(user_val, lead_val):
-    if isinstance(user_val, dict) and isinstance(lead_val, dict):
-        keys = sorted(set(user_val) | set(lead_val))
-        diff = sum(abs(user_val.get(k,0)-lead_val.get(k,0)) for k in keys)
-        return max(0.0, 1 - diff / 20.0)
-    if isinstance(user_val, str) or isinstance(lead_val, str):
-        return 1.0 if user_val == lead_val else 0.0
-    return max(0.0, 1 - abs(float(user_val) - float(lead_val)) / 6.0)
+core_counts = Counter()
+for lp in leaders:
+    report = (lp / 'profile_report.md').read_text()
+    for line in report.splitlines():
+        if line.startswith('- 核心维度：'):
+            raw = line.split('：',1)[1].strip().rstrip('。')
+            parts = [p.strip() for p in re.split(r'[；,，、]\s*', raw) if p.strip()]
+            for p in parts:
+                if '12+14' in p:
+                    dim='L12_14'
+                elif 'G' in p:
+                    m=re.search(r'G(\d+)', p)
+                    dim='G'+m.group(1) if m else p
+                else:
+                    m=re.search(r'维度\s*(\d+)', p)
+                    dim='L'+m.group(1) if m else p
+                core_counts[dim]+=1
+            break
+
+def dim_weight(dim):
+    c = core_counts.get(dim, 1)
+    if c <= 2:
+        return 1.15
+    if c <= 4:
+        return 1.08
+    return 1.0
+
+def item_similarity(u, l):
+    if isinstance(u, dict) or isinstance(l, dict):
+        if isinstance(u, dict) and isinstance(l, dict):
+            keys = sorted(set(u) | set(l))
+            diff = sum(abs(u.get(k,0) - l.get(k,0)) for k in keys)
+            return max(0.0, 1 - diff / 20.0)
+        return 0.0
+    if isinstance(u, str) or isinstance(l, str):
+        return 1.0 if u == l else 0.0
+    return max(0.0, 1 - abs(float(u) - float(l)) / 6.0)
+
+def block_multiplier(dim):
+    return 0.6 if dim in {'G_BLOCK_VALUES','G_BLOCK_LEGIT'} else 1.0
 
 def layer_score(user_answers, leader_obj, layer):
-    # group by dimension
     by_dim = {}
+    sig_dims = set(SIGNATURE.get(leader_obj['leader_id'], []))
     for item_id, meta in leader_obj['answers'].items():
-        if item_id not in ITEM_MAP:
-            continue
-        if ITEM_MAP[item_id]['layer'] != layer:
+        if item_id not in ITEM_MAP or ITEM_MAP[item_id]['layer'] != layer:
             continue
         if item_id not in user_answers:
             continue
         dim = ITEM_MAP[item_id]['dimension_id']
-        sim = item_similarity(user_answers[item_id]['value'], meta['value'])
+        sim = item_similarity(user_answers[item_id], meta['value'])
         by_dim.setdefault(dim, {'tier': meta['tier'], 'vals': []})
         by_dim[dim]['vals'].append(sim)
-    core_dims=[]; ref_dims=[]
-    for dim,info in by_dim.items():
-        avg = sum(info['vals'])/len(info['vals'])
-        if info['tier']=='core':
-            core_dims.append(avg)
+    core=[]; ref=[]
+    for dim, info in by_dim.items():
+        avg = sum(info['vals']) / len(info['vals'])
+        avg *= block_multiplier(dim)
+        if info['tier'] == 'core':
+            w = dim_weight(dim) * (1.5 if dim in sig_dims else 1.0)
+            core.append((avg, w, dim in sig_dims))
         else:
-            ref_dims.append(avg)
-    core_avg = sum(core_dims)/len(core_dims) if core_dims else 0.0
-    ref_avg = sum(ref_dims)/len(ref_dims) if ref_dims else 0.0
-    base = 0.8*core_avg + 0.2*ref_avg
-    severe = sum(1 for x in core_dims if x < 0.35)
-    moderate = sum(1 for x in core_dims if 0.35 <= x < 0.55)
-    denom = len(core_dims) if core_dims else 1
-    penalty = 0.25*(severe/denom) + 0.10*(moderate/denom)
-    final = max(0.0, base - penalty)
-    return {
-        'core_avg': core_avg,
-        'ref_avg': ref_avg,
-        'core_count': len(core_dims),
-        'ref_count': len(ref_dims),
-        'severe': severe,
-        'moderate': moderate,
-        'score': final,
-    }
+            w = dim_weight(dim)
+            ref.append((avg, w))
+    core_avg = sum(v*w for v,w,_ in core)/sum(w for _,w,_ in core) if core else 0.0
+    ref_avg = sum(v*w for v,w in ref)/sum(w for _,w in ref) if ref else 0.0
+    base = 0.80 * core_avg + 0.20 * ref_avg
+    severe = sum(1 for v,_,_ in core if v < 0.35)
+    moderate = sum(1 for v,_,_ in core if 0.35 <= v < 0.55)
+    denom = len(core) if core else 1
+    penalty = 0.20*(severe/denom) + 0.08*(moderate/denom)
+    sig_total = sum(1 for _,_,s in core if s)
+    sig_hits = sum(1 for v,_,s in core if s and v >= 0.55)
+    sig_penalty = 0.08 * ((sig_total - sig_hits) / sig_total) if sig_total else 0.0
+    return max(0.0, base - penalty - sig_penalty)
 
-def rank_for_user(user_leader_id):
-    user_obj = json.loads((PROFILES / user_leader_id / 'profile_data.json').read_text())
-    user_answers = user_obj['answers']
+def rank_user_answers(user_answers):
     rows=[]
     for lp in leaders:
-        obj = json.loads((lp / 'profile_data.json').read_text())
+        obj = json.loads((lp/'profile_data.json').read_text())
         style = layer_score(user_answers, obj, 'style')
         ideology = layer_score(user_answers, obj, 'ideology')
-        overall = 0.5*style['score'] + 0.5*ideology['score']
-        rows.append({
-            'leader_id': obj['leader_id'],
-            'leader_name': obj['leader_name'],
-            'style': style['score'],
-            'ideology': ideology['score'],
-            'overall': overall,
-            'core_avg': (style['core_avg']+ideology['core_avg'])/2,
-            'severe': style['severe'] + ideology['severe'],
-        })
-    def sort_key(r):
-        return (-r['overall'], -r['core_avg'], r['severe'], -r['style'], -r['ideology'])
-    rows.sort(key=sort_key)
+        overall = 0.5*style + 0.5*ideology
+        rows.append({'leader_id': obj['leader_id'], 'style': style, 'ideology': ideology, 'overall': overall})
+    rows.sort(key=lambda r:(-r['overall'], -r['style'], -r['ideology']))
     return rows
-
-results = []
-for lp in sorted(leaders, key=lambda p: p.name):
-    ranked = rank_for_user(lp.name)
-    top3 = ranked[:3]
-    pos = next((i+1 for i,r in enumerate(ranked) if r['leader_id']==lp.name), None)
-    style_rank = next((i+1 for i,r in enumerate(sorted(ranked, key=lambda r:(-r['style'],-r['core_avg'],r['severe']))) if r['leader_id']==lp.name), None)
-    ide_rank = next((i+1 for i,r in enumerate(sorted(ranked, key=lambda r:(-r['ideology'],-r['core_avg'],r['severe']))) if r['leader_id']==lp.name), None)
-    results.append({
-        'leader_id': lp.name,
-        'overall_rank': pos,
-        'style_rank': style_rank,
-        'ideology_rank': ide_rank,
-        'top3': top3,
-    })
-
-out = ROOT / 'matching_test_results_round1.md'
-lines = ['# 第一阶段：17人自我回归测试结果','', '说明：将每位领导人的 `profile_data.json` 直接作为用户答卷输入匹配程序，检查是否能回归到自己。','']
-strong=acceptable=fail=0
-for r in results:
-    if r['overall_rank']==1:
-        status='强通过'; strong+=1
-    elif (r['style_rank']==1 or r['ideology_rank']==1) and r['overall_rank']<=3:
-        status='可接受'; acceptable+=1
-    else:
-        status='不通过'; fail+=1
-    lines.append(f"## {r['leader_id']}")
-    lines.append(f"- 综合排名：{r['overall_rank']}")
-    lines.append(f"- 风格排名：{r['style_rank']}")
-    lines.append(f"- 理念排名：{r['ideology_rank']}")
-    lines.append(f"- 判定：{status}")
-    lines.append('- 综合 Top 3：')
-    for t in r['top3']:
-        lines.append(f"  - {t['leader_id']} | overall={t['overall']:.3f} | style={t['style']:.3f} | ideology={t['ideology']:.3f}")
-    lines.append('')
-lines.append('## 汇总')
-lines.append(f'- 强通过：{strong}')
-lines.append(f'- 可接受：{acceptable}')
-lines.append(f'- 不通过：{fail}')
-out.write_text('\n'.join(lines))
-print(f'wrote {out}')
-print(f'strong={strong} acceptable={acceptable} fail={fail}')

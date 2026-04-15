@@ -8,6 +8,7 @@
 - 当前状态判断仍以 `now.md` 为入口。
 - 当前正式文件边界仍以 `current_effective_files.md` 为准。
 - 若本文件与某一专题规则文件存在更细层面的差异，应优先以对应专题文件为准。
+- 若说明文档与执行结果冲突，应优先以 `run_matching_tests.py` 与其直接消费的数据文件为准。
 
 ---
 
@@ -46,8 +47,6 @@
 8. `leader_coding_guardrails.md`
 9. `matching_principles.md`
 10. `matching_algorithm.md`
-11. `matching_test_plan.md`
-12. `matching_test_summary.md`
 
 ---
 
@@ -281,7 +280,14 @@
 - 第一批正式人物库：`17位`
 - 统一 `leader_id` 见：`leader_ids_batch_1.md`
 
-### 3. 建库方法不是逐题硬填 82 题
+### 3. 当前数据真源与再生成现状
+
+- 当前程序实际使用的人物数据真源是：`leader_profiles/*/profile_data.json`
+- 这些人物画像采用的是 `82题题目宇宙 + 按维度纳入题` 的设计，不要求单个人物答满 `82` 题
+- 当前仓库中的 `generate_profiles.py` 与 `scripts/generate_batch1_profiles.py` 只覆盖部分人物，不能单独完整重建当前 17 人人物库
+- 因此，继续维护时应把现有 `leader_profiles/` 产物视为当前真源，而不是把两份生成脚本误当成完整再生入口
+
+### 4. 建库方法不是逐题硬填 82 题
 
 当前正式规则是 `维度优先`：
 
@@ -297,14 +303,14 @@
 - 没有出现在 `answers` 中的题，默认就是 `不纳入题`
 - 这不是漏填，而是正式设计的一部分
 
-### 4. 维度数量控制
+### 5. 维度数量控制
 
 - `核心维度` 必须控制在 `5-7个`
 - `参考维度` 不设硬上限
 - 但不能把“也许能判断”的维度全部塞进参考维度
 - 如果参考维度过多、稀释人物特征，应收紧参考维度，而不是删核心维度下的题
 
-### 5. 逐题记录要求
+### 6. 逐题记录要求
 
 每一道被纳入的题都要记录：
 
@@ -316,7 +322,7 @@
 - `evidence_type`
 - `note`
 
-### 6. 领导人目录结构
+### 7. 领导人目录结构
 
 每位领导人目录下的固定文件包括：
 
@@ -324,7 +330,7 @@
 - `profile_data.json`：数据型输出，供程序使用
 - `evidence_notes.md`：可选补充说明
 
-### 7. 编码守则
+### 8. 编码守则
 
 必须遵守：
 
@@ -354,24 +360,40 @@
 
 ### 2. 题目层相似度
 
-当前正式说明中：
+当前执行实现中：
 
 - `Likert`：`1 - |用户答案 - 领导人答案| / 6`
 - `单选/强制权衡`：相同记 `1`，不同记 `0`
 - `点数分配`：`1 - 总差异 / 20`
+- 若用户与领导人的题型值类型不一致（例如一方是点数分配字典、另一方不是），该题记为 `0`
 
 ### 3. 维度层相似度
 
 - 同一维度下，取所有纳入题目的相似度平均值
+- 其中两道板块级题对应的维度：`G_BLOCK_VALUES`、`G_BLOCK_LEGIT`
+- 这两个板块级维度在层级计算前会再乘以 `0.6`
 
 ### 4. 核心题优先原则
 
 - 先按领导人的 `核心题 / 参考题` 来加权理解
-- 当前正式说明是：
-  - `基础得分 = 0.8 × 核心维度平均相似度 + 0.2 × 参考维度平均相似度`
+- 当前执行真源采用的是一版偏趣味项目导向的温和加权：
+  - 对每个维度先按“在多少位领导人的报告中被列为核心维度”做轻量稀有度修正，采用三档权重而不是连续放大
+  - 若该维度同时是该领导人的 `signature dimension`，且它又是核心维度，则其权重再乘 `1.5`
+  - `基础得分 = 0.80 × 核心维度加权平均 + 0.20 × 参考维度加权平均`
 - 对核心维度中的明显反向项，再做 `反向扣分`
 
-### 5. 三层结果
+### 5. 反向扣分与签名维度软惩罚
+
+- 只针对 `核心维度`
+- `严重不匹配`：核心维度相似度 `< 0.35`
+- `中度不匹配`：核心维度相似度 `>= 0.35 且 < 0.55`
+- 扣分公式：`0.20 × 严重不匹配率 + 0.08 × 中度不匹配率`
+- 此外，`signature_dimensions.json` 中定义的招牌维度还会触发额外软惩罚：
+  - 命中标准仍为签名核心维度相似度 `>= 0.55`
+  - 未命中的签名维度越多，额外扣分越多
+  - 当前不再使用硬性 `0.82` 截顶门槛
+
+### 6. 三层结果
 
 - `风格分`
 - `理念分`
@@ -381,22 +403,32 @@
 
 - `综合分 = 0.5 × 风格分 + 0.5 × 理念分`
 
-### 6. 当前必须知道的一个现实情况
+### 7. 排序规则
 
-当前仓库中的：
+- 当前执行实现按以下顺序排序：
+  1. `综合分`
+  2. `风格分`
+  3. `理念分`
 
-- `matching_algorithm.md`
+### 8. 当前必须知道的一个现实情况
 
-给出的是项目层面的正式可读规则说明；但测试产物的再生成目前还依赖：
+- 当前仓库中的：
 
-- `run_matching_tests.py`
+  - `matching_algorithm.md`
+
+给出的是与执行真源同步的说明；当前执行真源仍依赖：
+
+  - `run_matching_tests.py`（文件名历史遗留，但当前职责是匹配引擎）
+  - `leader_profiles/*/profile_data.json`
+  - `item_dimension_mapping.json`
+  - `signature_dimensions.json`
 
 也就是说：
 
-- 文档层有一版正式可读规则
-- 脚本层还有一版当前实际测试实现
+- 文档层负责解释当前真源
+- 代码层和数据层负责定义当前真源本身
 
-后续继续维护时，必须同时意识到这两层存在。
+后续继续维护时，必须确保说明文档跟随真源更新，而不是再允许两套口径长期并存。
 
 主参考文件：
 
@@ -406,76 +438,21 @@
 
 ---
 
-## 九、测试体系是怎么设计的
+## 九、测试体系当前状态
 
-当前测试体系不是单一“命中率测试”，而是四类测试一起看：
+- 旧的 `matching_test_*` 文件链路已从当前维护基线中移除。
+- 这意味着：
+  - 旧测试输入、旧测试结果、旧测试总结不再作为当前正式依据
+  - 当前仓库仍保留匹配真源，但暂时不保留一套正式测试评估口径
+- 继续维护时，应把“重建新的测试与校验体系”视为后续优先事项，而不是继续沿用旧测试结论
 
-### 第一阶段：自我回归测试
+## 十、当前系统判断
 
-- 输入：17 位领导人的完整 `profile_data.json`
-- 目的：看人物能否回归到自己
-- 当前定位：`基础正确性测试`
-
-### 第二阶段：人工构造答卷测试
-
-- 输入：围绕若干人物类型构造的答卷
-- 目的：看鲜明特征组合会把用户吸向谁
-- 当前定位：`问题暴露测试`
-
-### 第二阶段补充测试
-
-- 输入：更有针对性的补充构造答卷
-- 目的：看高相似人物簇是否仍难区分
-- 当前定位：`针对性补充测试`
-
-### 第三阶段：相邻人物区分测试
-
-- 输入：高相似人物对照组
-- 目的：检查完整人物答卷之间能否分开
-- 当前定位：`近邻区分测试`
-
-当前正式解释原则是：
-
-- 第一阶段 + 第三阶段是主判断依据
-- 第二阶段 + 第二阶段补充测试主要用于暴露问题
-- 它们不再被直接当作产品真实命中率
-
-主参考文件：
-
-- `matching_test_plan.md`
-- `matching_test_summary.md`
-- `matching_test_results_round1.md`
-- `matching_test_results_round2.md`
-- `matching_test_results_round2b.md`
-- `matching_test_results_round3.md`
-- `matching_nearest_neighbors.md`
-
----
-
-## 十、当前测试结论是什么
-
-### 1. 当前结果
-
-- 第一阶段：`17/17 全部强通过`
-- 第二阶段：`强通过 2 / 可接受 1 / 不通过 7`
-- 第二阶段补充：`强通过 2 / 可接受 0 / 不通过 4`
-- 第三阶段：完整答卷下总体能区分，但稀疏鲜明特征场景仍会发生簇内吸附
-
-### 2. 当前结论
-
-- 当前系统已经达到 `阶段性可用`
-- 但不应被表述为所有场景下都稳定的终版
-
-### 3. 当前最难的人物簇
-
-- `斯大林 / 希特勒 / 金正恩 / 蒙博托`
-- `李光耀 / 朴正熙 / 邓小平`
-- `毛泽东 / 卡斯特罗`
-
-### 4. 当前最重要的解释口径
-
-- `完整答卷场景：可用`
-- `稀疏鲜明特征场景：仍不够稳`
+- 当前仍保留 `82题正式题单 + 17位部分作答人物库 + 匹配计算真源`
+- 当前仓库已新增 `website/` 下的网站 Alpha 前端实现，第一版四段式流程、题型支持与结果页骨架已落地
+- 但旧测试体系已清理，当前缺少可复核的新测试基线
+- 因此，不应继续把旧文档中的通过率、人物簇结论和稳定性判断当作当前正式口径
+- 当前可以明确确认的是：匹配规则已按趣味项目目标做了一轮软化，但其效果仍需后续重新验证
 
 ---
 
@@ -488,10 +465,13 @@
 - 正式文件边界：`current_effective_files.md`
 - 正式题单：`final_questions.md`
 - 编号与映射：`item_id_mapping.md`、`item_dimension_mapping.json`
-- 人物库与建库规则：`leader_profiles/`、`leader_coding_workflow.md`、`leader_coding_guardrails.md`、`leader_output_templates.md`
-- 配套实现与生成文件：`run_matching_tests.py`、`generate_profiles.py`、`scripts/generate_batch1_profiles.py`、`signature_dimensions.json`、`item_neutral_defaults.json`
-- 匹配与测试说明：`matching_principles.md`、`matching_algorithm.md`、`matching_test_plan.md`、`matching_test_summary.md`
-- 当前测试结果：`matching_test_results_*.md`、`matching_nearest_neighbors.md`
+- 当前数据真源：`leader_profiles/`、`leader_ids_batch_1.md`、`signature_dimensions.json`
+- 当前执行真源：`run_matching_tests.py`（历史文件名，当前作为匹配引擎使用）
+- 当前网站实现：`website/`
+- 网站 Alpha 工作计划：`website_alpha_work_plan.md`
+- 同步说明：`leader_coding_workflow.md`、`leader_coding_guardrails.md`、`leader_output_templates.md`、`matching_principles.md`、`matching_algorithm.md`
+- 辅助/局部生成文件：`generate_profiles.py`、`scripts/generate_batch1_profiles.py`、`item_neutral_defaults.json`
+- 规划文件：`website_design_spec.md`
 
 ### 2. 历史/过程材料
 
@@ -502,13 +482,20 @@
 - `governing_ideology_structure.md`
 - `launch_version_34_dimensions.md`
 - `dimension_questions_design.md`
+- `matching_test_plan.md`
+- `matching_test_summary.md`
+- `matching_test_results_round1.md`
+- `matching_test_results_round2.md`
+- `matching_test_results_round2b.md`
+- `matching_test_results_round3.md`
+- `matching_nearest_neighbors.md`
+- `matching_test_inputs_round2.json`
+- `matching_test_inputs_round2b.json`
+- `matching_test_inputs_round3.json`
 - `question_review_round1.md`
 - `question_review_round2.md`
 - `question_review_round3.md`
 - `third_round_item_supplement_plan.md`
-- `matching_test_inputs_round2.json`
-- `matching_test_inputs_round2b.json`
-- `matching_test_inputs_round3.json`
 
 ---
 
@@ -527,7 +514,7 @@
 ### 3. 误以为第二阶段构造答卷测试就是产品真实命中率
 
 - 错
-- 当前正式解释里，这一阶段主要是压力测试和问题暴露测试
+- 旧测试体系已移除，当前不再沿用第二阶段测试口径
 
 ### 4. 误以为历史文件仍然等于当前正式设计
 
@@ -537,7 +524,7 @@
 ### 5. 误以为当前系统已经是所有场景都稳定的终版
 
 - 错
-- 当前只能说：完整答卷场景下达到阶段性可用
+- 旧测试体系已移除，当前不再保留可直接支持该结论的正式评估基线
 
 ---
 
@@ -545,6 +532,8 @@
 
 这个项目当前的正式形态，可以理解为：
 
-- 一个以 `82 题正式题单 + 17 位领导人代表性画像库 + 三层匹配结果` 为核心的趣味型领导人匹配测评系统；
-- 它在 `完整答卷场景` 下已达到阶段性可用；
-- 但在 `稀疏鲜明特征场景` 下，对若干高相似人物簇的区分仍不够稳。
+- 一个以 `82 题正式题单 + 17 位部分作答领导人画像库 + Python 匹配引擎真源 + 三层匹配结果` 为核心的趣味型领导人匹配测评系统；
+- 它已经包含一个可运行的网站 Alpha 前端实现；
+- 当前匹配真源仍保留；
+- 规则已按趣味项目目标做过一轮软化；
+- 但旧测试体系已清理，正式评估口径需要后续重建。

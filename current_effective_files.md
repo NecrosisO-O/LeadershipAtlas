@@ -1,72 +1,96 @@
 # 当前有效文件清单
 
-本文件用于明确：在当前阶段继续维护时，哪些文件是正式有效的，哪些文件仅作为历史过程记录保留。
+本文件用于明确：当前继续维护时，哪些文件属于运行真源，哪些属于同步说明，哪些属于辅助文件、规划文件或历史材料。
 
 说明：
 
-- 本文件是当前正式文件边界的唯一清单。
-- 如与历史文档表述冲突，以本文件为准。
+- 本文件是当前正式文件边界与层级关系的唯一清单。
+- 如与其他文档表述冲突，以本文件的分层为准。
+- 当前统一原则是：`可执行代码 > 程序直接消费的数据文件 > 同步说明文档 > 规划文档 > 历史材料`。
 
-## 一、当前正式有效文件
+## 一、当前运行真源
 
 ### 状态入口与边界说明
 - `now.md`
 - `project_overview.md`
 - `current_effective_files.md`
 
-### 题单与映射
+### 题单与映射真源
 - `final_questions.md`
 - `item_id_mapping.md`
 - `item_dimension_mapping.json`
 
-### 领导人库与建库规则
+### 人物库与当前数据真源
 - `leader_profiles/`
 - `leader_ids_batch_1.md`
-- `leader_batch_1_progress.md`
-- `leader_batch_review_checklist.md`
+- `signature_dimensions.json`
+
+### 当前执行真源
+- `run_matching_tests.py`（文件名为历史遗留，当前职责是匹配引擎）
+
+## 二、同步说明文档
+
+以下文件用于解释当前真源，但若与执行结果冲突，仍以后者为准：
+
+- `matching_principles.md`
+- `matching_algorithm.md`
 - `leader_coding_workflow.md`
 - `leader_coding_guardrails.md`
 - `leader_output_templates.md`
+- `leader_batch_1_progress.md`
+- `leader_batch_review_checklist.md`
 
-### 配套实现与生成文件
-- `run_matching_tests.py`
-- `generate_profiles.py`
-- `scripts/generate_batch1_profiles.py`
-- `signature_dimensions.json`
-- `item_neutral_defaults.json`
+## 三、辅助与局部生成文件
 
-### 匹配规则与测试结果
-- `matching_principles.md`
-- `matching_algorithm.md`
-- `matching_test_results_round1.md`
-- `matching_test_results_round2.md`
-- `matching_test_results_round2b.md`
-- `matching_test_results_round3.md`
-- `matching_nearest_neighbors.md`
-- `matching_test_summary.md`
-- `matching_test_plan.md`
+以下文件当前保留为辅助或局部生成用途：
 
-## 二、历史过程文件
+- `generate_profiles.py`：当前只覆盖部分领导人，不能单独完整重建 17 人人物库
+- `scripts/generate_batch1_profiles.py`：当前只覆盖部分领导人，不能单独完整重建 17 人人物库
+- `item_neutral_defaults.json`：当前保留，但现有匹配脚本未直接消费
 
-以下文件当前主要保留为过程记录、历史材料或参考来源，不应作为继续开发时的正式依据：
+## 四、当前网站实现
+
+- `website/`：当前网站 Alpha 前端实现
+- `website_alpha_work_plan.md`：网站 Alpha 实施计划与阶段执行基线
+- `website_alpha_status.md`：网站 Alpha 当前完成度与后续迭代边界说明
+
+## 五、规划文件
+
+以下文件属于后续实现规划，不代表当前仓库中已经存在对应实现：
+
+- `website_design_spec.md`
+
+## 六、历史过程文件
+
+以下文件当前主要保留为过程记录、历史材料或参考来源，不应直接当作当前正式依据：
 
 - `dimension_questions_design.md`
 - `dimension_review_worklog.md`
 - `governing_ideology_structure.md`
 - `launch_version_34_dimensions.md`
-- `question_review_round1.md`
-- `question_review_round2.md`
-- `question_review_round3.md`
+- `matching_test_plan.md`
+- `matching_test_summary.md`
+- `matching_test_results_round1.md`
+- `matching_test_results_round2.md`
+- `matching_test_results_round2b.md`
+- `matching_test_results_round3.md`
+- `matching_nearest_neighbors.md`
 - `matching_test_inputs_round2.json`
 - `matching_test_inputs_round2b.json`
 - `matching_test_inputs_round3.json`
+- `question_review_round1.md`
+- `question_review_round2.md`
+- `question_review_round3.md`
 - `third_round_item_supplement_plan.md`
 - `project_handover_notes.md`
 
-## 三、使用原则
+## 七、使用原则
 
 - 总状态说明以 `now.md` 为入口。
 - 项目整体设计说明以 `project_overview.md` 为准。
-- 文件边界判断以 `current_effective_files.md` 为准。
-- 测试结果需要复核时，以当前测试结果文件之间的一致口径为准。
+- 文件边界与层级判断以 `current_effective_files.md` 为准。
+- 涉及匹配执行细节时，以 `run_matching_tests.py` 与其直接消费的数据文件为准。
+- 涉及网站 Alpha 的当前实现时，以 `website/` 下代码与 `website_alpha_work_plan.md` 为准。
+- 旧测试文件当前只保留为历史材料，不再作为继续维护时的正式评估依据。
+- 规划文件仅用于后续实现，不应用来倒推当前仓库已实现状态。
 - 历史过程文件仅在需要追溯设计过程、审查过程或早期试验逻辑时参考。
