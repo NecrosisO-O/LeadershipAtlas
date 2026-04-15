@@ -15,3 +15,8 @@ Thumbs.db
 # Environment
 .env
 .env.*
+
+# Frontend build artifacts
+website/node_modules/
+website/dist/
+website/.vite/
