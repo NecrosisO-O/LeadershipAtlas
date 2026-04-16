@@ -26,7 +26,8 @@
 - `signature_dimensions.json`
 
 ### 当前执行真源
-- `run_matching_tests.py`（文件名为历史遗留，当前职责是匹配引擎）
+- `matching_engine.py`：当前 Python 匹配引擎真源
+- `run_matching_tests.py`：兼容层入口，当前转发到 `matching_engine.py`
 
 ## 二、同步说明文档
 
@@ -50,9 +51,14 @@
 
 ## 四、当前网站实现
 
-- `website/`：当前网站 Alpha 前端实现
+- `website/`：当前网站 Beta 预发布前端实现
 - `website_alpha_work_plan.md`：网站 Alpha 实施计划与阶段执行基线
 - `website_alpha_status.md`：网站 Alpha 当前完成度与后续迭代边界说明
+- `website_beta_release_plan.md`：网站 Beta 发布前工作计划
+- `website_beta_status.md`：网站 Beta 预发布阶段状态说明
+- `website_beta_release_notes.md`：网站 Beta 发布说明与对外口径基线
+- `website_beta_validation_checklist.md`：网站 Beta 人工验证清单
+- `website_beta_validation_status.md`：网站 Beta 自动验证与当前校验结论
 
 ## 五、规划文件
 
@@ -89,8 +95,8 @@
 - 总状态说明以 `now.md` 为入口。
 - 项目整体设计说明以 `project_overview.md` 为准。
 - 文件边界与层级判断以 `current_effective_files.md` 为准。
-- 涉及匹配执行细节时，以 `run_matching_tests.py` 与其直接消费的数据文件为准。
-- 涉及网站 Alpha 的当前实现时，以 `website/` 下代码与 `website_alpha_work_plan.md` 为准。
+- 涉及匹配执行细节时，以 `matching_engine.py` 与其直接消费的数据文件为准。
+- 涉及网站当前实现时，以 `website/` 下代码、`website_beta_release_plan.md` 与 `website_beta_validation_status.md` 为准。
 - 旧测试文件当前只保留为历史材料，不再作为继续维护时的正式评估依据。
 - 规划文件仅用于后续实现，不应用来倒推当前仓库已实现状态。
 - 历史过程文件仅在需要追溯设计过程、审查过程或早期试验逻辑时参考。

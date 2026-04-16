@@ -3,7 +3,7 @@
 ## 1. 项目定位
 
 - 项目是一个 `趣味型领导人匹配测评`。
-- 当前仓库形态以 `题单 + 人物画像库 + Python 匹配引擎脚本 + 网站 Alpha 前端 + 说明文档` 为主。
+- 当前仓库形态以 `题单 + 人物画像库 + Python 匹配引擎脚本 + 网站 Beta 预发布前端 + 说明文档` 为主。
 - 用户完成量表后，系统需要输出：
   - 用户画像
   - 最接近的领导人结果
@@ -38,7 +38,8 @@
 
 ### 匹配规则
 
-- 当前匹配规则执行真源：`run_matching_tests.py`（文件名为历史遗留，当前职责是匹配引擎）
+- 当前匹配规则执行真源：`matching_engine.py`
+- 兼容层入口：`run_matching_tests.py`
 - 当前匹配规则同步说明：`matching_algorithm.md`
 - 当前基础匹配原则文件：`matching_principles.md`
 
@@ -63,9 +64,9 @@
 ## 5. 当前主要问题
 
 - 旧测试产物已被移除，当前缺少一套可复核的正式评估机制。
-- `run_matching_tests.py` 已保留为匹配计算真源，但文件名仍保留历史命名，容易误导新维护者。
-- 网站 Alpha 已具备可运行骨架，但正式人物照片、真实匹配理由与更完整验证仍待后续补齐。
-- 下一阶段的核心维护任务应是：重建新的、可信的测试与校验体系。
+- `matching_engine.py` 已作为当前 Python 匹配真源落位完成，`run_matching_tests.py` 仅保留兼容入口。
+- 网站端已经具备本地化人物图片、结构化结果解释和 Beta 自动验证基线。
+- 当前 Beta 发布前仍需继续做发布收口、人工 QA 与文档同步。
 
 ## 6. 当前正式依据
 
@@ -74,11 +75,11 @@
 - 总状态入口以 `now.md` 为准
 - 项目整体设计说明以 `project_overview.md` 为准
 - 正式文件边界以 `current_effective_files.md` 为准
-- 若文档与执行结果冲突，以 `run_matching_tests.py`、`leader_profiles/*/profile_data.json`、`item_dimension_mapping.json`、`signature_dimensions.json` 为准
+- 若文档与执行结果冲突，以 `matching_engine.py`、`leader_profiles/*/profile_data.json`、`item_dimension_mapping.json`、`signature_dimensions.json` 为准
 - 旧测试结论已失效，后续如需恢复评估，必须先重建新的测试输入、测试脚本与结果口径
 
 ## 7. 维护状态
 
-- 当前已完成一轮文档统一口径维护、旧测试体系清理、趣味项目导向的规则软化，并完成网站 Alpha 开发
+- 当前已完成一轮文档统一口径维护、旧测试体系清理、趣味项目导向的规则软化，并完成网站 Beta 预发布版本的主要实现
 - 本文件只负责记录当前正式状态，不负责规划后续路线
-- 本文件已更新为 `82题题目宇宙 + 17位部分作答人物库 + 匹配引擎真源 + 网站 Alpha + 测试待重建` 版本
+- 本文件已更新为 `82题题目宇宙 + 17位部分作答人物库 + 匹配引擎真源 + 网站 Beta 预发布版本 + 新验证基线已建立` 版本

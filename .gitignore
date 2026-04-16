@@ -20,3 +20,7 @@ Thumbs.db
 website/node_modules/
 website/dist/
 website/.vite/
+
+# Python caches
+__pycache__/
+website/scripts/__pycache__/

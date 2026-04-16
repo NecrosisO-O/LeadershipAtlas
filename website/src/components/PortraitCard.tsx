@@ -1,15 +1,39 @@
 type PortraitCardProps = {
   leaderName: string
-  monogram: string
+  portraitUrl: string
+  portraitObjectPosition: string
+  portraitScale: number
+  portraitAttribution: string
+  portraitLicense: string
+  portraitSource: string
 }
 
-export function PortraitCard({ leaderName, monogram }: PortraitCardProps) {
+export function PortraitCard({
+  leaderName,
+  portraitUrl,
+  portraitObjectPosition,
+  portraitScale,
+  portraitAttribution,
+  portraitLicense,
+  portraitSource,
+}: PortraitCardProps) {
   return (
-    <div className="portrait-card" aria-label={`${leaderName} 占位肖像`}>
+    <figure className="portrait-card">
       <div className="portrait-frame">
-        <span className="portrait-monogram">{monogram}</span>
-        <span className="portrait-caption">档案图像待补</span>
+        <img
+          className="portrait-image"
+          src={portraitUrl}
+          alt={leaderName}
+          loading="lazy"
+          style={{ objectPosition: portraitObjectPosition, transform: `scale(${portraitScale})` }}
+        />
       </div>
-    </div>
+      <figcaption className="portrait-caption">
+        <span>{portraitAttribution}</span>
+        <a href={portraitSource} target="_blank" rel="noreferrer">
+          {portraitLicense}
+        </a>
+      </figcaption>
+    </figure>
   )
 }

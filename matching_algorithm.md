@@ -3,7 +3,8 @@
 说明：
 
 - 本文件用于同步说明当前执行真源。
-- 当前执行真源是 `run_matching_tests.py`（文件名为历史遗留，当前职责是匹配引擎）。
+- 当前执行真源是 `matching_engine.py`。
+- `run_matching_tests.py` 当前只保留为兼容层入口。
 - 若本文件与脚本、当前 `leader_profiles/*/profile_data.json`、`item_dimension_mapping.json`、`signature_dimensions.json` 冲突，以后者为准。
 - 旧测试文件已从当前维护基线中移除，本文件不再引用历史测试结论。
 - 当前规则是一版面向趣味项目的温和匹配规则：保留辨识度，但弱化硬门槛和过强惩罚。

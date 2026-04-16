@@ -1,0 +1,57 @@
+{
+  "self_regression": [
+    { "leaderId": "angela_merkel" },
+    { "leaderId": "donald_trump" },
+    { "leaderId": "lee_kuan_yew" },
+    { "leaderId": "mao_zedong" },
+    { "leaderId": "nelson_mandela" },
+    { "leaderId": "vladimir_putin" },
+    { "leaderId": "joseph_stalin" },
+    { "leaderId": "fidel_castro" }
+  ],
+  "boundary_pairs": [
+    { "left": "joseph_stalin", "right": "kim_jong_un" },
+    { "left": "joseph_stalin", "right": "adolf_hitler" },
+    { "left": "lee_kuan_yew", "right": "park_chung_hee" },
+    { "left": "mao_zedong", "right": "fidel_castro" },
+    { "left": "vladimir_putin", "right": "kim_jong_un" }
+  ],
+  "answer_encoding": [
+    {
+      "caseId": "single_likert_pair",
+      "description": "Single-ended Likert values remain numeric 1-7",
+      "answers": {
+        "L01": 6,
+        "G01": 2
+      }
+    },
+    {
+      "caseId": "bipolar_likert_pair",
+      "description": "Bipolar Likert values remain numeric 1-7",
+      "answers": {
+        "L28": 2,
+        "G35": 6
+      }
+    },
+    {
+      "caseId": "single_choice_pair",
+      "description": "Scenario and forced-choice values remain option ids",
+      "answers": {
+        "G20": "B",
+        "G26": "C"
+      }
+    },
+    {
+      "caseId": "allocation_case",
+      "description": "Point-allocation values remain keyed objects totaling 10",
+      "answers": {
+        "G10": {
+          "A": 4,
+          "B": 3,
+          "C": 2,
+          "D": 1
+        }
+      }
+    }
+  ]
+}

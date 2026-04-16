@@ -18,6 +18,14 @@ npm run generate:data
 npm run dev
 ```
 
+如需自定义本地开发 host、port 或允许访问的域名，可先复制 `.env.example` 为 `.env`，再按需修改：
+
+```bash
+VITE_DEV_HOST=0.0.0.0
+VITE_DEV_PORT=4173
+VITE_ALLOWED_HOSTS=query.manat.su,localhost
+```
+
 ## 构建命令
 
 ```bash

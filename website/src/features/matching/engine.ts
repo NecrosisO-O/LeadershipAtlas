@@ -1,5 +1,5 @@
 import { itemDimensionMap, profiles, signatureDimensions } from '../../data/content'
-import type { AnswerMap, AnswerValue, ProfileRecord, RankedLeader } from '../../data/schema'
+import type { AnswerMap, AnswerValue, DimensionInsight, LeaderMatch, ProfileRecord, RankedLeader } from '../../data/schema'
 
 const BLOCK_DIMENSIONS = new Set(['G_BLOCK_VALUES', 'G_BLOCK_LEGIT'])
 
@@ -42,8 +42,12 @@ function dimWeight(dimensionId: string): number {
   return 1
 }
 
-function layerScore(userAnswers: AnswerMap, profile: ProfileRecord, layer: 'style' | 'ideology'): number {
-  const byDimension = new Map<string, { tier: 'core' | 'reference'; values: number[] }>()
+function layerScore(
+  userAnswers: AnswerMap,
+  profile: ProfileRecord,
+  layer: 'style' | 'ideology',
+): { score: number; dimensions: DimensionInsight[] } {
+  const byDimension = new Map<string, { tier: 'core' | 'reference'; values: number[]; dimensionName: string }>()
   const sigDimensions = new Set(signatureDimensions[profile.leaderId] ?? [])
 
   Object.entries(profile.answers).forEach(([itemId, meta]) => {
@@ -54,16 +58,29 @@ function layerScore(userAnswers: AnswerMap, profile: ProfileRecord, layer: 'styl
 
     const similarity = itemSimilarity(userValue, meta.value)
     const dimensionId = mapped.dimension_id
-    const existing = byDimension.get(dimensionId) ?? { tier: meta.tier, values: [] }
+    const existing = byDimension.get(dimensionId) ?? {
+      tier: meta.tier,
+      values: [],
+      dimensionName: mapped.dimension_name.replace('**', ''),
+    }
     existing.values.push(similarity)
     byDimension.set(dimensionId, existing)
   })
 
+  const dimensionInsights: DimensionInsight[] = []
   const core: Array<{ avg: number; weight: number; signature: boolean }> = []
   const ref: Array<{ avg: number; weight: number }> = []
 
   byDimension.forEach((info, dimensionId) => {
     const avg = (info.values.reduce((sum, value) => sum + value, 0) / info.values.length) * blockMultiplier(dimensionId)
+    dimensionInsights.push({
+      dimensionId,
+      dimensionName: info.dimensionName,
+      layer,
+      tier: info.tier,
+      score: avg,
+      signature: sigDimensions.has(dimensionId),
+    })
     if (info.tier === 'core') {
       const signature = sigDimensions.has(dimensionId)
       core.push({ avg, weight: dimWeight(dimensionId) * (signature ? 1.5 : 1), signature })
@@ -88,10 +105,13 @@ function layerScore(userAnswers: AnswerMap, profile: ProfileRecord, layer: 'styl
   const sigHits = core.filter((item) => item.signature && item.avg >= 0.55).length
   const sigPenalty = sigTotal ? 0.08 * ((sigTotal - sigHits) / sigTotal) : 0
 
-  return Math.max(0, base - penalty - sigPenalty)
+  return {
+    score: Math.max(0, base - penalty - sigPenalty),
+    dimensions: dimensionInsights.sort((left, right) => right.score - left.score),
+  }
 }
 
-export function rankAnswers(userAnswers: AnswerMap): RankedLeader[] {
+export function rankAnswers(userAnswers: AnswerMap): LeaderMatch[] {
   return profiles
     .map((profile) => {
       const style = layerScore(userAnswers, profile, 'style')
@@ -100,9 +120,10 @@ export function rankAnswers(userAnswers: AnswerMap): RankedLeader[] {
         leaderId: profile.leaderId,
         leaderName: profile.leaderName,
         monogram: profile.monogram,
-        style,
-        ideology,
-        overall: 0.5 * style + 0.5 * ideology,
+        style: style.score,
+        ideology: ideology.score,
+        overall: 0.5 * style.score + 0.5 * ideology.score,
+        dimensions: [...style.dimensions, ...ideology.dimensions],
       }
     })
     .sort((left, right) => right.overall - left.overall || right.style - left.style || right.ideology - left.ideology)
@@ -114,4 +135,11 @@ export function rankByLayer(userAnswers: AnswerMap, layer: 'style' | 'ideology')
 
 export function getProfileRecord(leaderId: string): ProfileRecord | undefined {
   return profiles.find((profile) => profile.leaderId === leaderId)
+}
+
+export function summarizeLeaderMatch(match: LeaderMatch) {
+  const strongest = match.dimensions.filter((dimension) => dimension.tier === 'core').slice(0, 3)
+  const weakest = [...match.dimensions].sort((left, right) => left.score - right.score).filter((dimension) => dimension.tier === 'core').slice(0, 2)
+
+  return { strongest, weakest }
 }

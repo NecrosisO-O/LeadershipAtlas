@@ -8,7 +8,7 @@
 - 当前状态判断仍以 `now.md` 为入口。
 - 当前正式文件边界仍以 `current_effective_files.md` 为准。
 - 若本文件与某一专题规则文件存在更细层面的差异，应优先以对应专题文件为准。
-- 若说明文档与执行结果冲突，应优先以 `run_matching_tests.py` 与其直接消费的数据文件为准。
+- 若说明文档与执行结果冲突，应优先以 `matching_engine.py` 与其直接消费的数据文件为准。
 
 ---
 
@@ -418,7 +418,8 @@
 
 给出的是与执行真源同步的说明；当前执行真源仍依赖：
 
-  - `run_matching_tests.py`（文件名历史遗留，但当前职责是匹配引擎）
+  - `matching_engine.py`
+  - `run_matching_tests.py`（兼容层入口）
   - `leader_profiles/*/profile_data.json`
   - `item_dimension_mapping.json`
   - `signature_dimensions.json`
@@ -434,6 +435,7 @@
 
 - `matching_principles.md`
 - `matching_algorithm.md`
+- `matching_engine.py`
 - `run_matching_tests.py`
 
 ---
@@ -449,8 +451,8 @@
 ## 十、当前系统判断
 
 - 当前仍保留 `82题正式题单 + 17位部分作答人物库 + 匹配计算真源`
-- 当前仓库已新增 `website/` 下的网站 Alpha 前端实现，第一版四段式流程、题型支持与结果页骨架已落地
-- 但旧测试体系已清理，当前缺少可复核的新测试基线
+- 当前仓库已新增 `website/` 下的网站 Beta 预发布前端实现，四段式流程、题型支持、结果解释与本地化素材已经落地
+- 旧测试体系已清理，但当前已建立一套新的 Beta 自动验证基线
 - 因此，不应继续把旧文档中的通过率、人物簇结论和稳定性判断当作当前正式口径
 - 当前可以明确确认的是：匹配规则已按趣味项目目标做了一轮软化，但其效果仍需后续重新验证
 
@@ -466,9 +468,12 @@
 - 正式题单：`final_questions.md`
 - 编号与映射：`item_id_mapping.md`、`item_dimension_mapping.json`
 - 当前数据真源：`leader_profiles/`、`leader_ids_batch_1.md`、`signature_dimensions.json`
-- 当前执行真源：`run_matching_tests.py`（历史文件名，当前作为匹配引擎使用）
+- 当前执行真源：`matching_engine.py`
+- 兼容层入口：`run_matching_tests.py`
 - 当前网站实现：`website/`
 - 网站 Alpha 工作计划：`website_alpha_work_plan.md`
+- 网站 Beta 发布计划：`website_beta_release_plan.md`
+- 网站 Beta 验证状态：`website_beta_validation_status.md`
 - 同步说明：`leader_coding_workflow.md`、`leader_coding_guardrails.md`、`leader_output_templates.md`、`matching_principles.md`、`matching_algorithm.md`
 - 辅助/局部生成文件：`generate_profiles.py`、`scripts/generate_batch1_profiles.py`、`item_neutral_defaults.json`
 - 规划文件：`website_design_spec.md`
@@ -533,7 +538,7 @@
 这个项目当前的正式形态，可以理解为：
 
 - 一个以 `82 题正式题单 + 17 位部分作答领导人画像库 + Python 匹配引擎真源 + 三层匹配结果` 为核心的趣味型领导人匹配测评系统；
-- 它已经包含一个可运行的网站 Alpha 前端实现；
+- 它已经包含一个可运行的网站 Beta 预发布前端实现；
 - 当前匹配真源仍保留；
 - 规则已按趣味项目目标做过一轮软化；
 - 但旧测试体系已清理，正式评估口径需要后续重建。

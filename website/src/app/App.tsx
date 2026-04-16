@@ -2,8 +2,10 @@ import { useMemo, useState } from 'react'
 import { PortraitCard } from '../components/PortraitCard'
 import { QuestionView } from '../components/QuestionView'
 import { questions, siteCopy, totalQuestions, transitionIndex } from '../data/content'
-import type { AnswerMap, AnswerValue, AppStage, QuestionRecord, RankedLeader } from '../data/schema'
-import { rankAnswers, rankByLayer } from '../features/matching/engine'
+import { leaderMeta } from '../data/leaderMeta'
+import type { AnswerMap, AnswerValue, AppStage, LeaderMatch, QuestionRecord, RankedLeader } from '../data/schema'
+import { rankAnswers, rankByLayer, summarizeLeaderMatch } from '../features/matching/engine'
+import { getDimensionDifferenceText, getDimensionMatchText } from '../features/results/dimensionCopy'
 
 function isPointAllocation(value: AnswerValue | undefined): value is Record<string, number> {
   return typeof value === 'object' && value !== null && !Array.isArray(value)
@@ -28,9 +30,15 @@ function formatPercent(value: number): string {
 
 function buildPlaceholderReason(leader: RankedLeader, styleLeader: RankedLeader, ideologyLeader: RankedLeader): string {
   if (leader.leaderId === styleLeader.leaderId && leader.leaderId === ideologyLeader.leaderId) {
-    return `${leader.leaderName} 同时在风格与理念两个层面都排在最前。${siteCopy.placeholderReason}`
+    return `${leader.leaderName} 同时在风格与理念两个层面都排在最前，因此综合结果也稳定落在这一人物轮廓上。`
   }
-  return `${leader.leaderName} 是你的综合主结果；其中风格最接近 ${styleLeader.leaderName}，理念最接近 ${ideologyLeader.leaderName}。${siteCopy.placeholderReason}`
+  return `${leader.leaderName} 是你的综合主结果；其中风格最接近 ${styleLeader.leaderName}，理念最接近 ${ideologyLeader.leaderName}，两者共同塑造了你的整体轮廓。`
+}
+
+function closenessLabel(score: number): string {
+  if (score >= 0.82) return '高度接近'
+  if (score >= 0.68) return '明显接近'
+  return '存在相似性'
 }
 
 export function App() {
@@ -39,7 +47,7 @@ export function App() {
   const [answers, setAnswers] = useState<AnswerMap>({})
   const [hasSeenTransition, setHasSeenTransition] = useState(false)
   const [transitionTarget, setTransitionTarget] = useState<'style' | 'ideology'>('style')
-  const [resultRows, setResultRows] = useState<RankedLeader[] | null>(null)
+  const [resultRows, setResultRows] = useState<LeaderMatch[] | null>(null)
 
   const currentQuestion = questions[currentIndex]
   const answeredCount = useMemo(
@@ -53,6 +61,11 @@ export function App() {
   const styleTop = resultRows ? rankByLayer(answers, 'style')[0] : null
   const ideologyTop = resultRows ? rankByLayer(answers, 'ideology')[0] : null
   const transitionCopy = siteCopy.transitions[transitionTarget]
+  const overallMeta = overallTop ? leaderMeta[overallTop.leaderId] : null
+  const overallInsights = overallTop ? summarizeLeaderMatch(overallTop) : null
+  const similarResults = resultRows?.slice(1, 3) ?? []
+  const strongestStyle = overallTop?.dimensions.filter((dimension) => dimension.layer === 'style').sort((left, right) => right.score - left.score)[0]
+  const strongestIdeology = overallTop?.dimensions.filter((dimension) => dimension.layer === 'ideology').sort((left, right) => right.score - left.score)[0]
 
   const startIntro = () => setStage('intro')
   const startQuestions = () => {
@@ -167,15 +180,7 @@ export function App() {
             <span className="eyebrow">作答前</span>
             <h2>{siteCopy.introTitle}</h2>
             <p className="body-copy">{siteCopy.introDescription}</p>
-            <div className="bullet-panel">
-              {siteCopy.introBullets.map((bullet) => (
-                <div key={bullet} className="bullet-item">
-                  <span className="bullet-marker" />
-                  <span>{bullet}</span>
-                </div>
-              ))}
-            </div>
-            <p className="disclaimer">{siteCopy.disclaimer}</p>
+            <p className="intro-meta">{siteCopy.introMeta}</p>
             <button className="primary-button" type="button" onClick={startQuestions}>
               开始答题
             </button>
@@ -256,39 +261,79 @@ export function App() {
             <header className="results-header">
               <span className="eyebrow">综合最像</span>
               <h2>{overallTop.leaderName}</h2>
+              <p className="results-kicker">{overallMeta?.roleLabel}</p>
             </header>
             <div className="results-hero">
-              <PortraitCard leaderName={overallTop.leaderName} monogram={overallTop.monogram} />
+              <PortraitCard
+                leaderName={overallTop.leaderName}
+                portraitUrl={overallMeta!.portraitUrl}
+                portraitObjectPosition={overallMeta!.portraitObjectPosition}
+                portraitScale={overallMeta!.portraitScale}
+                portraitAttribution={overallMeta!.portraitAttribution}
+                portraitLicense={overallMeta!.portraitLicense}
+                portraitSource={overallMeta!.portraitSource}
+              />
               <div className="results-main-copy">
-                <div className="score-strip">
-                  <div>
-                    <span>综合</span>
-                    <strong>{formatPercent(overallTop.overall)}</strong>
-                  </div>
-                  <div>
-                    <span>风格</span>
-                    <strong>{formatPercent(overallTop.style)}</strong>
-                  </div>
-                  <div>
-                    <span>理念</span>
-                    <strong>{formatPercent(overallTop.ideology)}</strong>
-                  </div>
-                </div>
+                <p className="results-summary-label">{closenessLabel(overallTop.overall)}</p>
+                <p className="results-summary-text">{overallMeta?.summary}</p>
                 <p className="body-copy">{buildPlaceholderReason(overallTop, styleTop, ideologyTop)}</p>
                 <p className="disclaimer">{siteCopy.disclaimer}</p>
               </div>
             </div>
 
+            <section className="results-explain-grid">
+              <article className="result-detail-card">
+                <span className="eyebrow">为什么像</span>
+                <h3>最接近的部分</h3>
+                <ul className="result-detail-list">
+                  {overallInsights?.strongest.map((dimension) => (
+                    <li key={dimension.dimensionId}>{getDimensionMatchText(dimension.dimensionId, dimension.dimensionName)}</li>
+                  ))}
+                </ul>
+              </article>
+              <article className="result-detail-card">
+                <span className="eyebrow">仍有差异</span>
+                <h3>不完全重合的部分</h3>
+                <ul className="result-detail-list">
+                  {overallInsights?.weakest.map((dimension) => (
+                    <li key={dimension.dimensionId}>{getDimensionDifferenceText(dimension.dimensionId, dimension.dimensionName)}</li>
+                  ))}
+                </ul>
+              </article>
+            </section>
+
             <div className="results-secondary-grid">
               <article className="result-side-card">
                 <span className="eyebrow">风格最像</span>
                 <h3>{styleTop.leaderName}</h3>
+                <p>
+                  {strongestStyle
+                    ? getDimensionMatchText(strongestStyle.dimensionId, strongestStyle.dimensionName)
+                    : '在表达、组织、决策与领导方式上，更接近这一类人物轮廓。'}
+                </p>
               </article>
               <article className="result-side-card">
                 <span className="eyebrow">理念最像</span>
                 <h3>{ideologyTop.leaderName}</h3>
+                <p>
+                  {strongestIdeology
+                    ? getDimensionMatchText(strongestIdeology.dimensionId, strongestIdeology.dimensionName)
+                    : '在国家角色、秩序观与合法性取向上，更接近这一类人物轮廓。'}
+                </p>
               </article>
             </div>
+
+            <section className="related-results">
+              <span className="eyebrow">你还接近的结果</span>
+              <div className="related-results-list">
+                {similarResults.map((result) => (
+                  <div key={result.leaderId} className="related-result-item">
+                    <strong>{result.leaderName}</strong>
+                    <span>{leaderMeta[result.leaderId]?.roleLabel}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
 
             <div className="button-row results-actions">
               <button className="ghost-button" type="button" onClick={restart}>

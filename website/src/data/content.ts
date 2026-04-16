@@ -16,26 +16,21 @@ export const transitionIndex = questions.findIndex((question) => question.layer 
 
 export const siteCopy = {
   heroTitle: 'Leadership Atlas',
-  heroSubtitle: '一份关注风格与理念相似性的领导人匹配测评',
+  heroSubtitle: '关于领导风格与治理理念相似性的一次趣味观察。',
   heroDescription:
-    '这不是知识竞赛，也不是立场投票。它更像一份人物档案式问卷：通过你的作答方式，去观察你在领导风格与治理理念上最接近哪些历史领导人。',
+    '这是一次以人物档案式问题展开的测评，用来观察你在风格与理念上更接近哪些历史领导人。',
   estimatedDuration: '82 题，预计 12-18 分钟',
-  introTitle: '作答说明',
+  introTitle: '请按第一直觉作答',
   introDescription:
-    '请按第一直觉作答，不必追求题题都想清楚。系统更关注你整体的倾向轮廓，而不是某一题的标准答案。',
-  introBullets: [
-    '这不是政治立场投票',
-    '这不是历史知识测试',
-    '请按第一直觉作答',
-    '不要过度推敲单题',
-  ],
+    '这份测评更关注你的整体倾向，而不是某一道题的标准答案。作答时请尽量按照第一反应选择，不必反复推敲，也不需要设法靠近某一种“正确结果”。',
+  introMeta: '结果会从综合、风格与理念三个层面呈现。',
   disclaimer: '本结果用于趣味匹配与风格参考，不代表政治立场判定或历史结论。',
   heroHint: '点击封面继续',
   transitions: {
     style: {
       eyebrow: '第一部分',
       title: '领导风格',
-      description: '这一部分更关注你如何领导、如何表达、如何调动他人，以及你在组织与决策中的惯常方式。',
+      description: '这一部分更关注你如何领导、如何表达、如何做决定，以及你在组织与动员他人时的惯常方式。',
       cta: '进入第一部分',
     },
     ideology: {
@@ -45,6 +40,4 @@ export const siteCopy = {
       cta: '进入第二部分',
     },
   },
-  placeholderReason:
-    '第一版结果页先展示占位说明。后续版本会补充更具体的匹配理由、命中维度与差异解释。',
 }

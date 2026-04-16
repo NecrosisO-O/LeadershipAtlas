@@ -65,6 +65,19 @@ export type RankedLeader = {
   ideology: number
 }
 
+export type DimensionInsight = {
+  dimensionId: string
+  dimensionName: string
+  layer: Layer
+  tier: 'core' | 'reference'
+  score: number
+  signature: boolean
+}
+
+export type LeaderMatch = RankedLeader & {
+  dimensions: DimensionInsight[]
+}
+
 export type AppStage = 'welcome' | 'intro' | 'question' | 'transition' | 'results'
 
 export type ProgressSnapshot = {
