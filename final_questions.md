@@ -1,7 +1,7 @@
 # 精简定稿题目
 
 > 本文件记录逐维度复审后确定的最终题目。
-> 原始初稿保留在 `dimension_questions_design.md`，不做修改。
+> 原始初稿保留在 `docs/research/dimension_questions_design.md`，不做修改。
 
 ---
 

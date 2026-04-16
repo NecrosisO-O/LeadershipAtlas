@@ -43,8 +43,8 @@
 4. `final_questions.md`
 5. `item_id_mapping.md`
 6. `item_dimension_mapping.json`
-7. `leader_coding_workflow.md`
-8. `leader_coding_guardrails.md`
+7. `docs/leaders/leader_coding_workflow.md`
+8. `docs/leaders/leader_coding_guardrails.md`
 9. `matching_principles.md`
 10. `matching_algorithm.md`
 
@@ -69,8 +69,8 @@
 
 对应历史文件：
 
-- `project_handover_notes.md`
-- `dimension_review_worklog.md`
+- `docs/process/project_handover_notes.md`
+- `docs/research/dimension_review_worklog.md`
 
 ### 2. 执政理念框架
 
@@ -85,7 +85,7 @@
 
 对应历史文件：
 
-- `governing_ideology_structure.md`
+- `docs/research/governing_ideology_structure.md`
 
 ### 3. 压缩为 34 维首发结构
 
@@ -99,7 +99,7 @@
 
 对应历史文件：
 
-- `launch_version_34_dimensions.md`
+- `docs/research/launch_version_34_dimensions.md`
 
 ### 4. 形成当前正式题单
 
@@ -239,7 +239,7 @@
 
 对应文件：
 
-- `question_review_round1.md`
+- `docs/research/question_review_round1.md`
 
 ### 第二轮：真实领导人模拟作答可行性审查
 
@@ -248,7 +248,7 @@
 
 对应文件：
 
-- `question_review_round2.md`
+- `docs/research/question_review_round2.md`
 
 ### 第三轮：普通用户直接作答可行性审查
 
@@ -257,7 +257,7 @@
 
 对应文件：
 
-- `question_review_round3.md`
+- `docs/research/question_review_round3.md`
 
 当前正式理解是：
 
@@ -278,7 +278,7 @@
 ### 2. 当前人物库规模
 
 - 第一批正式人物库：`17位`
-- 统一 `leader_id` 见：`leader_ids_batch_1.md`
+- 统一 `leader_id` 见：`docs/leaders/leader_ids_batch_1.md`
 
 ### 3. 当前数据真源与再生成现状
 
@@ -343,9 +343,9 @@
 
 主参考文件：
 
-- `leader_coding_workflow.md`
-- `leader_coding_guardrails.md`
-- `leader_output_templates.md`
+- `docs/leaders/leader_coding_workflow.md`
+- `docs/leaders/leader_coding_guardrails.md`
+- `docs/leaders/leader_output_templates.md`
 - `leader_profiles/`
 
 ---
@@ -467,26 +467,26 @@
 - 正式文件边界：`current_effective_files.md`
 - 正式题单：`final_questions.md`
 - 编号与映射：`item_id_mapping.md`、`item_dimension_mapping.json`
-- 当前数据真源：`leader_profiles/`、`leader_ids_batch_1.md`、`signature_dimensions.json`
+- 当前数据真源：`leader_profiles/`、`docs/leaders/leader_ids_batch_1.md`、`signature_dimensions.json`
 - 当前执行真源：`matching_engine.py`
 - 兼容层入口：`run_matching_tests.py`
 - 当前网站实现：`website/`
-- 网站 Alpha 工作计划：`website_alpha_work_plan.md`
-- 网站 Beta 发布计划：`website_beta_release_plan.md`
-- 网站 Beta 验证状态：`website_beta_validation_status.md`
-- 同步说明：`leader_coding_workflow.md`、`leader_coding_guardrails.md`、`leader_output_templates.md`、`matching_principles.md`、`matching_algorithm.md`
+- 网站 Alpha 工作计划：`docs/website/website_alpha_work_plan.md`
+- 网站 Beta 发布计划：`docs/website/website_beta_release_plan.md`
+- 网站 Beta 验证状态：`docs/website/website_beta_validation_status.md`
+- 同步说明：`docs/leaders/leader_coding_workflow.md`、`docs/leaders/leader_coding_guardrails.md`、`docs/leaders/leader_output_templates.md`、`matching_principles.md`、`matching_algorithm.md`
 - 辅助/局部生成文件：`generate_profiles.py`、`scripts/generate_batch1_profiles.py`、`item_neutral_defaults.json`
-- 规划文件：`website_design_spec.md`
+- 规划文件：`docs/website/website_design_spec.md`
 
 ### 2. 历史/过程材料
 
 以下文件有参考价值，但不应直接当作当前正式状态：
 
-- `project_handover_notes.md`
-- `dimension_review_worklog.md`
-- `governing_ideology_structure.md`
-- `launch_version_34_dimensions.md`
-- `dimension_questions_design.md`
+- `docs/process/project_handover_notes.md`
+- `docs/research/dimension_review_worklog.md`
+- `docs/research/governing_ideology_structure.md`
+- `docs/research/launch_version_34_dimensions.md`
+- `docs/research/dimension_questions_design.md`
 - `matching_test_plan.md`
 - `matching_test_summary.md`
 - `matching_test_results_round1.md`
@@ -497,10 +497,10 @@
 - `matching_test_inputs_round2.json`
 - `matching_test_inputs_round2b.json`
 - `matching_test_inputs_round3.json`
-- `question_review_round1.md`
-- `question_review_round2.md`
-- `question_review_round3.md`
-- `third_round_item_supplement_plan.md`
+- `docs/research/question_review_round1.md`
+- `docs/research/question_review_round2.md`
+- `docs/research/question_review_round3.md`
+- `docs/research/third_round_item_supplement_plan.md`
 
 ---
 

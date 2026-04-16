@@ -24,7 +24,7 @@
 - 领导人画像自喂回归：已通过当前样本集
 - 关键人物簇边界样本检查：已通过当前样本集
 - 五类题型编码校验：已通过当前样本集
-- 人工流程验证：仍需按 `website_beta_validation_checklist.md` 继续执行
+- 人工流程验证：仍需按 `docs/website/website_beta_validation_checklist.md` 继续执行
 
 ## 四、当前下一步
 

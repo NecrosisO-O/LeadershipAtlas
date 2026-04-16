@@ -4,7 +4,7 @@
 
 说明：
 
-- 本文件聚焦 `网站 Alpha 实现流程`，不替代 `website_design_spec.md` 的产品设计说明。
+- 本文件聚焦 `网站 Alpha 实现流程`，不替代 `docs/website/website_design_spec.md` 的产品设计说明。
 - 本文件默认建立在当前已确认方案之上：
   - 网站放在 `website/` 子目录
   - 技术栈采用 `React + Vite + TypeScript`
@@ -364,7 +364,7 @@ Alpha 实施按以下顺序推进：
   - 更细结果层
   - 后端/API
 - 记录 Beta 候选项
-- 如有必要，回写 `website_design_spec.md` 的实现状态说明
+- 如有必要，回写 `docs/website/website_design_spec.md` 的实现状态说明
 
 阶段完成标志：
 

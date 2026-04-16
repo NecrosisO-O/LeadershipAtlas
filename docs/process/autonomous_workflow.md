@@ -28,7 +28,7 @@
 
 ### Step 4：写入文件，继续下一个
 
-- 写入 `dimension_questions_design.md`
+- 写入 `docs/research/dimension_questions_design.md`
 - **不等待用户逐维度确认**，直接推进下一维度
 - 每完成 3-5 个维度后，向用户提供简要进度报告
 
@@ -36,7 +36,7 @@
 
 ## 题目设计核心原则
 
-（详见 `now.md` 第 6 节 + `launch_version_34_dimensions.md` 第六节）
+（详见 `now.md` 第 6 节 + `docs/research/launch_version_34_dimensions.md` 第六节）
 
 - 用户看得懂、答得出、知道自己在答什么
 - 直接、清楚、不绕弯
@@ -92,4 +92,4 @@
 
 ### 执政理念（18维）
 
-全部待完成，按 `launch_version_34_dimensions.md` 中第二大类顺序推进。
+全部待完成，按 `docs/research/launch_version_34_dimensions.md` 中第二大类顺序推进。

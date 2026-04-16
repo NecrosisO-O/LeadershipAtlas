@@ -22,12 +22,12 @@
 
 在开始工作前，子agent必须先读取：
 
-- `leader_ids_batch_1.md`
+- `docs/leaders/leader_ids_batch_1.md`
 - `final_questions.md`
 - `item_id_mapping.md`
 - `matching_principles.md`
-- `leader_coding_guardrails.md`
-- `leader_output_templates.md`
+- `docs/leaders/leader_coding_guardrails.md`
+- `docs/leaders/leader_output_templates.md`
 
 ---
 

@@ -32,7 +32,7 @@
 
 - 第一批正式领导人库：`17位`
 - 领导人目录：`leader_profiles/`
-- 统一标识：`leader_ids_batch_1.md`
+- 统一标识：`docs/leaders/leader_ids_batch_1.md`
 - 当前人物库已按 `82题` 题目宇宙重建完成
 - 单个人物只纳入其 `核心题 / 参考题`，`profile_data.json` 不要求答满 `82` 题
 

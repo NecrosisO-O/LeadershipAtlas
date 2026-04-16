@@ -22,7 +22,7 @@
 
 ### 人物库与当前数据真源
 - `leader_profiles/`
-- `leader_ids_batch_1.md`
+- `docs/leaders/leader_ids_batch_1.md`
 - `signature_dimensions.json`
 
 ### 当前执行真源
@@ -35,11 +35,11 @@
 
 - `matching_principles.md`
 - `matching_algorithm.md`
-- `leader_coding_workflow.md`
-- `leader_coding_guardrails.md`
-- `leader_output_templates.md`
-- `leader_batch_1_progress.md`
-- `leader_batch_review_checklist.md`
+- `docs/leaders/leader_coding_workflow.md`
+- `docs/leaders/leader_coding_guardrails.md`
+- `docs/leaders/leader_output_templates.md`
+- `docs/leaders/leader_batch_1_progress.md`
+- `docs/leaders/leader_batch_review_checklist.md`
 
 ## 三、辅助与局部生成文件
 
@@ -52,28 +52,28 @@
 ## 四、当前网站实现
 
 - `website/`：当前网站 Beta 预发布前端实现
-- `website_alpha_work_plan.md`：网站 Alpha 实施计划与阶段执行基线
-- `website_alpha_status.md`：网站 Alpha 当前完成度与后续迭代边界说明
-- `website_beta_release_plan.md`：网站 Beta 发布前工作计划
-- `website_beta_status.md`：网站 Beta 预发布阶段状态说明
-- `website_beta_release_notes.md`：网站 Beta 发布说明与对外口径基线
-- `website_beta_validation_checklist.md`：网站 Beta 人工验证清单
-- `website_beta_validation_status.md`：网站 Beta 自动验证与当前校验结论
+- `docs/website/website_alpha_work_plan.md`：网站 Alpha 实施计划与阶段执行基线
+- `docs/website/website_alpha_status.md`：网站 Alpha 当前完成度与后续迭代边界说明
+- `docs/website/website_beta_release_plan.md`：网站 Beta 发布前工作计划
+- `docs/website/website_beta_status.md`：网站 Beta 预发布阶段状态说明
+- `docs/website/website_beta_release_notes.md`：网站 Beta 发布说明与对外口径基线
+- `docs/website/website_beta_validation_checklist.md`：网站 Beta 人工验证清单
+- `docs/website/website_beta_validation_status.md`：网站 Beta 自动验证与当前校验结论
 
 ## 五、规划文件
 
 以下文件属于后续实现规划，不代表当前仓库中已经存在对应实现：
 
-- `website_design_spec.md`
+- `docs/website/website_design_spec.md`
 
 ## 六、历史过程文件
 
 以下文件当前主要保留为过程记录、历史材料或参考来源，不应直接当作当前正式依据：
 
-- `dimension_questions_design.md`
-- `dimension_review_worklog.md`
-- `governing_ideology_structure.md`
-- `launch_version_34_dimensions.md`
+- `docs/research/dimension_questions_design.md`
+- `docs/research/dimension_review_worklog.md`
+- `docs/research/governing_ideology_structure.md`
+- `docs/research/launch_version_34_dimensions.md`
 - `matching_test_plan.md`
 - `matching_test_summary.md`
 - `matching_test_results_round1.md`
@@ -84,11 +84,11 @@
 - `matching_test_inputs_round2.json`
 - `matching_test_inputs_round2b.json`
 - `matching_test_inputs_round3.json`
-- `question_review_round1.md`
-- `question_review_round2.md`
-- `question_review_round3.md`
-- `third_round_item_supplement_plan.md`
-- `project_handover_notes.md`
+- `docs/research/question_review_round1.md`
+- `docs/research/question_review_round2.md`
+- `docs/research/question_review_round3.md`
+- `docs/research/third_round_item_supplement_plan.md`
+- `docs/process/project_handover_notes.md`
 
 ## 七、使用原则
 
@@ -96,7 +96,7 @@
 - 项目整体设计说明以 `project_overview.md` 为准。
 - 文件边界与层级判断以 `current_effective_files.md` 为准。
 - 涉及匹配执行细节时，以 `matching_engine.py` 与其直接消费的数据文件为准。
-- 涉及网站当前实现时，以 `website/` 下代码、`website_beta_release_plan.md` 与 `website_beta_validation_status.md` 为准。
+- 涉及网站当前实现时，以 `website/` 下代码、`docs/website/website_beta_release_plan.md` 与 `docs/website/website_beta_validation_status.md` 为准。
 - 旧测试文件当前只保留为历史材料，不再作为继续维护时的正式评估依据。
 - 规划文件仅用于后续实现，不应用来倒推当前仓库已实现状态。
 - 历史过程文件仅在需要追溯设计过程、审查过程或早期试验逻辑时参考。

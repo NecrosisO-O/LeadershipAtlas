@@ -4,7 +4,7 @@
 
 说明：
 
-- 本文件聚焦 `网站 Beta 发布前工作`，不替代 `website_design_spec.md` 的产品设计说明。
+- 本文件聚焦 `网站 Beta 发布前工作`，不替代 `docs/website/website_design_spec.md` 的产品设计说明。
 - 本文件默认建立在当前网站 Alpha 已完成的基础上。
 - 本文件不对任务做优先级分层；以下各项均视为 Beta 发布前需要完成的正式工作。
 - 自本计划建立后，结果解释、正式人物素材、新验证体系与真源治理已完成一轮落地；后续应重点关注仍未完成的剩余收尾项。
@@ -261,7 +261,7 @@
 - 更新 `now.md`
 - 更新 `project_overview.md`
 - 更新 `current_effective_files.md`
-- 更新 `website_design_spec.md`
+- 更新 `docs/website/website_design_spec.md`
 - 新增或更新 Beta 状态说明文件
 - 明确写清：
   - Beta 已完成内容

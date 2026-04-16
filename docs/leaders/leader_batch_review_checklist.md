@@ -14,9 +14,9 @@
 - 是否以 `final_questions.md` 为唯一正式题单依据
 - 是否使用 `item_id_mapping.md` 中的编号体系
 - 是否遵守 `matching_principles.md` 的最新规则
-- 是否遵守 `leader_coding_guardrails.md` 的防偏守则
-- 是否遵守 `leader_coding_workflow.md` 的执行顺序
-- 是否使用 `leader_output_templates.md` 的固定模板
+- 是否遵守 `docs/leaders/leader_coding_guardrails.md` 的防偏守则
+- 是否遵守 `docs/leaders/leader_coding_workflow.md` 的执行顺序
+- 是否使用 `docs/leaders/leader_output_templates.md` 的固定模板
 
 ## 二、维度与题目归类检查
 
